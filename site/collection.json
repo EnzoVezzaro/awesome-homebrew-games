@@ -254,17 +254,17 @@
     {
       "id": "homebrew-app-store",
       "name": "Homebrew App Store",
-      "url": "https://hb-app.store",
+      "url": "https://github.com/fortheusers/hb-appstore",
       "category": "scenes",
       "platforms": [
         "Switch"
       ],
-      "blurb": "Package repository for Switch and Wii U homebrew. It installs from the console and lists apps on the web."
+      "blurb": "Package repository for Switch and Wii U homebrew. It installs from the console and keeps its source and releases on GitHub."
     },
     {
       "id": "vitadb",
       "name": "VitaDB",
-      "url": "https://vitadb.rinnegatamante.it",
+      "url": "https://www.rinnegatamante.eu/vitadb/#/",
       "category": "scenes",
       "platforms": [
         "Vita"
@@ -407,7 +407,7 @@
     {
       "id": "tobu-tobu-girl",
       "name": "Tobu Tobu Girl",
-      "url": "https://tangramgames.dk/games/tobutobugirl/",
+      "url": "https://tangramgames.dk/tobutobugirl/",
       "category": "games",
       "platforms": [
         "Game Boy"
@@ -417,7 +417,7 @@
     {
       "id": "xeno-crisis",
       "name": "Xeno Crisis",
-      "url": "https://www.xenocrisis.com",
+      "url": "https://www.bitmapbureau.com/games/xeno-crisis",
       "category": "games",
       "platforms": [
         "Genesis"

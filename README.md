@@ -83,8 +83,8 @@ One console or computer per community. These are the databases, wikis and forums
 - [**Neo Geo Dev Wiki**](https://wiki.neogeodev.org) - Technical wiki for programming the Neo Geo, from memory maps to the sprite system.
 - [**Universal-DB**](https://db.universal-team.net) - Database of Nintendo DS and 3DS homebrew apps and games, maintained by Universal-Team.
 - [**Open Shop Channel**](https://oscwii.org) - Homebrew app store for the Wii, with a web catalog you can browse before touching the console.
-- [**Homebrew App Store**](https://hb-app.store) - Package repository for Switch and Wii U homebrew. It installs from the console and lists apps on the web.
-- [**VitaDB**](https://vitadb.rinnegatamante.it) - Catalog of PlayStation Vita homebrew games, ports and tools, maintained by Rinnegatamante.
+- [**Homebrew App Store**](https://github.com/fortheusers/hb-appstore) - Package repository for Switch and Wii U homebrew. It installs from the console and keeps its source and releases on GitHub.
+- [**VitaDB**](https://www.rinnegatamante.eu/vitadb/#/) - Catalog of PlayStation Vita homebrew games, ports and tools, maintained by Rinnegatamante.
 
 ### Fantasy consoles and open handhelds
 
@@ -108,8 +108,8 @@ Homebrew games worth starting with, each made for real or fantasy hardware.
 - [**Micro Mages**](https://morphcat.de/micromages/) - Four-player co-op platformer by Morphcat Games, released on a real NES cartridge in 2019.
 - [**POOM**](https://freds72.itch.io/poom) - A Doom-style first person shooter running inside PICO-8's memory and CPU limits.
 - [**Super Tilt Bro.**](https://sgadrat.itch.io/super-tilt-bro) - Platform fighter for the NES in the style of Smash Bros., by sgadrat.
-- [**Tobu Tobu Girl**](https://tangramgames.dk/games/tobutobugirl/) - Vertical-scrolling arcade game for the Game Boy by Tangram Games.
-- [**Xeno Crisis**](https://www.xenocrisis.com) - Twin-stick shooter by Bitmap Bureau, released on a Sega Genesis cartridge in 2019.
+- [**Tobu Tobu Girl**](https://tangramgames.dk/tobutobugirl/) - Vertical-scrolling arcade game for the Game Boy by Tangram Games.
+- [**Xeno Crisis**](https://www.bitmapbureau.com/games/xeno-crisis) - Twin-stick shooter by Bitmap Bureau, released on a Sega Genesis cartridge in 2019.
 - [**Gunlord**](https://en.wikipedia.org/wiki/Gunlord) - Side-scrolling shooter by NG:DEV.TEAM, released for Neo Geo and Dreamcast in 2012.
 
 ### Studios and cartridge makers
