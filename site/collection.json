@@ -43,6 +43,18 @@
   ],
   "entries": [
     {
+      "id": "ported2browser",
+      "name": "Ported2Browser",
+      "url": "https://ported2browser.com/",
+      "category": "hubs",
+      "platforms": [
+        "Web",
+        "Multi"
+      ],
+      "blurb": "An independent directory of games ported to run in a browser tab, from Windows and DOS to arcade, consoles and handhelds. Filter by platform or tag, check whether a port supports keyboard, gamepad or touchscreen, and play on the creator's site.",
+      "featured": true
+    },
+    {
       "id": "itch-io",
       "name": "itch.io",
       "url": "https://itch.io",

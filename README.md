@@ -18,7 +18,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <!-- BEGIN:count -->
-![Entries](https://img.shields.io/badge/entries-65-dbff00?style=classic&labelColor=0b0b0b)
+![Entries](https://img.shields.io/badge/entries-66-dbff00?style=classic&labelColor=0b0b0b)
 <!-- END:count -->
 [![Last Update](https://img.shields.io/github/last-commit/EnzoVezzaro/awesome-homebrew-games?label=Last%20update&style=classic)](https://github.com/EnzoVezzaro/awesome-homebrew-games)
 [![License: MIT](https://img.shields.io/badge/license-MIT-f4c430?style=classic)](LICENSE)
@@ -85,6 +85,7 @@ This list does not link to ROM piracy. Entries must be about original homebrew, 
 
 Cross-platform places to browse and download. Start here if you do not know what you want yet.
 
+- [**Ported2Browser**](https://ported2browser.com/) - **Featured.** An independent directory of games ported to run in a browser tab, from Windows and DOS to arcade, consoles and handhelds. Filter by platform or tag, check whether a port supports keyboard, gamepad or touchscreen, and play on the creator's site.
 - [**itch.io**](https://itch.io) - Indie marketplace with tag pages for Game Boy, NES, PICO-8 and most other retro targets. Many games are free or pay what you want.
 - [**itch.io Game Boy tag**](https://itch.io/games/tag-gameboy) - Every itch.io game tagged Game Boy, from ROMs for real cartridges to GB Studio projects.
 - [**itch.io NES tag**](https://itch.io/games/tag-nes) - NES games on itch.io. Some are 8-bit styled PC games, so read the platform line before downloading.

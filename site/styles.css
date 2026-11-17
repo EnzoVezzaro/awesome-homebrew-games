@@ -304,6 +304,8 @@ p { text-wrap: pretty; }
 .row-link:hover { background: var(--raise); }
 .row-link:focus-visible { outline-offset: -3px; }
 .row-mark svg { display: block; width: 32px; height: 32px; }
+.row-heading, .cover-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 10px; }
+.featured-tag { padding: 3px 7px; background: var(--lime); color: var(--void); border-radius: 2px; font: 400 10px/1.4 var(--pixel); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
 .row-name { display: block; font-family: var(--serif); font-size: clamp(1.625rem, 3vw, 2.125rem); line-height: 1.1; transition: color 0.2s; }
 .row-link:hover .row-name { color: var(--lime); }
 .row-blurb { display: block; margin-top: 6px; max-width: 62ch; color: var(--dim); font-size: 0.975rem; }

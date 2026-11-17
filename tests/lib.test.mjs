@@ -86,6 +86,27 @@ test("markdown follows the awesome list line format", () => {
   assert.ok(md.indexOf("Alpha") < md.indexOf("Gamma"), "entries keep file order inside a category");
 });
 
+test("markdown marks featured entries and leaves others alone", () => {
+  const col = structuredClone(sample);
+  col.entries[0].featured = true;
+  const md = renderCollectionMarkdown(col);
+  assert.match(md, /^- \[\*\*Alpha\*\*\]\(https:\/\/a\.example\) - \*\*Featured\.\*\* First entry\.$/m);
+  assert.match(md, /^- \[\*\*Gamma\*\*\]\(https:\/\/c\.example\) - Third entry\.$/m);
+});
+
+test("llms.txt marks featured entries", () => {
+  const col = structuredClone(sample);
+  col.entries[0].featured = true;
+  const txt = renderLlmsTxt(col, { siteUrl: "https://example.dev/", repoUrl: "https://github.com/x/y" });
+  assert.match(txt, /\[Alpha\]\(https:\/\/a\.example\) \(Web, featured\): First entry\./);
+});
+
+test("validation rejects a non-boolean featured flag", () => {
+  const bad = structuredClone(sample);
+  bad.entries[0].featured = "yes";
+  assert.ok(validateCollection(bad).some((e) => e.includes("featured")));
+});
+
 test("markdown includes each category blurb under its heading", () => {
   const md = renderCollectionMarkdown(sample);
   assert.match(md, /### Hubs & Marketplaces\n\nBrowse here\.\n\n- /);

@@ -76,7 +76,10 @@
       h("a", { class: "row-link", href: entry.url, target: "_blank", rel: "noopener noreferrer", onclick: function () { onOpen(entry); } }, [
         mark,
         h("span", { class: "row-main" }, [
-          h("span", { class: "row-name", text: entry.name }),
+          h("span", { class: "row-heading" }, [
+            h("span", { class: "row-name", text: entry.name }),
+            entry.featured ? h("span", { class: "featured-tag", text: "Featured" }) : null,
+          ]),
           h("span", { class: "row-blurb", text: entry.blurb }),
         ]),
         h("span", { class: "row-meta" }, [
@@ -103,7 +106,10 @@
         onclick: function () { onOpen(entry); },
       }, [
         art,
-        h("span", { class: "cover-name", text: entry.name }),
+        h("span", { class: "cover-heading" }, [
+          h("span", { class: "cover-name", text: entry.name }),
+          entry.featured ? h("span", { class: "featured-tag", text: "Featured" }) : null,
+        ]),
         h("span", { class: "cover-blurb", text: entry.blurb }),
         h("span", { class: "cover-meta", text: entry.platforms.map(platformLabel).join(" / ") + "  " + host(entry.url) }),
         h("span", { class: "sr", text: " (opens in a new tab)" }),

@@ -91,6 +91,9 @@ export function validateCollection(collection) {
 
     if (!isString(e.blurb) || !e.blurb.trim()) errors.push(`${label}: blurb is empty`);
     else if (/[\r\n]/.test(e.blurb)) errors.push(`${label}: blurb has a line break that breaks the markdown list`);
+    if (e.featured !== undefined && typeof e.featured !== "boolean") {
+      errors.push(`${label}: featured must be true or false`);
+    }
     if (DASH_PATTERN.test(`${isString(e.name) ? e.name : ""} ${isString(e.blurb) ? e.blurb : ""}`)) {
       errors.push(`${label}: copy contains an em or en dash, use a comma, colon or period`);
     }
@@ -116,7 +119,7 @@ export function renderCollectionMarkdown(collection) {
     .map((category) => {
       const lines = collection.entries
         .filter((e) => e.category === category.id)
-        .map((e) => `- [**${e.name}**](${e.url}) - ${e.blurb}`);
+        .map((e) => `- [**${e.name}**](${e.url}) - ${e.featured ? "**Featured.** " : ""}${e.blurb}`);
       return [`### ${category.title}`, "", category.blurb, "", ...lines].join("\n");
     })
     .join("\n\n");
@@ -139,7 +142,7 @@ export function renderLlmsTxt(collection, { siteUrl, repoUrl }) {
   const sections = collection.categories.map((category) => {
     const lines = collection.entries
       .filter((e) => e.category === category.id)
-      .map((e) => `- [${e.name}](${e.url}) (${e.platforms.join(", ")}): ${e.blurb}`);
+      .map((e) => `- [${e.name}](${e.url}) (${e.platforms.join(", ")}${e.featured ? ", featured" : ""}): ${e.blurb}`);
     return [`## ${category.title}`, "", category.blurb, "", ...lines].join("\n");
   });
 
