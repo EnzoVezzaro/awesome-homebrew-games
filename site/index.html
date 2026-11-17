@@ -136,7 +136,7 @@
       <form class="pad" id="pad">
         <label class="field" for="pad-platform">
           <span>Machine</span>
-          <select id="pad-platform"></select>
+          <select id="pad-platform" name="platform"></select>
         </label>
         <fieldset class="goals">
           <legend>Goal</legend>
@@ -178,7 +178,7 @@
   <dialog class="palette" id="palette" aria-label="Search the collection">
     <form method="dialog" class="palette-form" id="palette-form">
       <label class="sr" for="palette-input">Search places, platforms and tools</label>
-      <input id="palette-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search, for example nes or itch">
+      <input id="palette-input" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="Search, for example nes or itch…">
       <ul class="palette-list" id="palette-list"></ul>
       <p class="palette-empty" id="palette-empty" hidden></p>
       <p class="sr" id="palette-status" role="status" aria-live="polite"></p>

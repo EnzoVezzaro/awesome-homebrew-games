@@ -50,6 +50,23 @@ Homebrew is software that hobbyists and indie teams write for a machine without 
 | Open handhelds | Small devices designed to be programmed | Arduboy |
 | Apps and games for modded consoles | Wii, DS, 3DS, Vita and Switch | The Open Shop Channel on Wii |
 
+## How this repo fits together
+
+```mermaid
+flowchart LR
+  A["data/collection.json"] --> B["scripts/build.mjs"]
+  B --> C["README.md"]
+  B --> D["site/llms.txt"]
+  B --> E["site/collection.json"]
+  B --> F["site/sitemap.xml"]
+  C --> G["GitHub"]
+  D --> H["Landing page"]
+  E --> H
+  F --> H
+```
+
+One JSON file holds every entry. Edit it, run `npm run build`, and commit the generated files. The landing page reads `site/collection.json` when it boots, so the site and this list always show the same places.
+
 ## Suggest an entry
 
 Know a place that belongs here? [Open an issue](https://github.com/EnzoVezzaro/awesome-homebrew-games/issues/new?template=suggest-an-entry.yml) with the link and one sentence on what a visitor finds there.

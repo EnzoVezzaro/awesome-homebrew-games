@@ -51,7 +51,7 @@ body {
 
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
 button, select, input { font: inherit; color: inherit; }
-button, a[href], summary, label, select, [role="button"] { cursor: pointer; }
+button, a[href], summary, label, select, [role="button"] { cursor: pointer; touch-action: manipulation; }
 button:disabled, [aria-disabled="true"] { cursor: not-allowed; }
 
 :focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
@@ -360,7 +360,7 @@ p { text-wrap: pretty; }
 .field { display: grid; gap: 8px; }
 .field span, .goals legend { font: 400 11px/1 var(--pixel); color: var(--dim); letter-spacing: 0.06em; }
 select {
-  width: 100%; min-height: 48px; padding: 10px 14px; background: var(--void);
+  width: 100%; min-height: 48px; padding: 10px 14px; background: var(--void); color: var(--paper);
   border: 1px solid var(--line-strong); border-radius: 4px; font-size: 1rem;
 }
 select:hover { border-color: var(--lime); }
@@ -431,7 +431,7 @@ select:hover { border-color: var(--lime); }
 .palette {
   width: min(660px, calc(100vw - 32px)); max-height: 76vh; margin: 12vh auto 0; padding: 0;
   background: var(--raise); color: var(--paper); border: 1px solid var(--line-strong); border-radius: 8px;
-  overflow: hidden;
+  overflow: hidden; overscroll-behavior: contain;
 }
 .palette[open] { display: flex; flex-direction: column; }
 .palette::backdrop { background: rgba(0, 0, 0, 0.75); }
