@@ -120,9 +120,23 @@ ADD. A community database of original Game Boy releases with download links. It 
 rejections and manual checks in the same table. Do not write any files until the user
 approves the batch.
 
-**Audit.** Use a table with `entry | verdict | reason`. Verdicts are `keep`, `fix`
-with the exact change, or `remove` with the reason. Never remove an entry without
-approval.
+**Audit.** Start with the mechanical pass, then add editorial judgment:
+
+```bash
+node .agents/skills/review-homebrew-entry/scripts/audit-entries.mjs --repo .
+```
+
+It flags duplicate URLs and names, platform spelling drift, dashes, stale counts,
+first person and other copy-pattern problems. It never edits files. Read every
+entry, not just the flagged ones, and use the same acceptance rules as for a new
+candidate. Write the result with a table of `entry | verdict | reason`, where the
+verdict is `keep`, `fix` with the exact change, or `remove` with the reason. Group
+the entries by category so a visitor can scan the result. Add a short section for
+issues that affect the list as a whole, such as a category that has drifted from
+its blurb.
+
+Never remove an entry without approval. A link that is blocked to a bot but opens
+in a browser is not a dead link.
 
 ## When approved to add
 

@@ -54,6 +54,8 @@ them reach the list.
 
 The `review-homebrew-entry` skill in `.agents/skills/` handles this triage. It decides
 whether a candidate belongs, explains how, classifies it and drafts a compliant entry.
+Its audit mode reviews every existing entry and writes suggestions to
+`discovery/entry-audit.md`.
 
 1. Open the candidate URL and confirm it is still a place to find homebrew games or
    the tools and communities around them.
