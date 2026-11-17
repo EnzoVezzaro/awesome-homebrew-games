@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: duplicate-and-offtopic
+expected_outcome: |
+  The agent recognizes that hh.gbdev.io is already in the collection as
+  homebrew-hub and recommends no action, and rejects the Visual Studio Code
+  repo as a general-purpose tool with no homebrew game connection. It explains
+  both decisions and edits no files.

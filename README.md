@@ -18,7 +18,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <!-- BEGIN:count -->
-![Entries](https://img.shields.io/badge/entries-66-dbff00?style=classic&labelColor=0b0b0b)
+![Entries](https://img.shields.io/badge/entries-73-dbff00?style=classic&labelColor=0b0b0b)
 <!-- END:count -->
 [![Last Update](https://img.shields.io/github/last-commit/EnzoVezzaro/awesome-homebrew-games?label=Last%20update&style=classic)](https://github.com/EnzoVezzaro/awesome-homebrew-games)
 [![License: MIT](https://img.shields.io/badge/license-MIT-f4c430?style=classic)](LICENSE)
@@ -71,6 +71,8 @@ One JSON file holds every entry. Edit it, run `npm run build`, and commit the ge
 
 Know a place that belongs here? [Open an issue](https://github.com/EnzoVezzaro/awesome-homebrew-games/issues/new?template=suggest-an-entry.yml) with the link and one sentence on what a visitor finds there.
 
+A daily job searches the web for new platforms, games, boards and forums. See the [latest discovery report](discovery/latest.md). Candidates are reviewed by hand before they enter the list.
+
 This list does not link to ROM piracy. Entries must be about original homebrew, fan-made games and tools their authors made public, or places that host them.
 
 <div align="center">
@@ -94,6 +96,8 @@ Cross-platform places to browse and download. Start here if you do not know what
 - [**Game Jolt**](https://gamejolt.com) - Free indie and fan game platform that also hosts jams.
 - [**GBAtemp**](https://gbatemp.net) - Console hacking forum with release threads for GBA, DS, 3DS, Wii and Switch homebrew.
 - [**ROMhacking.net**](https://www.romhacking.net) - Archive of ROM hacks, translations and utilities, with a separate section for original homebrew.
+- [**Homebrew Factory**](https://www.homebrew-factory.com/) - Storefront for physical homebrew releases and crowdfunded preorders. Browse new games for old consoles and back the creators making cartridges.
+- [**RecompStore**](https://recompstore.com/games) - Store of recompiled games for PS5 and PC. Browse releases by genre, from ports of older titles to community submissions.
 
 ### Platform scenes
 
@@ -113,6 +117,11 @@ One console or computer per community. These are the databases, wikis and forums
 - [**Open Shop Channel**](https://oscwii.org) - Homebrew app store for the Wii, with a web catalog you can browse before touching the console.
 - [**Homebrew App Store**](https://github.com/fortheusers/hb-appstore) - Package repository for Switch and Wii U homebrew. It installs from the console and keeps its source and releases on GitHub.
 - [**VitaDB**](https://www.rinnegatamante.eu/vitadb/#/) - Catalog of PlayStation Vita homebrew games, ports and tools, maintained by Rinnegatamante.
+- [**ROMhacking.net homebrew**](https://www.romhacking.net/homebrew/) - The original homebrew section of ROMhacking.net, separate from its patches and translations.
+- [**PSX-Place PS2 homebrew**](https://www.psx-place.com/resources/categories/homebrew-games.22/) - Resource index for PS2 homebrew games and ports, with reviews, downloads and a separate section for tools.
+- [**PSX-Place PS3 homebrew**](https://www.psx-place.com/resources/categories/homebrew-games.5/) - Resource index for PS3 homebrew games, with community reviews and download links.
+- [**Video Game Homebrew Wiki**](https://videogamehomebrew.fandom.com/wiki/Homebrew_Games) - Community wiki with a page per homebrew game, covering releases across many platforms.
+- [**r/Homebrews**](https://www.reddit.com/r/Homebrews/) - Subreddit for new homebrew releases, development updates and physical cartridge projects across platforms.
 
 ### Fantasy consoles and open handhelds
 

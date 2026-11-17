@@ -1,0 +1,395 @@
+{
+  "updated": "2026-11-17",
+  "seen": {
+    "http://blog.narrat1ve.com/2013/08/08/vectors-or-my-man-inf-left-a-vec-and-a-9-at-my-crib": {
+      "title": "Vectors, or “My Man Inf Left A VEC and a 9 At My Crib” (homebrew FPGA game)",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "http://en.wikipedia.org/wiki/Homebrew_(video_games)": {
+      "title": "Homebrew (video games)",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "http://gamasutra.com/view/news/338966/Building_a_homebrew_video_game_console.php": {
+      "title": "Building a 'homebrew' video game console",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "http://montrose.is/games": {
+      "title": "Show HN: SM510 (Game and Watch) Homebrew Games",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "http://thinq.co.uk/2011/6/10/coder-preps-3ds-browser-homebrew-game-library": {
+      "title": "Nintendo 3DS browser opens up the platform for homebrew games",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "http://virtualhosting.com/blog/2008/how-to-homebrew-wii-games-73-tips-tutorials-and-resources": {
+      "title": "How to Homebrew Wii Games: 73 Tips, Tutorials and Resources",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://alex-j-lowry.github.io/z80tvg.html": {
+      "title": "Recreating a Homebrew Game System from 1987",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://blakesmith.me/2023/05/11/learning-homebrew-game-boy-game-development-in-assembly.html": {
+      "title": "Learning Homebrew Game Boy Development in Assembly",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://bsky.app/profile/homebrew-factory.com": {
+      "title": "LinkedIn",
+      "source": "Homebrew Factory",
+      "firstSeen": "2026-11-17"
+    },
+    "https://community.openai.com": {
+      "title": "Developer Forum",
+      "source": "OpenAI Modretro Chromatic blog",
+      "firstSeen": "2026-11-17"
+    },
+    "https://creator.homebrew-factory.com": {
+      "title": "WANT TO BECOME A CREATOR?",
+      "source": "Homebrew Factory",
+      "firstSeen": "2026-11-17"
+    },
+    "https://en.wikipedia.org/wiki/Demoscene": {
+      "title": "demoscene",
+      "source": "GBDev homebrew hub",
+      "firstSeen": "2026-11-17"
+    },
+    "https://en.wikipedia.org/wiki/Homebrew_(video_games)": {
+      "title": "homebrew",
+      "source": "GBDev homebrew hub",
+      "firstSeen": "2026-11-17"
+    },
+    "https://flybacklabs.com/sega-saturn-homebrew-with-game-basic": {
+      "title": "Sega Saturn Homebrew with Game Basic",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://gamedeveloper.com/design/building-a-homebrew-video-game-console": {
+      "title": "Building a 'homebrew' video game console",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://gbdk.org/docs/api": {
+      "title": "Game Boy APIs",
+      "source": "OpenAI Modretro Chromatic blog",
+      "firstSeen": "2026-11-17"
+    },
+    "https://gbstudio.dev/docs/extending-gbstudio/plugins": {
+      "title": "GB Studio plugin guide",
+      "source": "OpenAI Modretro Chromatic blog",
+      "firstSeen": "2026-11-17"
+    },
+    "https://gbstudio.dev/docs/project-editor/scenes": {
+      "title": "GB Studio guide to scenes",
+      "source": "OpenAI Modretro Chromatic blog",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/2ez4gcx/game-center-retro-launcher": {
+      "title": "Phần mềm giả lập game retro miễn phí, chữ to dễ dùng cho người lớn tuổi: PS1, PS2, NES, SNES, Game Boy, GBA, Mega Drive trên Windows, macOS, Linux. Free, senior-friendly RetroArch frontend: copy games in, press Play. Tiếng Việt & English.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/309nahe/gbade": {
+      "title": "GBADE: a zero-setup Game Boy Advance homebrew IDE with a built-in emulator (Rust + mGBA + LLVM)",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/ArtemioUrbina/240pTestSuite": {
+      "title": "A homebrew software suite for video game consoles developed to help in the evaluation of upscalers, upscan converters, line doublers and of course TV processing of 240p video. The Wii and Dreamcast versions have modes for 480i and 480p evaluation as well.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/BILLPC2684/TGR-PRTO-JS": {
+      "title": "TheGameRazer is a modern, retro 16-bit emulator(Fantasy Console) made in JavaScript, this is still in prototype stages...",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/BrunoRNS/pinkwall-showcase": {
+      "title": "A browser-based showcase for Pink Wall, a GPL-3.0 SNES homebrew game, powered by EmulatorJS and the bsnes core",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/CURSOR-IT/ROMify": {
+      "title": "🕹️ ROMify – webbasierter Retro-Emulator für Handy & PC. Login, Cloud-Saves, Erfolge und ein Katalog mit freien Homebrew-ROMs.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/Dgdiniz/retrolab-emulator": {
+      "title": "Mega Drive / Genesis and SNES emulator in Rust, built for debugging. Runs in the browser through WebAssembly; the emulator behind RetroLab.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/EnzoVezzaro/awesome-homebrew-games": {
+      "title": "A directory of homebrew games and the hubs, scenes and tools where you find them. Pick your hardware, find the places that release games for it, and start playing. Every entry is a place you can open today: a marketplace, a community database, a cartridge maker, a jam or a toolchain.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes": {
+      "title": "13 retro themes for OpenCode, the terminal AI coding agent: Windows 95, Norton Commander, IBM, CGA, PlayStation, GameCube, Game Boy, Famicom, SNES, PCB and neon.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/Laffinty/FCEUX11": {
+      "title": "Accurate NES / Famicom emulation, derived from FCEUX. Experimental Game Boy Advance (Beta) support.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/MotifMixes/LeapLoader-Emulators": {
+      "title": "NES and Game Boy / Color emulators for the LeapFrog Leapster 2, as LeapLoader homebrew apps",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/RafaelNGP/psbox-cloud-gaming": {
+      "title": "Xbox Cloud Gaming app for PS5 Homebrew",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/SuperDisk/hUGEDriver": {
+      "title": "An easy-to-use, fast, tracker-based, public domain sound driver for Game Boy homebrew",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/VibezZzCoder/EUC-Thrills-SNES-Edition": {
+      "title": "Homebrew (ROM image) game about Electric Unicycle riding, playable on the Super Nintendo Entertainment System (via emulators or flash cartridges).",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/Zeffuro/homebrew-zeff-boy": {
+      "title": "Homebrew tap for zeff-boy - A Game Boy, Game Boy Color, and NES emulator",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/afska/gba-link-connection": {
+      "title": "🔗 A set of Game Boy Advance (GBA) C++ libraries to interact with the Serial Port. Its main purpose is to provide multiplayer support to homebrew games.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/ajtaji/PureMetal-N64-Demo-Cartridges": {
+      "title": "Nintendo 64 homebrew demos written in PureMetal and compiled by PureMetal Forge: ready-to-play .z64 cartridges and their source. Live RSP music synthesis, RDP graphics, own IPL3.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/amwatson/CitraVR": {
+      "title": "Port of the leading 3DS emulator, Citra — designed for playing 3DS homebrew and personal game backups in 3D on the go with your Quest.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/ankushKun/sh23ds": {
+      "title": "Silent Hill 2 for Nintendo 3DS: a native homebrew port of the PC Director's Cut for the New 3DS and original 3DS, with the Enhanced Edition's fixes. Runs on your own copy of the game.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/chunkypixel/atari-dev-studio": {
+      "title": "Homebrew game creation for the Atari 8-bit consoles (VS Code Extension)",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/coooooooooooops/rom_player_by_coops": {
+      "title": "ROM Player by Coops — play retro games in your browser. NES, SNES, GBA, N64, PS1, PSP, NDS, Genesis, Game Boy & more. PWA with save states, rewind, cloud saves, cover art, and Linkup Room. Free + Premium ($3 AUD/month).",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/crimsondawnacademy-design/romtranslate-studio": {
+      "title": "Translate retro games with AI on your own computer: extract the text, translate, validate, reinsert and export a patch. GBA, NDS, NES, SNES, PS1, PS2, PSP and GameCube (experimental).",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/daemonless/retroassembly": {
+      "title": "Personal retro game collection cabinet in your browser. Play NES, SNES, Genesis, GBA, and more.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/devkitPro/libogc": {
+      "title": "C Library for Wii and GameCube Homebrew",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/elripalda/RecompStore": {
+      "title": "RecompStore: the free homebrew app store for jailbroken PS5. Installs and updates recompiled game ports, emulators, apps and tools from the console. Bring your own disc.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/eoinjordan/gba-engine": {
+      "title": "Portable C runtime for Game Boy Advance homebrew (devkitARM): HAL, Mode 0 background rendering, scene/actor management, and a minimal scripted-behaviour VM. Extracted from GBA Studio for standalone reuse.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/felipecpaiva/slot-nes-snes": {
+      "title": "More systems for slot: NES, SNES, Game Gear, Master System, Mega Drive and PlayStation shelves, with real cart and cover art, PAL speed and ROM hack tools. A patch set on slot's own releases, not affiliated with slot.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/gameboy829/PS5-LZ4-Game-Compressor": {
+      "title": "LZ4 game compression for PS5 homebrew — beta.1",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/gapolli/fantasyconsole": {
+      "title": "A modular, multi-environment fantasy console engine and integrated IDE written in Rust. Natively executes retro cartridges matching both PICO-8 and TIC-80 hardware standards up to 60 FPS, powered by a pure CPU software rasterizer, local 4-player matrix, and a cross-platform SDL2 backend without infringing on intellectual property.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/gbadev-org/games": {
+      "title": "Game Boy Advance",
+      "source": "GBDev homebrew hub",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/gbdev/database": {
+      "title": "Game Boy",
+      "source": "GBDev homebrew hub",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/geekychris/retro-launcher": {
+      "title": "Full-screen launcher that boots Amiga 68k, AmigaOS 4, Atari ST/Falcon and 3DO emulators into their game selectors",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/glitch191/retro-chip-vst": {
+      "title": "Hardware-faithful NES, SNES and Sega Genesis chip synthesis VST3 for Windows",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/hackatnight/HAN-CYD-GBC": {
+      "title": "Game Boy, Game Boy Color and NES emulator for ESP32 Cheap Yellow Display (CYD) boards: ESP32-2432S024C, ESP32-2432S024R, ESP32-2432S028R, ESP32-2432S028C and the 2.8\" CYD2USB. PS4 Bluetooth, save states, cheats, menu music, USB game transfer and a one-click web flasher.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/haroldo-ok/zig-saber-sms": {
+      "title": "An unofficial, native Z80 homebrew port of ABA Games’ Zig Saber. A real 64 KiB `.sms` cartridge, not a web game dressed up as an emulator. Generated using Arena.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/hazy2go/gameboy-lab": {
+      "title": "Homebrew for the original Game Boy: chat with Claude (ClaudeBoy), print pictures on the Game Boy Printer, and follow the hardware builds.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/jtothebell/fake-08": {
+      "title": "A Pico-8 player/emulator for console homebrew",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/kastroe/GBCXY-Releases": {
+      "title": "Official GBCXY PS5 homebrew releases by Kastroe. Download the latest optimised Game Boy & Game Boy Color emulator featuring NAS/NFS support, cover artwork, favourites and improved performance.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/liamcurtis81/asp-arcade-stick": {
+      "title": "Turn the Neo Geo Arcade Stick Pro into a retro console: PlayStation, SNES, NES, Mega Drive and GBA alongside a faster arcade port, with in-game manuals, fighting-game move lists, scan lines and 8BitDo pad support. Full build guide, no ROMs.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/mihawk-99/PS5_MihawkOS": {
+      "title": "A Windows-inspired PS5 homebrew OS bringing 32-bit and 64-bit Windows gaming to console hardware through a custom Wine/Proton compatibility stack and native Vulkan graphics.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/mq1/TinyWiiBackupManager": {
+      "title": "⭐ A tiny game backup and homebrew app manager for the Wii",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/nekomancer01/DarkSoulsPS2": {
+      "title": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/neo-engine/neo": {
+      "title": "A homebrew Pokémon nds game; written from scratch using devkitPro",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/nesdev-org/homebrew-db": {
+      "title": "NES",
+      "source": "GBDev homebrew hub",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/p1ngb4ck/esphome-emulator": {
+      "title": "A game emulator app for ESPHome on the ESP32-P4: NES, Game Boy, Master System, PC Engine, Lynx, MSX, Game & Watch, SNES and Mega Drive with hardware scaling.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/phillhf/retrogarage": {
+      "title": "Retro Garage – GB, GBC, GBA, NES, SNES, N64 und DS im Browser (z. B. im Auto), ROMs und Spielstände auf dem eigenen Server",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/radical7dreamer/awesome-game-databases": {
+      "title": "A list of video game databases, wikis, preservation projects, emulators and retro gaming sites.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/rmrf404/green-nx": {
+      "title": "Xbox Cloud Gaming (xCloud) client for the Nintendo Switch — standalone homebrew with native WebRTC streaming, hardware H.264 decoding and zero-copy GPU rendering",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/ryleighnewman/InputConfig": {
+      "title": "Free, open-source controller mapper for Mac. Map any game controller, joystick, mouse, gamepad, or other input device to keyboard / mouse / macro / system functions on macOS: PS5 DualSense, Xbox, Switch Pro, 8BitDo, MIDI, and any HID device. No drivers, built for accessibility. On the Mac App Store and Homebrew.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/skyline-emu/skyline": {
+      "title": "Skyline – Run Nintendo Switch homebrew and games on your Android device",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/slinga-homebrew/Save-Game-Copier": {
+      "title": "Copy Sega Saturn save game files",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/sverx/devkitSMS": {
+      "title": "development kit and libraries for SEGA Master System / SEGA Game Gear / SEGA SG-1000 / SEGA SC-3000 / ColecoVision homebrew programming using C language (and the SDCC compiler)",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://github.com/tangziwen/CubeMiniGame": {
+      "title": "HomeBrew C++ 3D Game Engine based on OpenGL & Vulkan",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-17"
+    },
+    "https://internalregister.github.io/2019/03/14/Homebrew-Console.html": {
+      "title": "Building a 'Homebrew' Video Game Console",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://internalregister.github.io/2021/08/08/Another-Homebrew-Console.html": {
+      "title": "Show HN: Yet another Homebrew Video Game Console, this time FPGA-based",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://itch.io/c/3572935/early-days": {
+      "title": "Show HN: New homebrew games for the PDP-1 and Apollo Guidance Computer",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://learn.adafruit.com/homebrew-game-boy-games/overview": {
+      "title": "Creating Homebrew Game Boy Games",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://n64squid.com/homebrew/competitions/n64brew-game-jam-2022": {
+      "title": "Winners of the N64 homebrew game jam announced, C source of all games on GitHub",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://oofinsprouts.itch.io/gridiculous": {
+      "title": "Show HN: Gridiculous, my homebrew Game Boy Advance logic puzzle collection",
+      "source": "Hacker News search",
+      "firstSeen": "2026-11-17"
+    },
+    "https://usa.homebrew-factory.com?shop_forced=1": {
+      "title": "USA Shop",
+      "source": "Homebrew Factory",
+      "firstSeen": "2026-11-17"
+    }
+  }
+}

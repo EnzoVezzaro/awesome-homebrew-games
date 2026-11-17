@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: classify-one-candidate
+expected_outcome: |
+  The agent opens the candidate, states a clear add or skip decision with the
+  reason, checks it against the existing collection, and if adding, proposes a
+  JSON entry with a unique id, a valid category such as games or build, an
+  existing platform spelling such as N64, and a dash-free blurb. No files are edited.

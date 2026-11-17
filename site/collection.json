@@ -144,6 +144,27 @@
       "blurb": "Archive of ROM hacks, translations and utilities, with a separate section for original homebrew."
     },
     {
+      "id": "homebrew-factory",
+      "name": "Homebrew Factory",
+      "url": "https://www.homebrew-factory.com/",
+      "category": "hubs",
+      "platforms": [
+        "Multi"
+      ],
+      "blurb": "Storefront for physical homebrew releases and crowdfunded preorders. Browse new games for old consoles and back the creators making cartridges."
+    },
+    {
+      "id": "recompstore",
+      "name": "RecompStore",
+      "url": "https://recompstore.com/games",
+      "category": "hubs",
+      "platforms": [
+        "PS5",
+        "PC"
+      ],
+      "blurb": "Store of recompiled games for PS5 and PC. Browse releases by genre, from ports of older titles to community submissions."
+    },
+    {
       "id": "homebrew-hub",
       "name": "Homebrew Hub",
       "url": "https://hh.gbdev.io",
@@ -282,6 +303,56 @@
         "Vita"
       ],
       "blurb": "Catalog of PlayStation Vita homebrew games, ports and tools, maintained by Rinnegatamante."
+    },
+    {
+      "id": "romhacking-homebrew",
+      "name": "ROMhacking.net homebrew",
+      "url": "https://www.romhacking.net/homebrew/",
+      "category": "scenes",
+      "platforms": [
+        "Multi"
+      ],
+      "blurb": "The original homebrew section of ROMhacking.net, separate from its patches and translations."
+    },
+    {
+      "id": "psx-place-ps2",
+      "name": "PSX-Place PS2 homebrew",
+      "url": "https://www.psx-place.com/resources/categories/homebrew-games.22/",
+      "category": "scenes",
+      "platforms": [
+        "PS2"
+      ],
+      "blurb": "Resource index for PS2 homebrew games and ports, with reviews, downloads and a separate section for tools."
+    },
+    {
+      "id": "psx-place-ps3",
+      "name": "PSX-Place PS3 homebrew",
+      "url": "https://www.psx-place.com/resources/categories/homebrew-games.5/",
+      "category": "scenes",
+      "platforms": [
+        "PS3"
+      ],
+      "blurb": "Resource index for PS3 homebrew games, with community reviews and download links."
+    },
+    {
+      "id": "videogamehomebrew-wiki",
+      "name": "Video Game Homebrew Wiki",
+      "url": "https://videogamehomebrew.fandom.com/wiki/Homebrew_Games",
+      "category": "scenes",
+      "platforms": [
+        "Multi"
+      ],
+      "blurb": "Community wiki with a page per homebrew game, covering releases across many platforms."
+    },
+    {
+      "id": "r-homebrews",
+      "name": "r/Homebrews",
+      "url": "https://www.reddit.com/r/Homebrews/",
+      "category": "scenes",
+      "platforms": [
+        "Multi"
+      ],
+      "blurb": "Subreddit for new homebrew releases, development updates and physical cartridge projects across platforms."
     },
     {
       "id": "pico-8",
