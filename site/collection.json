@@ -118,7 +118,7 @@
         "Web",
         "PC"
       ],
-      "blurb": "Free indie and fan game platform that also hosts jams."
+      "blurb": "Free indie and fan game platform with a Retro & Homebrew community where showcases, dev posts and console-specific jams are posted."
     },
     {
       "id": "gbatemp",
@@ -152,17 +152,6 @@
         "Multi"
       ],
       "blurb": "Storefront for physical homebrew releases and crowdfunded preorders. Browse new games for old consoles and back the creators making cartridges."
-    },
-    {
-      "id": "recompstore",
-      "name": "RecompStore",
-      "url": "https://recompstore.com/games",
-      "category": "hubs",
-      "platforms": [
-        "PS5",
-        "PC"
-      ],
-      "blurb": "Store of recompiled games for PS5 and PC. Browse releases by genre, from ports of older titles to community submissions."
     },
     {
       "id": "homebrew-hub",
@@ -258,7 +247,7 @@
       "id": "neogeo-dev-wiki",
       "name": "Neo Geo Dev Wiki",
       "url": "https://wiki.neogeodev.org",
-      "category": "scenes",
+      "category": "build",
       "platforms": [
         "Neo Geo"
       ],
@@ -556,7 +545,7 @@
       "platforms": [
         "Multi"
       ],
-      "blurb": "Publisher of new and re-released games for older systems."
+      "blurb": "Publisher making new physical games for retro systems alongside licensed re-releases, with cartridges for Atari, Neo Geo and other platforms."
     },
     {
       "id": "collectorvision",
@@ -591,17 +580,6 @@
       "blurb": "Spanish developers who release games for 8-bit machines and publish the engines they use."
     },
     {
-      "id": "ludum-dare",
-      "name": "Ludum Dare",
-      "url": "https://ldjam.com",
-      "category": "jams",
-      "platforms": [
-        "Web",
-        "PC"
-      ],
-      "blurb": "Long-running game jam with a 48 hour solo compo and a 72 hour team jam."
-    },
-    {
       "id": "itch-io-jams",
       "name": "itch.io Jams",
       "url": "https://itch.io/jams",
@@ -610,16 +588,6 @@
         "Multi"
       ],
       "blurb": "Calendar of every jam on itch.io. Filter for console-specific ones such as Game Boy and PICO-8 jams."
-    },
-    {
-      "id": "mini-jam",
-      "name": "Mini Jam",
-      "url": "https://minijamofficial.com",
-      "category": "jams",
-      "platforms": [
-        "Web"
-      ],
-      "blurb": "Weekend jams on itch.io, each with a one-word theme and a rule that limits what you can use."
     },
     {
       "id": "gb-studio",
@@ -706,16 +674,6 @@
         "Multi"
       ],
       "blurb": "Toolchain for the WonderSwan and other unusual targets."
-    },
-    {
-      "id": "love2d",
-      "name": "LÖVE",
-      "url": "https://love2d.org",
-      "category": "build",
-      "platforms": [
-        "PC"
-      ],
-      "blurb": "2D game framework for Lua. A common first step before targeting real hardware."
     },
     {
       "id": "retroarch",

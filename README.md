@@ -18,7 +18,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <!-- BEGIN:count -->
-![Entries](https://img.shields.io/badge/entries-73-dbff00?style=classic&labelColor=0b0b0b)
+![Entries](https://img.shields.io/badge/entries-69-dbff00?style=classic&labelColor=0b0b0b)
 <!-- END:count -->
 [![Last Update](https://img.shields.io/github/last-commit/EnzoVezzaro/awesome-homebrew-games?label=Last%20update&style=classic)](https://github.com/EnzoVezzaro/awesome-homebrew-games)
 [![License: MIT](https://img.shields.io/badge/license-MIT-f4c430?style=classic)](LICENSE)
@@ -93,11 +93,10 @@ Cross-platform places to browse and download. Start here if you do not know what
 - [**itch.io NES tag**](https://itch.io/games/tag-nes) - NES games on itch.io. Some are 8-bit styled PC games, so read the platform line before downloading.
 - [**itch.io PICO-8 tag**](https://itch.io/games/tag-pico-8) - PICO-8 games that run in the browser tab and export from the console as a single cart.
 - [**itch.io homebrew tag**](https://itch.io/games/tag-homebrew) - Games that authors themselves labeled homebrew, across every platform on the site.
-- [**Game Jolt**](https://gamejolt.com) - Free indie and fan game platform that also hosts jams.
+- [**Game Jolt**](https://gamejolt.com) - Free indie and fan game platform with a Retro & Homebrew community where showcases, dev posts and console-specific jams are posted.
 - [**GBAtemp**](https://gbatemp.net) - Console hacking forum with release threads for GBA, DS, 3DS, Wii and Switch homebrew.
 - [**ROMhacking.net**](https://www.romhacking.net) - Archive of ROM hacks, translations and utilities, with a separate section for original homebrew.
 - [**Homebrew Factory**](https://www.homebrew-factory.com/) - Storefront for physical homebrew releases and crowdfunded preorders. Browse new games for old consoles and back the creators making cartridges.
-- [**RecompStore**](https://recompstore.com/games) - Store of recompiled games for PS5 and PC. Browse releases by genre, from ports of older titles to community submissions.
 
 ### Platform scenes
 
@@ -112,7 +111,6 @@ One console or computer per community. These are the databases, wikis and forums
 - [**CSDb**](https://csdb.dk) - The Commodore 64 Scene Database. It catalogs games, demos and music releases by group.
 - [**Spectrum Computing**](https://spectrumcomputing.co.uk) - ZX Spectrum database and forum that includes new releases next to the classics.
 - [**MSX Resource Center**](https://www.msx.org) - News, forums and a software database for MSX, where new homebrew still appears.
-- [**Neo Geo Dev Wiki**](https://wiki.neogeodev.org) - Technical wiki for programming the Neo Geo, from memory maps to the sprite system.
 - [**Universal-DB**](https://db.universal-team.net) - Database of Nintendo DS and 3DS homebrew apps and games, maintained by Universal-Team.
 - [**Open Shop Channel**](https://oscwii.org) - Homebrew app store for the Wii, with a web catalog you can browse before touching the console.
 - [**Homebrew App Store**](https://github.com/fortheusers/hb-appstore) - Package repository for Switch and Wii U homebrew. It installs from the console and keeps its source and releases on GitHub.
@@ -156,7 +154,7 @@ Teams that release new games on physical cartridges for old consoles.
 - [**Bitmap Bureau**](https://www.bitmapbureau.com) - UK studio behind Xeno Crisis and Final Vendetta.
 - [**NG:DEV.TEAM**](https://www.ngdevteam.com) - German team that has released Last Hope, Fast Striker and Gunlord on Neo Geo and Dreamcast.
 - [**Mega Cat Studios**](https://www.megacatstudios.com) - Pittsburgh studio and publisher of new games for classic consoles.
-- [**Piko Interactive**](https://pikointeractive.com) - Publisher of new and re-released games for older systems.
+- [**Piko Interactive**](https://pikointeractive.com) - Publisher making new physical games for retro systems alongside licensed re-releases, with cartridges for Atari, Neo Geo and other platforms.
 - [**CollectorVision**](https://collectorvision.com) - New ColecoVision games and hardware, sold as cartridges.
 - [**Super Fighter Team**](https://www.superfighterteam.com) - Publisher of Beggar Prince and other new Genesis cartridges.
 - [**Mojon Twins**](https://www.mojontwins.com) - Spanish developers who release games for 8-bit machines and publish the engines they use.
@@ -165,14 +163,13 @@ Teams that release new games on physical cartridges for old consoles.
 
 Deadlines produce games. These events produce a lot of them.
 
-- [**Ludum Dare**](https://ldjam.com) - Long-running game jam with a 48 hour solo compo and a 72 hour team jam.
 - [**itch.io Jams**](https://itch.io/jams) - Calendar of every jam on itch.io. Filter for console-specific ones such as Game Boy and PICO-8 jams.
-- [**Mini Jam**](https://minijamofficial.com) - Weekend jams on itch.io, each with a one-word theme and a rule that limits what you can use.
 
 ### Build your own
 
 Toolchains, engines and references for writing a game for hardware that shipped decades ago.
 
+- [**Neo Geo Dev Wiki**](https://wiki.neogeodev.org) - Technical wiki for programming the Neo Geo, from memory maps to the sprite system.
 - [**GB Studio**](https://www.gbstudio.dev) - Visual editor that exports a real Game Boy ROM. You can make a game without writing code.
 - [**GBDK-2020**](https://github.com/gbdk-2020/gbdk-2020) - C compiler and libraries for the Game Boy, Master System and Game Gear.
 - [**Pan Docs**](https://gbdev.io/pandocs/) - The Game Boy technical reference. Registers, timing, memory map and cartridge formats.
@@ -181,7 +178,6 @@ Toolchains, engines and references for writing a game for hardware that shipped 
 - [**devkitPro**](https://devkitpro.org) - Toolchains and libraries for Game Boy Advance, DS, 3DS, Wii, Wii U and Switch homebrew.
 - [**libdragon**](https://libdragon.dev) - Open source SDK for writing Nintendo 64 games.
 - [**Wonderful Toolchain**](https://wonderful.asie.pl) - Toolchain for the WonderSwan and other unusual targets.
-- [**LÖVE**](https://love2d.org) - 2D game framework for Lua. A common first step before targeting real hardware.
 
 ### Run it anywhere
 

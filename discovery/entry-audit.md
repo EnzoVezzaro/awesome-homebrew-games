@@ -141,3 +141,19 @@ Judgment note: per the skill, links that answer scripts with 403 but are known t
 6. **Featured flag.** Ported2Browser is the only `featured: true` entry. It is a focused browser-port directory; itch.io is the more broadly useful hub. Confirm the flagship designation is intentional.
 7. **Wikipedia link in Hall of Fame.** Gunlord uses an encyclopedia URL while the other games use project or official pages. Not a duplicate or a rule violation, but an official page is preferable when one exists.
 8. **Clean mechanical baseline.** No duplicate URLs or names, no platform spelling drift, no dashes, first person, invented counts or broken markdown. The issues above are editorial scope and categorization calls, not data defects.
+
+## Applied decisions (2026-11-17)
+
+- Removed `ludum-dare`, `mini-jam` and `love2d`: no retro or homebrew target.
+- Removed `recompstore`: its catalog is mostly recompiled commercial games, which
+  conflicts with the list's rule against places that mainly offer copyrighted games.
+- Moved `neogeo-dev-wiki` from `scenes` to `build`, since it is programming reference.
+- Sharpened the `game-jolt` blurb to name its Retro & Homebrew community.
+- Kept `piko-interactive` with an honest blurb covering new physical games alongside
+  licensed re-releases.
+- Mechanical recheck after the edits: 69 entries, 0 issues, 0 schema errors.
+
+Not applied, left as editorial choices for the owner: narrowing or retiring the
+`jams` category, reducing itch.io overlap, moving other developer wikis from
+`scenes` to `build`, trimming the retro OS entries in `run`, replacing `Multi` on
+single open handhelds, and reconsidering the featured flag.
