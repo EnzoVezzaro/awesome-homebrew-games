@@ -32,6 +32,12 @@ Pick your hardware, find the places that release games for it, and start playing
 
 The [landing page](https://enzovezzaro.github.io/awesome-homebrew-games/) turns this list into a console. Insert the cartridge, filter by platform and open anything in one click. The same data ships as `llms.txt`, so your AI assistant can answer "where do I find new Game Boy games?" from this list instead of guessing.
 
+<div align="center">
+  <a href="https://enzovezzaro.github.io/awesome-homebrew-games/">
+    <img width="900" alt="Animated route with four stops: the desk, the shelf, take the map home, pass it on" src="assets/route.svg" />
+  </a>
+</div>
+
 
 ## What is homebrew?
 
@@ -49,6 +55,10 @@ Homebrew is software that hobbyists and indie teams write for a machine without 
 Know a place that belongs here? [Open an issue](https://github.com/EnzoVezzaro/awesome-homebrew-games/issues/new?template=suggest-an-entry.yml) with the link and one sentence on what a visitor finds there.
 
 This list does not link to ROM piracy. Entries must be about original homebrew, fan-made games and tools their authors made public, or places that host them.
+
+<div align="center">
+  <img width="360" alt="A cartridge drops into a slot, a light turns on and a 30 XP badge appears" src="assets/insert.svg" />
+</div>
 
 
 ## Collection

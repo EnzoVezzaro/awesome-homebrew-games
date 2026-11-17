@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-labelledby="t d" shape-rendering="crispEdges">
+<title id="t">The cartridge route</title>
+<desc id="d">A cartridge travels from the desk to the shelf, takes the map home, then passes it on. Four stops light up in order.</desc>
+<style>
+  .track { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.4s cubic-bezier(.16,1,.3,1) .2s forwards; }
+  .stop { opacity: 1; animation: light .45s ease-out both; }
+  .s1 { animation-delay: .35s; } .s2 { animation-delay: 1s; }
+  .s3 { animation-delay: 1.65s; } .s4 { animation-delay: 2.3s; }
+  .cart { animation: travel 2.4s cubic-bezier(.16,1,.3,1) .2s both; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes light { from { opacity: .18; } to { opacity: 1; } }
+  @keyframes travel { from { transform: translateX(-900px); } to { transform: translateX(0); } }
+  @media (prefers-reduced-motion: reduce) {
+    .track, .stop, .cart { animation: none; }
+    .track { stroke-dashoffset: 0; }
+  }
+</style>
+<rect width="1200" height="260" fill="#0b0b0b"/>
+<text x="48" y="46" fill="#a8a8b8" font-family="monospace" font-size="15" letter-spacing="3">THE CARTRIDGE ROUTE</text>
+<rect x="48" y="60" width="1104" height="4" fill="#2a2a2a"/>
+<line class="track" x1="96" y1="128" x2="1104" y2="128" pathLength="1" stroke="#dbff00" stroke-width="4"/>
+
+<g class="stop s1">
+  <rect x="138" y="116" width="24" height="24" fill="#dbff00"/>
+  <rect x="146" y="124" width="8" height="8" fill="#0b0b0b"/>
+  <text x="150" y="178" text-anchor="middle" fill="#f2f2fd" font-family="monospace" font-size="17">Stop one</text>
+  <text x="150" y="204" text-anchor="middle" fill="#a8a8b8" font-family="monospace" font-size="15">the desk</text>
+</g>
+<g class="stop s2">
+  <rect x="438" y="116" width="24" height="24" fill="#dbff00"/>
+  <rect x="446" y="124" width="8" height="8" fill="#0b0b0b"/>
+  <text x="450" y="178" text-anchor="middle" fill="#f2f2fd" font-family="monospace" font-size="17">Stop two</text>
+  <text x="450" y="204" text-anchor="middle" fill="#a8a8b8" font-family="monospace" font-size="15">the shelf</text>
+</g>
+<g class="stop s3">
+  <rect x="738" y="116" width="24" height="24" fill="#dbff00"/>
+  <rect x="746" y="124" width="8" height="8" fill="#0b0b0b"/>
+  <text x="750" y="178" text-anchor="middle" fill="#f2f2fd" font-family="monospace" font-size="17">Stop three</text>
+  <text x="750" y="204" text-anchor="middle" fill="#a8a8b8" font-family="monospace" font-size="15">take the map home</text>
+</g>
+<g class="stop s4">
+  <rect x="1038" y="116" width="24" height="24" fill="#dbff00"/>
+  <rect x="1046" y="124" width="8" height="8" fill="#0b0b0b"/>
+  <text x="1050" y="178" text-anchor="middle" fill="#f2f2fd" font-family="monospace" font-size="17">Last stop</text>
+  <text x="1050" y="204" text-anchor="middle" fill="#a8a8b8" font-family="monospace" font-size="15">pass it on</text>
+</g>
+
+<g class="cart">
+  <rect x="1008" y="70" width="84" height="44" fill="#262626" stroke="#4a4a4a" stroke-width="6"/>
+  <rect x="1020" y="82" width="60" height="12" fill="#dbff00"/>
+  <rect x="1020" y="114" width="12" height="8" fill="#fea514"/>
+  <rect x="1044" y="114" width="12" height="8" fill="#fea514"/>
+  <rect x="1068" y="114" width="12" height="8" fill="#fea514"/>
+</g>
+</svg>
