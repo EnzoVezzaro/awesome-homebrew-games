@@ -1,0 +1,16 @@
+# Public static directory. Every crawler is welcome.
+User-agent: *
+Allow: /
+
+# AI search crawlers that can cite this directory are explicitly welcome.
+# Training crawlers are covered by the wildcard group above.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://enzovezzaro.github.io/awesome-homebrew-games/sitemap.xml
