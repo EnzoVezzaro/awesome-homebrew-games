@@ -158,6 +158,13 @@ p { text-wrap: pretty; }
 .boot-status .plus { font: 400 13px/1 var(--pixel); color: var(--lime); margin-left: 6px; white-space: nowrap; }
 .noscript { color: var(--dim); max-width: 46ch; margin-top: 24px; }
 
+/* narrative: the cartridge's route */
+.lede { max-width: 36ch; margin: 28px 0 0; font-size: clamp(1.25rem, 2.6vw, 1.5rem); line-height: 1.4; color: var(--paper); text-wrap: balance; }
+.kicker { display: block; margin: 0 0 0.5rem; font: 400 12px/1.4 var(--pixel); letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); }
+.shelf .kicker { padding: 0 var(--gutter); }
+.shelf-intro { max-width: 46ch; margin: 0 0 clamp(32px, 5vw, 64px); padding: 0 var(--gutter); font-size: 1.0625rem; color: var(--dim); }
+.add .kicker { color: var(--void); }
+
 /* the handheld */
 
 .console { position: relative; width: min(360px, 86vw); }
@@ -247,7 +254,7 @@ p { text-wrap: pretty; }
 /* ---------- shelf ---------- */
 
 .shelf { padding: clamp(40px, 6vw, 80px) 0 clamp(80px, 12vw, 160px); border-top: 1px solid var(--line); }
-.shelf-title { padding: 0 var(--gutter); font-size: clamp(2rem, 4vw, 3rem); color: var(--dim); margin-bottom: clamp(32px, 5vw, 64px); }
+.shelf-title { padding: 0 var(--gutter); font-size: clamp(2rem, 4vw, 3rem); color: var(--dim); margin-bottom: 16px; }
 .shelf-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; padding: 0 var(--gutter); }
 
 @media (min-width: 920px) {

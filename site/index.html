@@ -65,6 +65,8 @@
         </div>
       </div>
 
+      <p class="lede">Somewhere in a drawer is a handheld you still switch on. This is where its games live.</p>
+
       <p class="boot-status" id="boot-status" role="status">Insert the cartridge to start. <span class="plus">+30 XP</span></p>
 
       <noscript>
@@ -76,6 +78,7 @@
 
     <section class="pick" id="pick" aria-labelledby="pick-title">
       <div class="pick-copy">
+        <div class="kicker">Stop one: the desk</div>
         <h2 id="pick-title">Which machine is on your desk?</h2>
         <p>Choose one and the shelf below keeps only the places that serve it. Pick nothing to see all of them.</p>
       </div>
@@ -84,7 +87,9 @@
     </section>
 
     <section class="shelf" id="shelf" aria-labelledby="shelf-title">
+      <div class="kicker">Stop two: the shelf</div>
       <h2 class="shelf-title" id="shelf-title">The shelf</h2>
+      <p class="shelf-intro">Each place here keeps releases for your machine. Open one and see where the games are.</p>
       <div class="shelf-layout">
         <aside class="shelf-device" id="shelf-device" aria-hidden="true"></aside>
         <div class="scenes" id="scenes"></div>
@@ -94,6 +99,7 @@
 
     <section class="prompt" id="prompt" aria-labelledby="prompt-title">
       <div class="prompt-copy">
+        <div class="kicker">Stop three: take the map home</div>
         <h2 id="prompt-title">Ask your own assistant.</h2>
         <p>Pick a machine and a goal. The Prompt Pad writes a prompt that points your assistant at <code>llms.txt</code>, the same list in plain text. Nothing is sent from this page. You paste it where you like.</p>
         <p class="prompt-links"><a href="llms.txt">llms.txt</a> <a href="collection.json">collection.json</a></p>
@@ -121,6 +127,7 @@
     </section>
 
     <section class="add" id="add" aria-labelledby="add-title">
+      <div class="kicker">Last stop: pass it on</div>
       <h2 id="add-title">Know a place we missed?</h2>
       <p>Every entry is one object in a JSON file. Send the link and one sentence about what a visitor finds there, or open a pull request.</p>
       <div class="add-actions">

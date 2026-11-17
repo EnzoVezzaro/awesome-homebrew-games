@@ -44,7 +44,7 @@
     idleScreen(screen);
 
     function finish() {
-      status.textContent = "Ready. Pick the machine on your desk.";
+      status.textContent = "The cartridge is in. Choose your machine.";
       consoleEl.classList.add("is-booted");
       window.setTimeout(function () {
         var pick = document.getElementById("pick");
