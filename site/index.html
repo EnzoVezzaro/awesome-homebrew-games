@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awesome Homebrew Games</title>
+  <meta name="description" content="A directory of homebrew games and the hubs, scenes and tools where you find them. Pick your hardware, open the places that serve it, or hand the list to your AI assistant.">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Awesome Homebrew Games">
+  <meta property="og:description" content="Insert the cartridge. Find the places where homebrew games live for your hardware.">
+  <meta property="og:url" content="https://enzovezzaro.github.io/awesome-homebrew-games/">
+  <meta property="og:image" content="https://enzovezzaro.github.io/awesome-homebrew-games/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=Silkscreen:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#pick">Skip the intro</a>
+
+  <header class="hud">
+    <a class="wordmark" href="#boot" aria-label="Awesome Homebrew Games, back to the top">AWESOME<br>HOMEBREW GAMES</a>
+    <nav class="hud-nav" aria-label="Sections">
+      <a href="#shelf">Shelf</a>
+      <a href="#prompt">Prompt Pad</a>
+      <a href="#add">Add a place</a>
+    </nav>
+    <div class="hud-tools">
+      <a class="hud-skip" href="#pick">Skip</a>
+      <div class="xp" role="group" aria-label="Experience points">
+        <span class="xp-text">XP <b id="hud-xp">0</b> LV <b id="hud-level">1</b></span>
+        <span class="xp-bar" id="hud-bar" aria-hidden="true"></span>
+      </div>
+      <button class="hud-search" id="open-palette" type="button" aria-haspopup="dialog">
+        Search <kbd>/</kbd>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="boot" id="boot" aria-labelledby="welcome">
+      <h1 id="welcome">Welcome<span class="dot">.</span></h1>
+      <p class="boot-lede" id="boot-lede">A directory of homebrew games and the places to find them.</p>
+
+      <div class="console" id="console-hero">
+        <div class="cart-wrap">
+          <button class="cart" id="cart" type="button" aria-describedby="boot-status">
+            <span class="cart-label" aria-hidden="true"><span id="cart-sprite"></span><span class="cart-text">AHG</span></span>
+            <span class="cart-pins" aria-hidden="true"></span>
+            <span class="sr">Insert the cartridge</span>
+          </button>
+        </div>
+        <div class="body">
+          <div class="slot" aria-hidden="true"></div>
+          <div class="screen" aria-hidden="true"><div class="screen-inner" id="screen-hero"></div></div>
+          <div class="controls" aria-hidden="true">
+            <span class="dpad"></span>
+            <span class="grill"></span>
+            <span class="btns"><i></i><i></i></span>
+          </div>
+        </div>
+      </div>
+
+      <p class="boot-status" id="boot-status" role="status">Insert the cartridge to start. <span class="plus">+30 XP</span></p>
+
+      <noscript>
+        <p class="noscript">This page runs on JavaScript. The same list is readable without it in the
+          <a href="https://github.com/EnzoVezzaro/awesome-homebrew-games#collection">README</a>
+          and in <a href="llms.txt">llms.txt</a>.</p>
+      </noscript>
+    </section>
+
+    <section class="pick" id="pick" aria-labelledby="pick-title">
+      <div class="pick-copy">
+        <h2 id="pick-title">Which machine is on your desk?</h2>
+        <p>Choose one and the shelf below keeps only the places that serve it. Pick nothing to see all of them.</p>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Filter by platform"></div>
+      <p class="count" id="count" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="shelf" id="shelf" aria-labelledby="shelf-title">
+      <h2 class="shelf-title" id="shelf-title">The shelf</h2>
+      <div class="shelf-layout">
+        <aside class="shelf-device" id="shelf-device" aria-hidden="true"></aside>
+        <div class="scenes" id="scenes"></div>
+      </div>
+      <div class="state" id="shelf-state" hidden></div>
+    </section>
+
+    <section class="prompt" id="prompt" aria-labelledby="prompt-title">
+      <div class="prompt-copy">
+        <h2 id="prompt-title">Ask your own assistant.</h2>
+        <p>Pick a machine and a goal. The Prompt Pad writes a prompt that points your assistant at <code>llms.txt</code>, the same list in plain text. Nothing is sent from this page. You paste it where you like.</p>
+        <p class="prompt-links"><a href="llms.txt">llms.txt</a> <a href="collection.json">collection.json</a></p>
+      </div>
+      <form class="pad" id="pad">
+        <label class="field" for="pad-platform">
+          <span>Machine</span>
+          <select id="pad-platform"></select>
+        </label>
+        <fieldset class="goals">
+          <legend>Goal</legend>
+          <label><input type="radio" name="goal" value="play" checked><span>Find games to play</span></label>
+          <label><input type="radio" name="goal" value="make"><span>Make my first game</span></label>
+          <label><input type="radio" name="goal" value="hardware"><span>Play on real hardware</span></label>
+          <label><input type="radio" name="goal" value="jam"><span>Enter a jam</span></label>
+        </fieldset>
+        <div class="slip">
+          <pre id="pad-out" tabindex="0" role="region" aria-label="Generated prompt"></pre>
+          <div class="slip-actions">
+            <button class="btn" id="pad-copy" type="button">Copy prompt</button>
+            <span class="pad-status" id="pad-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="add" id="add" aria-labelledby="add-title">
+      <h2 id="add-title">Know a place we missed?</h2>
+      <p>Every entry is one object in a JSON file. Send the link and one sentence about what a visitor finds there, or open a pull request.</p>
+      <div class="add-actions">
+        <a class="btn" href="https://github.com/EnzoVezzaro/awesome-homebrew-games/issues/new?template=suggest-an-entry.yml" rel="noopener">Suggest an entry</a>
+        <a class="btn btn-quiet" href="https://github.com/EnzoVezzaro/awesome-homebrew-games/blob/main/CONTRIBUTING.md" rel="noopener">Read the guide</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>MIT licensed. This site links to other sites and hosts no games or ROMs.</p>
+    <p class="foot-links">
+      <a href="https://github.com/EnzoVezzaro/awesome-homebrew-games" rel="noopener">GitHub</a>
+      <a href="llms.txt">llms.txt</a>
+      <a href="collection.json">collection.json</a>
+    </p>
+  </footer>
+
+  <dialog class="palette" id="palette" aria-label="Search the collection">
+    <form method="dialog" class="palette-form" id="palette-form">
+      <label class="sr" for="palette-input">Search places, platforms and tools</label>
+      <input id="palette-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search, for example nes or itch">
+      <ul class="palette-list" id="palette-list"></ul>
+      <p class="palette-empty" id="palette-empty" hidden></p>
+      <p class="sr" id="palette-status" role="status" aria-live="polite"></p>
+      <p class="palette-hint">Enter opens the link. Esc closes.</p>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="collection.js" defer></script>
+  <script src="js/dom.js" defer></script>
+  <script src="js/sprite.js" defer></script>
+  <script src="js/xp.js" defer></script>
+  <script src="js/shelf.js" defer></script>
+  <script src="js/boot.js" defer></script>
+  <script src="js/palette.js" defer></script>
+  <script src="js/prompt.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

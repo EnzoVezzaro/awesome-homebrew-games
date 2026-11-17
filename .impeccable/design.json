@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T22:34:48Z",
+  "title": "Design System: Awesome Homebrew Games",
+  "extensions": {
+    "colorMeta": {
+      "void": {
+        "role": "neutral",
+        "displayName": "Void Black",
+        "canonical": "#0b0b0b",
+        "oklch": "oklch(15% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "raise": {
+        "role": "neutral",
+        "displayName": "Raised Black",
+        "canonical": "#121212",
+        "oklch": "oklch(18% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#2a2a2a",
+        "oklch": "oklch(29% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#3d3d3d",
+        "oklch": "oklch(36% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#f2f2fd",
+        "oklch": "oklch(96% 0.015 286)",
+        "tonalRamp": [
+          "#0b0a11",
+          "#24242c",
+          "#41414a",
+          "#606069",
+          "#81818b",
+          "#a4a4ae",
+          "#c8c8d3",
+          "#ededf8"
+        ]
+      },
+      "dim": {
+        "role": "neutral",
+        "displayName": "Dim Lilac Grey",
+        "canonical": "#a8a8b8",
+        "oklch": "oklch(74% 0.023 286)",
+        "tonalRamp": [
+          "#0a0a14",
+          "#242430",
+          "#41404e",
+          "#60606e",
+          "#818190",
+          "#a3a3b3",
+          "#c7c7d8",
+          "#ededfe"
+        ]
+      },
+      "lime": {
+        "role": "primary",
+        "displayName": "Acid Lime",
+        "canonical": "#dbff00",
+        "oklch": "oklch(94% 0.222 120)",
+        "tonalRamp": [
+          "#070f00",
+          "#1e2c00",
+          "#394c00",
+          "#566e00",
+          "#759100",
+          "#97b600",
+          "#badb00",
+          "#deff12"
+        ]
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Pixel Amber",
+        "canonical": "#fea514",
+        "oklch": "oklch(79% 0.168 70)",
+        "tonalRamp": [
+          "#2f0000",
+          "#520000",
+          "#752500",
+          "#9a4800",
+          "#bf6b00",
+          "#e68f00",
+          "#ffb330",
+          "#ffd960"
+        ]
+      },
+      "lavender": {
+        "role": "tertiary",
+        "displayName": "Pixel Lavender",
+        "canonical": "#e8bbfb",
+        "oklch": "oklch(85% 0.099 316)",
+        "tonalRamp": [
+          "#1a0026",
+          "#371045",
+          "#562f65",
+          "#774e87",
+          "#996fab",
+          "#bd92cf",
+          "#e2b6f5",
+          "#ffdbff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero and closing-band heading; capped at 6rem."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Scene headings."
+      },
+      "entry": {
+        "displayName": "Entry name",
+        "purpose": "Row and cover names in serif."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Sentences, 36ch to 62ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "HUD, chips, buttons, counts, screen text in Silkscreen."
+      }
+    },
+    "shadows": [
+      {
+        "name": "console-body",
+        "value": "inset 0 1px 0 #666, inset 0 -3px 0 #181818, 0 28px 40px -12px rgba(0,0,0,0.9)",
+        "purpose": "Drawn handheld only."
+      },
+      {
+        "name": "screen-scanlines",
+        "value": "repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px)",
+        "purpose": "Overlay on the console screen only."
+      },
+      {
+        "name": "palette-backdrop",
+        "value": "rgba(0,0,0,0.75)",
+        "purpose": "Behind the search dialog."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Shared easing for lifts, cartridge insert, toast and XP bar."
+      },
+      {
+        "name": "cartridge-insert",
+        "value": "transform 0.9s var(--ease), translateY(80px)",
+        "purpose": "The single authored motion; boot lines then print at 260ms steps from 520ms."
+      },
+      {
+        "name": "hover-lift",
+        "value": "translateY(-2px) chips and buttons, -8px cover cards",
+        "purpose": "Hover response; removed under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "hud-row",
+        "value": "560px"
+      },
+      {
+        "name": "hud-single",
+        "value": "860px"
+      },
+      {
+        "name": "row-meta",
+        "value": "720px"
+      },
+      {
+        "name": "shelf-device",
+        "value": "920px"
+      },
+      {
+        "name": "prompt-split",
+        "value": "960px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Lime pixel-labeled action; lifts on hover.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Suggest an entry</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;background:var(--lime,#dbff00);color:var(--void,#0b0b0b);border:2px solid var(--lime,#dbff00);border-radius:4px;font:400 13px/1 'Silkscreen',ui-monospace,monospace;letter-spacing:.04em;text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s}.ds-btn:hover{background:#f2f2fd;border-color:#f2f2fd;transform:translateY(-2px)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid #dbff00;outline-offset:3px}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Secondary action with a strong hairline.",
+      "html": "<a class=\"ds-btn-quiet\" href=\"#\">Read the guide</a>",
+      "css": ".ds-btn-quiet{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;background:transparent;color:#f2f2fd;border:2px solid #3d3d3d;border-radius:4px;font:400 13px/1 'Silkscreen',ui-monospace,monospace;letter-spacing:.04em;text-decoration:none;transition:color .2s,border-color .2s}.ds-btn-quiet:hover{color:#dbff00;border-color:#dbff00}.ds-btn-quiet:focus-visible{outline:2px solid #dbff00;outline-offset:3px}"
+    },
+    {
+      "name": "Platform Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Filter chip; lime fill when pressed.",
+      "html": "<button class=\"ds-chip\" type=\"button\">GAME BOY <span class=\"ds-chip-n\">12</span></button><button class=\"ds-chip\" aria-pressed=\"true\" type=\"button\">NES <span class=\"ds-chip-n\">9</span></button>",
+      "css": ".ds-chip{min-height:44px;padding:12px 14px;display:inline-flex;align-items:center;gap:8px;margin-right:8px;background:transparent;border:1px solid #3d3d3d;border-radius:4px;font:400 12px/1 'Silkscreen',ui-monospace,monospace;letter-spacing:.04em;color:#f2f2fd;cursor:pointer;transition:border-color .2s,transform .25s cubic-bezier(.16,1,.3,1)}.ds-chip-n{color:#a8a8b8}.ds-chip:hover{border-color:#dbff00;transform:translateY(-2px)}.ds-chip:focus-visible{outline:2px solid #dbff00;outline-offset:3px}.ds-chip[aria-pressed=true]{background:#dbff00;border-color:#dbff00;color:#0b0b0b}.ds-chip[aria-pressed=true] .ds-chip-n{color:#0b0b0b}"
+    },
+    {
+      "name": "Entry Row",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Ruled list row with a serif name, dim blurb and pixel metadata.",
+      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-row-mark\"></span><span><span class=\"ds-row-name\">itch.io</span><span class=\"ds-row-blurb\">Marketplace with a large homebrew tag.</span></span><span class=\"ds-row-meta\">ITCH.IO</span></a>",
+      "css": ".ds-row{display:grid;grid-template-columns:32px 1fr auto;column-gap:18px;padding:20px 8px;border-bottom:1px solid #2a2a2a;color:#f2f2fd;text-decoration:none;transition:background-color .2s}.ds-row-mark{width:32px;height:32px;background:#dbff00}.ds-row-name{display:block;font:400 1.9rem/1.1 'Instrument Serif',Georgia,serif;transition:color .2s}.ds-row-blurb{display:block;margin-top:6px;color:#a8a8b8;font:400 .95rem/1.6 'Hanken Grotesk',system-ui,sans-serif}.ds-row-meta{font:400 11px/1.4 'Silkscreen',ui-monospace,monospace;color:#a8a8b8;letter-spacing:.04em}.ds-row:hover{background:#121212}.ds-row:hover .ds-row-name{color:#dbff00}.ds-row:focus-visible{outline:2px solid #dbff00;outline-offset:-3px}"
+    },
+    {
+      "name": "Cover Card",
+      "kind": "card",
+      "refersTo": "cover-card",
+      "description": "Hall of Fame card in a snap rail; border and meta take the creature tone.",
+      "html": "<a class=\"ds-cover\" href=\"#\"><span class=\"ds-cover-art\"></span><span class=\"ds-cover-name\">Cover name</span><span class=\"ds-cover-blurb\">One sentence on what a visitor finds.</span><span class=\"ds-cover-meta\">GB / NES</span></a>",
+      "css": ".ds-cover{--tone:#e8bbfb;display:flex;flex-direction:column;gap:12px;width:240px;height:368px;padding:18px;background:#121212;color:#f2f2fd;border:1px solid #3d3d3d;border-radius:6px;text-decoration:none;transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .2s}.ds-cover-art{width:92px;height:92px;background:var(--tone)}.ds-cover-name{font:400 2.125rem/1 'Instrument Serif',Georgia,serif}.ds-cover-blurb{font:400 .875rem/1.4 'Hanken Grotesk',system-ui,sans-serif;color:#a8a8b8}.ds-cover-meta{margin-top:auto;font:400 11px/1.5 'Silkscreen',ui-monospace,monospace;color:var(--tone)}.ds-cover:hover{transform:translateY(-8px);border-color:var(--tone)}.ds-cover:focus-visible{outline:2px solid #dbff00;outline-offset:-6px}"
+    },
+    {
+      "name": "Prompt Slip",
+      "kind": "custom",
+      "refersTo": "prompt-slip",
+      "description": "The one paper surface: generated prompt with a copy action.",
+      "html": "<div class=\"ds-slip\"><pre>I own a Game Boy. Read llms.txt and list places to find homebrew.</pre><button class=\"ds-slip-btn\" type=\"button\">Copy prompt</button></div>",
+      "css": ".ds-slip{background:#f2f2fd;color:#0b0b0b;border-radius:6px;padding:22px}.ds-slip pre{margin:0 0 18px;font:400 .9rem/1.65 ui-monospace,'SF Mono',Menlo,monospace;white-space:pre-wrap}.ds-slip-btn{min-height:48px;padding:12px 20px;background:#0b0b0b;color:#f2f2fd;border:2px solid #0b0b0b;border-radius:4px;font:400 13px/1 'Silkscreen',ui-monospace,monospace;letter-spacing:.04em;cursor:pointer;transition:background-color .2s,color .2s}.ds-slip-btn:hover{background:#dbff00;color:#0b0b0b}.ds-slip-btn:focus-visible{outline:2px solid #0b0b0b;outline-offset:3px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "palette-dialog",
+      "description": "Palette search input on the raised ground.",
+      "html": "<div class=\"ds-pal\"><input class=\"ds-input\" type=\"search\" placeholder=\"Search, for example nes or itch\"></div>",
+      "css": ".ds-pal{background:#121212;border:1px solid #3d3d3d;border-radius:8px;overflow:hidden;width:360px}.ds-input{width:100%;padding:20px 22px;background:transparent;color:#f2f2fd;border:0;border-bottom:1px solid #2a2a2a;font:400 1.125rem 'Hanken Grotesk',system-ui,sans-serif}.ds-input::placeholder{color:#8a8a9a}.ds-input:focus-visible{outline:2px solid #dbff00;outline-offset:-4px}"
+    },
+    {
+      "name": "HUD Nav",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Fixed top bar: pixel wordmark, dim nav, XP, search.",
+      "html": "<header class=\"ds-hud\"><a class=\"ds-wm\" href=\"#\">AWESOME<br>HOMEBREW GAMES</a><nav class=\"ds-nav\"><a href=\"#\">Shelf</a><a href=\"#\">Prompt Pad</a><a href=\"#\">Add a place</a></nav><span class=\"ds-xp\">XP <b>30</b> LV <b>1</b></span></header>",
+      "css": ".ds-hud{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 24px;background:#0b0b0b;border-bottom:1px solid #2a2a2a}.ds-wm{font:400 12px/1.35 'Silkscreen',ui-monospace,monospace;letter-spacing:.05em;color:#f2f2fd;text-decoration:none}.ds-nav{display:flex;gap:4px}.ds-nav a{padding:0 12px;min-height:44px;display:inline-flex;align-items:center;font:400 11px/1 'Silkscreen',ui-monospace,monospace;letter-spacing:.06em;color:#a8a8b8;text-decoration:none}.ds-nav a:hover{color:#dbff00}.ds-nav a:focus-visible,.ds-wm:focus-visible{outline:2px solid #dbff00;outline-offset:3px}.ds-wm:hover{color:#dbff00}.ds-xp{font:400 11px/1 'Silkscreen',ui-monospace,monospace;color:#a8a8b8}.ds-xp b{color:#dbff00;font-weight:400}"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Paper pill that reports XP awards.",
+      "html": "<div class=\"ds-toast\">+30 XP for inserting the cartridge</div>",
+      "css": ".ds-toast{display:inline-block;padding:12px 16px;background:#f2f2fd;color:#0b0b0b;border-radius:4px;font:400 12px/1.3 'Silkscreen',ui-monospace,monospace;letter-spacing:.04em}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Console in a Dim Room",
+    "overview": "The page is a handheld that boots in the dark. A black void, a giant serif \"Welcome.\", a cartridge the visitor inserts, and every later section is a scene the same machine is showing. Dark is fixed on purpose; there is no light theme. The tone is playful and exact: pixel type for anything the machine says, a serif for anything a person would read aloud, a plain grotesk for sentences.\n\nThe system is flat. Surfaces are separated by 1px rules and a one-step tonal lift, not by shadow, gradient or blur. One accent, acid lime, carries primary actions, focus, selection and the closing band. Amber and lavender exist only as tints on generated pixel creatures and the cover cards that borrow their tone. Identity comes from a deterministic mirrored pixel creature per entry and category, generated at runtime, so the page ships no image files.",
+    "keyCharacteristics": [
+      "Fixed dark theme: void ground, paper text, one lime accent.",
+      "Three voices: Instrument Serif (display), Silkscreen (machine labels), Hanken Grotesk (reading).",
+      "Flat surfaces, 1px rules, 4/6/8px radii.",
+      "The console and cartridge are drawn in CSS; creatures are generated SVG.",
+      "One authored motion: cartridge insert and boot sequence."
+    ],
+    "rules": [
+      {
+        "name": "The One Light Rule",
+        "body": "Lime is the only accent that does interface work. Amber and lavender tint pixel art and the cover cards that inherit a creature's tone, nothing else.",
+        "section": "colors"
+      },
+      {
+        "name": "The Loud Band Rule",
+        "body": "The lime-filled closing section is the single full-bleed loud moment. No other section takes an accent background.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Voices Rule",
+        "body": "Serif speaks in headings and entry names, pixel face labels and reports, grotesk carries sentences. Do not swap roles.",
+        "section": "typography"
+      },
+      {
+        "name": "The Display Cap Rule",
+        "body": "Serif display never exceeds 6rem.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Page Rule",
+        "body": "Outside the drawn console, nothing carries a shadow, gradient, glow or blur. Hover is translateY, border color or a raise fill.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the page dark, void ground with paper text, and use lime for primary actions, focus and selection only.",
+      "Do give every entry and category its deterministic pixel creature from the generator, and tint it from the palette (lime, amber, lavender, paper).",
+      "Do use Silkscreen for HUD, chips, buttons, counts and screen text; Hanken Grotesk for sentences; Instrument Serif for headings, never above 6rem.",
+      "Do use 4px radius on controls, 6px on cards, 8px on the palette, 1px rules between surfaces.",
+      "Do keep every target at 44px minimum and a 2px lime focus outline.",
+      "Do make new motion a transform or color change under the shared ease, and disable it under reduced motion."
+    ],
+    "donts": [
+      "Don't add gradient text, glass, glow or blur to any surface.",
+      "Don't use amber or lavender as button, link or border colors on interface; they tint pixel art and cover cards.",
+      "Don't add a second full-bleed accent section; the lime closing band is the one loud moment.",
+      "Don't set sentences in Silkscreen or headings in the grotesk.",
+      "Don't introduce a light theme or new greys without a reason; reuse void, raise, line and line-strong."
+    ]
+  }
+}

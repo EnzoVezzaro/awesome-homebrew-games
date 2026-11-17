@@ -1,0 +1,49 @@
+name: Suggest an entry
+description: Add a place, game or tool to the list
+title: "Add: "
+labels: ["entry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Homebrew Hub
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: An https link you opened yourself.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Hubs and marketplaces
+        - Platform scenes
+        - Fantasy consoles and open handhelds
+        - Hall of fame
+        - Studios and cartridge makers
+        - Jams and competitions
+        - Build your own
+        - Run it anywhere
+    validations:
+      required: true
+  - type: input
+    id: platforms
+    attributes:
+      label: Platforms
+      description: Comma separated, for example Game Boy, NES.
+    validations:
+      required: true
+  - type: textarea
+    id: blurb
+    attributes:
+      label: What does a visitor find there?
+      description: One or two plain sentences. Only claims you checked on the site.
+    validations:
+      required: true
