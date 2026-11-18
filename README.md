@@ -18,7 +18,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <!-- BEGIN:count -->
-![Entries](https://img.shields.io/badge/entries-69-dbff00?style=classic&labelColor=0b0b0b)
+![Entries](https://img.shields.io/badge/entries-70-dbff00?style=classic&labelColor=0b0b0b)
 <!-- END:count -->
 [![Last Update](https://img.shields.io/github/last-commit/EnzoVezzaro/awesome-homebrew-games?label=Last%20update&style=classic)](https://github.com/EnzoVezzaro/awesome-homebrew-games)
 [![License: MIT](https://img.shields.io/badge/license-MIT-f4c430?style=classic)](LICENSE)
@@ -178,6 +178,7 @@ Toolchains, engines and references for writing a game for hardware that shipped 
 - [**devkitPro**](https://devkitpro.org) - Toolchains and libraries for Game Boy Advance, DS, 3DS, Wii, Wii U and Switch homebrew.
 - [**libdragon**](https://libdragon.dev) - Open source SDK for writing Nintendo 64 games.
 - [**Wonderful Toolchain**](https://wonderful.asie.pl) - Toolchain for the WonderSwan and other unusual targets.
+- [**Decompedia**](https://decomp.wiki/) - Community wiki dedicated to video game decompilation, with pages for compilers, platforms and tools, plus guides to the matching decompilation process.
 
 ### Run it anywhere
 

@@ -536,6 +536,14 @@
       "blurb": "Toolchain for the WonderSwan and other unusual targets."
     },
     {
+      "id": "decomp-wiki",
+      "name": "Decompedia",
+      "url": "https://decomp.wiki/",
+      "category": "build",
+      "platforms": ["Multi"],
+      "blurb": "Community wiki dedicated to video game decompilation, with pages for compilers, platforms and tools, plus guides to the matching decompilation process."
+    },
+    {
       "id": "retroarch",
       "name": "RetroArch",
       "url": "https://www.retroarch.com",

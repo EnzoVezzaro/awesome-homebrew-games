@@ -103,6 +103,7 @@ Toolchains, engines and references for writing a game for hardware that shipped 
 - [devkitPro](https://devkitpro.org) (Game Boy, DS/3DS, Wii, Switch): Toolchains and libraries for Game Boy Advance, DS, 3DS, Wii, Wii U and Switch homebrew.
 - [libdragon](https://libdragon.dev) (N64): Open source SDK for writing Nintendo 64 games.
 - [Wonderful Toolchain](https://wonderful.asie.pl) (Multi): Toolchain for the WonderSwan and other unusual targets.
+- [Decompedia](https://decomp.wiki/) (Multi): Community wiki dedicated to video game decompilation, with pages for compilers, platforms and tools, plus guides to the matching decompilation process.
 
 ## Run it anywhere
 
