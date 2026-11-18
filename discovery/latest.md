@@ -1,60 +1,55 @@
 # Homebrew discovery report
 
-Last checked: 2026-11-17
+Last checked: 2026-11-18
 
 ## New candidates
 
 | Title | URL | Source | Matched keywords |
 | --- | --- | --- | --- |
-| ROM Player by Coops — play retro games in your browser. NES, SNES, GBA, N64, PS1, PSP, NDS, Genesis, Game Boy & more. PWA with save states, rewind, cloud saves, cover art, and Linkup Room. Free + Premium ($3 AUD/month). | https://github.com/coooooooooooops/rom_player_by_coops | GitHub repositories | retro, game boy, nes, snes, genesis, n64 |
-| A directory of homebrew games and the hubs, scenes and tools where you find them. Pick your hardware, find the places that release games for it, and start playing. Every entry is a place you can open today: a marketplace, a community database, a cartridge maker, a jam or a toolchain. | https://github.com/EnzoVezzaro/awesome-homebrew-games | GitHub repositories | homebrew, cartridge, scene, jam, marketplace, database |
-| Phần mềm giả lập game retro miễn phí, chữ to dễ dùng cho người lớn tuổi: PS1, PS2, NES, SNES, Game Boy, GBA, Mega Drive trên Windows, macOS, Linux. Free, senior-friendly RetroArch frontend: copy games in, press Play. Tiếng Việt & English. | https://github.com/2ez4gcx/game-center-retro-launcher | GitHub repositories | retro, game boy, nes, snes |
-| Personal retro game collection cabinet in your browser. Play NES, SNES, Genesis, GBA, and more. | https://github.com/daemonless/retroassembly | GitHub repositories | retro, nes, snes, genesis |
-| A modular, multi-environment fantasy console engine and integrated IDE written in Rust. Natively executes retro cartridges matching both PICO-8 and TIC-80 hardware standards up to 60 FPS, powered by a pure CPU software rasterizer, local 4-player matrix, and a cross-platform SDL2 backend without infringing on intellectual property. | https://github.com/gapolli/fantasyconsole | GitHub repositories | retro, pico-8, cartridge, fantasy console |
-| Hardware-faithful NES, SNES and Sega Genesis chip synthesis VST3 for Windows | https://github.com/glitch191/retro-chip-vst | GitHub repositories | retro, nes, snes, genesis |
-| NES and Game Boy / Color emulators for the LeapFrog Leapster 2, as LeapLoader homebrew apps | https://github.com/MotifMixes/LeapLoader-Emulators | GitHub repositories | homebrew, game boy, nes, emulat |
-| A game emulator app for ESPHome on the ESP32-P4: NES, Game Boy, Master System, PC Engine, Lynx, MSX, Game & Watch, SNES and Mega Drive with hardware scaling. | https://github.com/p1ngb4ck/esphome-emulator | GitHub repositories | game boy, nes, snes, emulat |
-| Retro Garage – GB, GBC, GBA, NES, SNES, N64 und DS im Browser (z. B. im Auto), ROMs und Spielstände auf dem eigenen Server | https://github.com/phillhf/retrogarage | GitHub repositories | retro, nes, snes, n64 |
-| A list of video game databases, wikis, preservation projects, emulators and retro gaming sites. | https://github.com/radical7dreamer/awesome-game-databases | GitHub repositories | retro, emulat, wiki, database |
-| Homebrew (ROM image) game about Electric Unicycle riding, playable on the Super Nintendo Entertainment System (via emulators or flash cartridges). | https://github.com/VibezZzCoder/EUC-Thrills-SNES-Edition | GitHub repositories | homebrew, snes, cartridge, emulat |
-| Homebrew tap for zeff-boy - A Game Boy, Game Boy Color, and NES emulator | https://github.com/Zeffuro/homebrew-zeff-boy | GitHub repositories | homebrew, game boy, nes, emulat |
-| GBADE: a zero-setup Game Boy Advance homebrew IDE with a built-in emulator (Rust + mGBA + LLVM) | https://github.com/309nahe/gbade | GitHub repositories | homebrew, game boy, emulat |
-| Nintendo 64 homebrew demos written in PureMetal and compiled by PureMetal Forge: ready-to-play .z64 cartridges and their source. Live RSP music synthesis, RDP graphics, own IPL3. | https://github.com/ajtaji/PureMetal-N64-Demo-Cartridges | GitHub repositories | homebrew, n64, cartridge |
-| TheGameRazer is a modern, retro 16-bit emulator(Fantasy Console) made in JavaScript, this is still in prototype stages... | https://github.com/BILLPC2684/TGR-PRTO-JS | GitHub repositories | retro, fantasy console, emulat |
-| A browser-based showcase for Pink Wall, a GPL-3.0 SNES homebrew game, powered by EmulatorJS and the bsnes core | https://github.com/BrunoRNS/pinkwall-showcase | GitHub repositories | homebrew, snes, emulat |
-| Translate retro games with AI on your own computer: extract the text, translate, validate, reinsert and export a patch. GBA, NDS, NES, SNES, PS1, PS2, PSP and GameCube (experimental). | https://github.com/crimsondawnacademy-design/romtranslate-studio | GitHub repositories | retro, nes, snes |
-| 🕹️ ROMify – webbasierter Retro-Emulator für Handy & PC. Login, Cloud-Saves, Erfolge und ein Katalog mit freien Homebrew-ROMs. | https://github.com/CURSOR-IT/ROMify | GitHub repositories | homebrew, retro, emulat |
-| Mega Drive / Genesis and SNES emulator in Rust, built for debugging. Runs in the browser through WebAssembly; the emulator behind RetroLab. | https://github.com/Dgdiniz/retrolab-emulator | GitHub repositories | snes, genesis, emulat |
-| Portable C runtime for Game Boy Advance homebrew (devkitARM): HAL, Mode 0 background rendering, scene/actor management, and a minimal scripted-behaviour VM. Extracted from GBA Studio for standalone reuse. | https://github.com/eoinjordan/gba-engine | GitHub repositories | homebrew, game boy, scene |
-| More systems for slot: NES, SNES, Game Gear, Master System, Mega Drive and PlayStation shelves, with real cart and cover art, PAL speed and ROM hack tools. A patch set on slot's own releases, not affiliated with slot. | https://github.com/felipecpaiva/slot-nes-snes | GitHub repositories | rom hack, nes, snes |
-| Full-screen launcher that boots Amiga 68k, AmigaOS 4, Atari ST/Falcon and 3DO emulators into their game selectors | https://github.com/geekychris/retro-launcher | GitHub repositories | retro, atari, emulat |
-| 13 retro themes for OpenCode, the terminal AI coding agent: Windows 95, Norton Commander, IBM, CGA, PlayStation, GameCube, Game Boy, Famicom, SNES, PCB and neon. | https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes | GitHub repositories | retro, game boy, snes |
-| Game Boy, Game Boy Color and NES emulator for ESP32 Cheap Yellow Display (CYD) boards: ESP32-2432S024C, ESP32-2432S024R, ESP32-2432S028R, ESP32-2432S028C and the 2.8" CYD2USB. PS4 Bluetooth, save states, cheats, menu music, USB game transfer and a one-click web flasher. | https://github.com/hackatnight/HAN-CYD-GBC | GitHub repositories | game boy, nes, emulat |
-| An unofficial, native Z80 homebrew port of ABA Games’ Zig Saber. A real 64 KiB `.sms` cartridge, not a web game dressed up as an emulator. Generated using Arena. | https://github.com/haroldo-ok/zig-saber-sms | GitHub repositories | homebrew, cartridge, emulat |
-| Homebrew for the original Game Boy: chat with Claude (ClaudeBoy), print pictures on the Game Boy Printer, and follow the hardware builds. | https://github.com/hazy2go/gameboy-lab | GitHub repositories | homebrew, gameboy, game boy |
-| A Pico-8 player/emulator for console homebrew | https://github.com/jtothebell/fake-08 | GitHub repositories | homebrew, pico-8, emulat |
-| Official GBCXY PS5 homebrew releases by Kastroe. Download the latest optimised Game Boy & Game Boy Color emulator featuring NAS/NFS support, cover artwork, favourites and improved performance. | https://github.com/kastroe/GBCXY-Releases | GitHub repositories | homebrew, game boy, emulat |
-| Accurate NES / Famicom emulation, derived from FCEUX. Experimental Game Boy Advance (Beta) support. | https://github.com/Laffinty/FCEUX11 | GitHub repositories | game boy, nes, emulat |
-| Turn the Neo Geo Arcade Stick Pro into a retro console: PlayStation, SNES, NES, Mega Drive and GBA alongside a faster arcade port, with in-game manuals, fighting-game move lists, scan lines and 8BitDo pad support. Full build guide, no ROMs. | https://github.com/liamcurtis81/asp-arcade-stick | GitHub repositories | retro, nes, snes |
+| Browser-based retro game music generator — 12 sound engines (NES, C64 SID, Amiga, SNES, Genesis, Atari VCS), 176 chord progressions, 4-track pattern composition. One HTML file, zero dependencies. | https://github.com/CarlosCamacho/ChordForge | GitHub repositories | retro, nes, snes, genesis, atari |
+| Pixel art for real retro hardware: palette, tile and grid constraints for NES, SNES, Genesis, Game Boy, GBC, C64 and PC Engine. Engine, CLI, web app and MCP server. | https://github.com/lerugray/retrogaze | GitHub repositories | retro, game boy, nes, snes, genesis |
+| A Game Boy emulator - the original DMG and Game Boy Color. SM83 CPU, PPU, APU, MBC1/3/5, CGB rendering/double-speed/HDMA, an SDL2 front end with live audio/input/save states, plus three original CGB homebrew games. Split from the Z80/CP-M repo (no shared code). | https://github.com/hansolovkarlsson/Gameboy | GitHub repositories | homebrew, gameboy, game boy, emulat |
+| Offline ROM editing and playtesting for NES, SNES, Genesis / Mega Drive, Master System, Game Boy, and Game Boy Color. By RetchEWretched. | https://github.com/RetchERez/ROMancer | GitHub repositories | game boy, nes, snes, genesis |
+| 8-bit visual novel creator for ZX Spectrum, CPC, MSX, SMS, Game Boy, C64, NES and Oric | https://github.com/albertoruibal/retro-visual-novel | GitHub repositories | retro, game boy, nes |
+| Handheld retro console on ESP32-S3: NES/Dendy, Game Boy, Master System and more via Retro-Go. 3D-printed case, wiring diagram, firmware overlay. | https://github.com/AlexGerUA/retro-console-esp32s3 | GitHub repositories | retro, game boy, nes |
+| Homebrew N64 burger-stacking game developed for the very first N64 Game Jam. | https://github.com/allie/bigburger | GitHub repositories | homebrew, n64, jam |
+| Homebrew Gameboy Cartridge With An Assembly Lunar Lander Game | https://github.com/anderrh/lunarlander | GitHub repositories | homebrew, gameboy, cartridge |
+| Build PICO-8 games through conversation, playtest them in WebAssembly, and export .p8 cartridges. | https://github.com/boxuechen/pico8-maker | GitHub repositories | pico-8, pico8, cartridge |
+| Hybrid NES/SNES emulator + enhancement platform: accurate deterministic cores, GPU renderer, opt-in enhancement runtime, per-game profiles, plugin SDK | https://github.com/bpmforge/retroforge | GitHub repositories | nes, snes, emulat |
+| NES Emulator For Windows is a desktop virtualization utility designed to run classic 8-bit Nintendo Entertainment System games on modern PCs. Retro gamers utilize this software to load game ROMs, configure custom controller mappings, and apply save states for a seamless nostalgic gaming experience. | https://github.com/Coasttosupply/nes-emulator-for-windows | GitHub repositories | retro, nes, emulat |
+| Retro game console emulator with a built-in demo cartridge | https://github.com/ddonofrio/Rocco | GitHub repositories | retro, cartridge, emulat |
+| Consola portátil retro (Luckfox Pico + ESP32): menú en C, emuladores libretro de GBA, SNES, GB/GBC, NES y PS1, y versión para PC con SDL2 | https://github.com/Debaq/gamegirl_console | GitHub repositories | retro, nes, snes |
+| A homebrew Game Boy Advance game made for GBA Jam 2021. | https://github.com/Deft-Spade/Solar-Guard | GitHub repositories | homebrew, game boy, jam |
+| Experimental PICO-8 to RP2040 ahead-of-time compiler with a retro cartridge launcher and status dashboard. | https://github.com/devarshi16/pocket-aot | GitHub repositories | retro, pico-8, cartridge |
+| Compression and decompression tools for NES, SNES, and Game Boy games by HAL Laboratory | https://github.com/devinacker/exhal | GitHub repositories | game boy, nes, snes |
+| Eagle library, schematic, and board files for a Homebrew Gameboy Cartridge PCB. | https://github.com/dwaq/Homebrew-Gameboy-Cartridge | GitHub repositories | homebrew, gameboy, cartridge |
+| Homebrew Formula 1 racing game for the Game Boy Color, set on Madring — the Madrid Street Circuit — with the full 2026 grid. Main game is a top-down racer. Play online at emulator.enri.me/madring | https://github.com/enrimr/f1-madring-gbc | GitHub repositories | homebrew, game boy, emulat |
+| Kid-friendly, human-in-the-loop SNES homebrew game studio. Ships Poachermon (Gotta Save 'Em All!) as the launch template. Visual editor, native asset pipeline, EmulatorJS preview. Free to deploy on Vercel/Netlify. | https://github.com/eoinjordan/snes-studio | GitHub repositories | homebrew, snes, emulat |
+| Nintendo 3DS homebrew utility for converting Game Boy Advance EEPROM save files between emulator and open_agb_firm formats. | https://github.com/Foxy-no/GESF3 | GitHub repositories | homebrew, game boy, emulat |
+| An OG gbdev game jam! Create original games, demos or homebrews for the original Game Boy (Color) and compete for glory (and a lot of prizes)! | https://github.com/gbdev/gbcompo21 | GitHub repositories | homebrew, game boy, jam |
+| Submission for N64 homebrew game jam #6 | https://github.com/genecro/MysteriousBarricades | GitHub repositories | homebrew, n64, jam |
+| Global game discovery, retro gaming archive and game database. | https://github.com/happyxray618/gamebox-wiki | GitHub repositories | retro, wiki, database |
+| A minimal Game Boy Color homebrew ROM that renders a raytraced scene. | https://github.com/jayHuggie/GBC_RayTracer | GitHub repositories | homebrew, game boy, scene |
+| A cycle-accurate Game Boy emulator written in C, implementing the LR35902 CPU, memory management, and video rendering. Designed for accuracy and performance while running commercial and homebrew Game Boy ROMs. | https://github.com/jmejia247/gbemu | GitHub repositories | homebrew, game boy, emulat |
+| A personal retro game library manager for discovering, organizing, and downloading homebrew ROMs and legally owned game backups for emulator devices. | https://github.com/KayanneProd/RetroCrate | GitHub repositories | homebrew, retro, emulat |
+| Uma câmera web experimental que transforma a câmera do seu dispositivo em uma ferramenta criativa de estética retrô. Ela captura imagens em resoluções extremamente baixas, aplica pixelização em tempo real e filtros inspirados em consoles clássicos como Game Boy, NES e PICO-8, funcionando direto no navegador, tanto no PC quanto no celular. | https://github.com/kkaleby/Curso-Luyara | GitHub repositories | pico-8, game boy, nes |
+| A homebrew version of a retro game for the Nintendo Game Boy handheld, developed using GBDK, GBTD and GBMB. | https://github.com/kldobrev/SpeedP | GitHub repositories | homebrew, retro, game boy |
+| A fast-paced NES homebrew game where you guide Sonic to dodge walls, collect coins, and grab power-ups for extra points. Built in C with NESLib and APU music playback, it features scrolling backgrounds, sprite animation, and real-time input. A retro game dev experiment in optimizing gameplay on limited 8-bit hardware. | https://github.com/kmb21/SonicDash | GitHub repositories | homebrew, retro, nes |
+| A high-performance NES emulator for NumWorks N0120 calculators, featuring an interactive multi-ROM launcher, in-game OSD pause menu, fast-forward, 5:4 display scaling, and custom retro palettes. | https://github.com/LaPatateDeJP1/nofrendo-numworks | GitHub repositories | retro, nes, emulat |
 
 ## Stats
 
-NEW=30  BLOCKED=14  SOURCES=12  RAW=3591  KNOWN=73  SEEN=48  GH_QUERIES=18  GH_REQUESTS=39
+NEW=30  BLOCKED=9  SOURCES=12  RAW=4307  KNOWN=71  SEEN=78  GH_QUERIES=18  GH_REQUESTS=45
 
 ## Blocked / manual check
 
 - PSX-Place homebrew games (22): Cloudflare challenge (https://www.psx-place.com/resources/categories/homebrew-games.22/)
 - ROMHacking.net homebrew: Cloudflare challenge (https://www.romhacking.net/homebrew/)
-- Reddit homebrew games list: HTML returned instead of JSON (https://www.reddit.com/r/retrogaming/comments/11dadva/homebrew_games_list/)
-- Reddit r/Homebrews: HTML returned instead of JSON (https://www.reddit.com/r/Homebrews/)
+- Reddit homebrew games list: HTTP 403 (https://www.reddit.com/r/retrogaming/comments/11dadva/homebrew_games_list/)
+- Reddit r/Homebrews: HTTP 403 (https://www.reddit.com/r/Homebrews/)
 - PSX-Place homebrew games (5): Cloudflare challenge (https://www.psx-place.com/resources/categories/homebrew-games.5/)
-- GitHub: topic:nes-homebrew: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Anes-homebrew&per_page=100&page=1&sort=updated)
-- GitHub: topic:gameboy-homebrew: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Agameboy-homebrew&per_page=100&page=1&sort=updated)
-- GitHub: topic:pico-8: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Apico-8&per_page=100&page=1&sort=updated)
+- GitHub: topic:pico-8: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Apico-8&per_page=100&page=2&sort=updated)
 - GitHub: topic:homebrew-games: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Ahomebrew-games&per_page=100&page=1&sort=updated)
 - GitHub: topic:homebrew: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Ahomebrew&per_page=100&page=1&sort=updated)
-- GitHub: topic:gameboy-development: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Agameboy-development&per_page=100&page=1&sort=updated)
-- GitHub: topic:rom-hacking: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Arom-hacking&per_page=100&page=1&sort=updated)
-- GitHub: homebrew game in:name,description: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=homebrew+game+in%3Aname%2Cdescription&per_page=100&page=4&sort=updated)
-- GitHub: retro game in:name,description: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=retro+game+in%3Aname%2Cdescription&per_page=100&page=1&sort=updated)
+- GitHub: topic:retro-gaming: GitHub rate limit (HTTP 403) (https://api.github.com/search/repositories?q=topic%3Aretro-gaming&per_page=100&page=1&sort=updated)
 
