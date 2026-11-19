@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "seen": {
     "http://blog.narrat1ve.com/2013/08/08/vectors-or-my-man-inf-left-a-vec-and-a-9-at-my-crib": {
       "title": "Vectors, or “My Man Inf Left A VEC and a 9 At My Crib” (homebrew FPGA game)",
@@ -91,6 +91,11 @@
       "source": "OpenAI Modretro Chromatic blog",
       "firstSeen": "2026-11-17"
     },
+    "https://github.com/0xcafed00d/tac08": {
+      "title": "tac08 is an an emulation of the runtime part of the Pico-8 fantasy console. It takes a .p8 (text format) pico-8 cart file and runs it as closely posible",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/2ez4gcx/game-center-retro-launcher": {
       "title": "Phần mềm giả lập game retro miễn phí, chữ to dễ dùng cho người lớn tuổi: PS1, PS2, NES, SNES, Game Boy, GBA, Mega Drive trên Windows, macOS, Linux. Free, senior-friendly RetroArch frontend: copy games in, press Play. Tiếng Việt & English.",
       "source": "GitHub repositories",
@@ -116,10 +121,25 @@
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
     },
+    "https://github.com/BlueAmulet/pico8-imgtools": {
+      "title": "A couple of tools for working with PICO-8's cartridge images",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/Brooklyn-Dev/pico8-web-emulator": {
+      "title": "A web-based PICO-8 cartridge emulator built with JavaScript and Fengari.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/BrunoRNS/pinkwall-showcase": {
       "title": "A browser-based showcase for Pink Wall, a GPL-3.0 SNES homebrew game, powered by EmulatorJS and the bsnes core",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
+    },
+    "https://github.com/CBenoit/pico-8-spacewars": {
+      "title": "A simple Spacewars! clone cartridge for pico-8 fantasy console.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/CURSOR-IT/ROMify": {
       "title": "🕹️ ROMify – webbasierter Retro-Emulator für Handy & PC. Login, Cloud-Saves, Erfolge und ein Katalog mit freien Homebrew-ROMs.",
@@ -161,6 +181,16 @@
       "source": "GitHub repositories",
       "firstSeen": "2026-11-18"
     },
+    "https://github.com/GameBoy-Homebrew-Community/.github": {
+      "title": "Nintendo Game Boy and Game Boy Color homebrew, game development tools, custom ROMs, emulators, utilities, and hardware projects.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/GameBoy-Homebrew/.github": {
+      "title": "Nintendo Game Boy and Game Boy Color homebrew, game development tools, custom ROMs, emulators, utilities, and hardware projects.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes": {
       "title": "13 retro themes for OpenCode, the terminal AI coding agent: Windows 95, Norton Commander, IBM, CGA, PlayStation, GameCube, Game Boy, Famicom, SNES, PCB and neon.",
       "source": "GitHub repositories",
@@ -170,6 +200,11 @@
       "title": "A personal retro game library manager for discovering, organizing, and downloading homebrew ROMs and legally owned game backups for emulator devices.",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-18"
+    },
+    "https://github.com/LIN4CRE/retro-arcade-vault": {
+      "title": "🕹️ Sleek retro gaming vault & web player preloaded with 63+ classic PS1, GBA, NDS, SNES, and Sega Genesis titles, box artwork, and CRT shaders.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/LaPatateDeJP1/nofrendo-numworks": {
       "title": "A high-performance NES emulator for NumWorks N0120 calculators, featuring an interactive multi-ROM launcher, in-game OSD pause menu, fast-forward, 5:4 display scaling, and custom retro palettes.",
@@ -185,6 +220,21 @@
       "title": "NES and Game Boy / Color emulators for the LeapFrog Leapster 2, as LeapLoader homebrew apps",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
+    },
+    "https://github.com/Nivek-GP/CHTSync": {
+      "title": "Sync single-player game enhancement codes (.cht format) from the open-source libretro-database for retro emulation on MinUI",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/Open-Neom/vrlizate_games": {
+      "title": "Motor de videojuegos arcade 2D/3D y emulación retro (NES, SNES, GB/GBC) con cabinas arcade interactivas y soporte de mando Bluetooth para VRlizate.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/PicoPlus-devel/pico-duke3D": {
+      "title": "Duke Nukem 3D on the RP2350 — HDMI video, Adlib/SB audio, USB + NES/SNES/Wii gamepads, game data streamed from SD card. Runs on Fruit Jam, Murmulator M2, or a self-built breadboard/PCB setup.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/RafaelNGP/psbox-cloud-gaming": {
       "title": "Xbox Cloud Gaming app for PS5 Homebrew",
@@ -240,6 +290,11 @@
       "title": "Homebrew Gameboy Cartridge With An Assembly Lunar Lander Game",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-18"
+    },
+    "https://github.com/andreyneto/xmas_night_rush_p8": {
+      "title": "Retro game made with pico-8 for a Christmas Game Jam",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/ankushKun/sh23ds": {
       "title": "Silent Hill 2 for Nintendo 3DS: a native homebrew port of the PC Director's Cut for the New 3DS and original 3DS, with the Enhanced Edition's fixes. Runs on your own copy of the game.",
@@ -321,6 +376,11 @@
       "source": "GitHub repositories",
       "firstSeen": "2026-11-18"
     },
+    "https://github.com/erenkaraoglu/PICO8-Extractor": {
+      "title": "PICO8 Extractor is a user-friendly tool designed to convert PICO-8 JavaScript cart exports into binary .p8.rom files that can be directly loaded in the PICO-8 fantasy console.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/felipecpaiva/slot-nes-snes": {
       "title": "More systems for slot: NES, SNES, Game Gear, Master System, Mega Drive and PlayStation shelves, with real cart and cover art, PAL speed and ROM hack tools. A patch set on slot's own releases, not affiliated with slot.",
       "source": "GitHub repositories",
@@ -366,6 +426,11 @@
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
     },
+    "https://github.com/gotzmann/pico2d": {
+      "title": "Open PICO-8 Fantasy Console Emulator based on Love2D v11",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/hackatnight/HAN-CYD-GBC": {
       "title": "Game Boy, Game Boy Color and NES emulator for ESP32 Cheap Yellow Display (CYD) boards: ESP32-2432S024C, ESP32-2432S024R, ESP32-2432S028R, ESP32-2432S028C and the 2.8\" CYD2USB. PS4 Bluetooth, save states, cheats, menu music, USB game transfer and a one-click web flasher.",
       "source": "GitHub repositories",
@@ -390,6 +455,11 @@
       "title": "Homebrew for the original Game Boy: chat with Claude (ClaudeBoy), print pictures on the Game Boy Printer, and follow the hardware builds.",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
+    },
+    "https://github.com/iliazeus/pico8-badapp": {
+      "title": "My attempts to squeeze Bad Apple into a Pico-8 cartridge",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/jayHuggie/GBC_RayTracer": {
       "title": "A minimal Game Boy Color homebrew ROM that renders a raytraced scene.",
@@ -436,15 +506,50 @@
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
     },
+    "https://github.com/maximeallanic/soraya-gb": {
+      "title": "Soraya GB — Game Boy homebrew RPG starring Soraya the cat. Built with GB Studio.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/mihawk-99/PS5_MihawkOS": {
       "title": "A Windows-inspired PS5 homebrew OS bringing 32-bit and 64-bit Windows gaming to console hardware through a custom Wine/Proton compatibility stack and native Vulkan graphics.",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
     },
+    "https://github.com/minhnhattonthat/translate-retro-game": {
+      "title": "Agent skill + tested tools for fan-translating Japanese retro games (SNES, GBA, NDS, PS1, PSP) into English: recon, text extract/insert, VWF, graphics text, parallel translator agents, headless emulator QA, BPS/xdelta releases.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/mitulshah3882/firetv-native": {
+      "title": "Doom, Quake and statically recompiled N64 homebrew running natively (C/C++, OpenGL ES, SDL3) on Amazon's Vega OS Fire TV sticks. No emulator, no React Native.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/monteslu/luacretro": {
+      "title": "Shared Lua compiler for the console SDK family: a PICO-8-flavored Lua subset ahead-of-time compiled to C for GameTank, GBA, Genesis, NES, and C64.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/monteslu/md_lua_sdk": {
+      "title": "Write Sega Genesis / Mega Drive games in PICO-8-flavored Lua, compiled to native 68000 via SGDK. FM music, PNG assets, bundled WASM toolchain + emulator.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/monteslu/retro-homebrew-games": {
+      "title": "6 classic games for Sega Genesis/Mega Drive - Tank Battle, Battle 4Tris, Pong, Snake Arena, Space Shooter, Breakout",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/mq1/TinyWiiBackupManager": {
       "title": "⭐ A tiny game backup and homebrew app manager for the Wii",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
+    },
+    "https://github.com/mxmgorin/oxgbc": {
+      "title": "Game Boy & Game Boy Color emulator in Rust for desktop, Android, retro handhelds, and browser (WASM)",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/nekomancer01/DarkSoulsPS2": {
       "title": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
@@ -461,20 +566,65 @@
       "source": "GBDev homebrew hub",
       "firstSeen": "2026-11-17"
     },
+    "https://github.com/newagebegins/xonix-pico8": {
+      "title": "Xonix game clone for PICO-8 fantasy console.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/notsomealex/turbitris": {
+      "title": "homebrew game for the Nintendo DS made for the Retro Game Jam 2025.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/olioskar/pico8-dev-env": {
+      "title": "Just a tiny little developer enviro for the fantasy console PICO-8",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/omarmendozaaa/emuhub": {
+      "title": "Lanzador retro open source: SNES, N64, PS1, PS2 y PS3 en un solo lugar, con emuladores embebidos",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/p1ngb4ck/esphome-emulator": {
       "title": "A game emulator app for ESPHome on the ESP32-P4: NES, Game Boy, Master System, PC Engine, Lynx, MSX, Game & Watch, SNES and Mega Drive with hardware scaling.",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
+    },
+    "https://github.com/paganswrath/Zypher": {
+      "title": "A Gameboy Homebrew Game Made for the GBCOMPO21 Game Jam",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/pancelor/nokiajam-pico8-template": {
+      "title": "a template + instructions for using PICO-8 for the Nokia 3310 game jam",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/phillhf/retrogarage": {
       "title": "Retro Garage – GB, GBC, GBA, NES, SNES, N64 und DS im Browser (z. B. im Auto), ROMs und Spielstände auf dem eigenen Server",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
     },
+    "https://github.com/pileofflapjacks1/grok-chromatic-agent": {
+      "title": "Grok agent skill for building Game Boy Color–compatible homebrew for the ModRetro Chromatic with GB Studio and chromatic-cli. Independent project; not affiliated with ModRetro, OpenAI or Nintendo.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
+    "https://github.com/ptimonen/n64-riistahillo": {
+      "title": "Kumi-Daiko Beatoff 64 is a physics-based combat game in which one to four players try to survive endless waves tengu-masks and battle against each other using their Kumi-Daiko drums in two different game modes. This Nintendo 64 homebrew game was developed during the N64 Game Jam.",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
+    },
     "https://github.com/radical7dreamer/awesome-game-databases": {
       "title": "A list of video game databases, wikis, preservation projects, emulators and retro gaming sites.",
       "source": "GitHub repositories",
       "firstSeen": "2026-11-17"
+    },
+    "https://github.com/raskell-io/wasm-ad": {
+      "title": "A fantasy console with Game Boy Advance–style hardware whose cartridges are WebAssembly modules",
+      "source": "GitHub repositories",
+      "firstSeen": "2026-11-19"
     },
     "https://github.com/rmrf404/green-nx": {
       "title": "Xbox Cloud Gaming (xCloud) client for the Nintendo Switch — standalone homebrew with native WebRTC streaming, hardware H.264 decoding and zero-copy GPU rendering",
