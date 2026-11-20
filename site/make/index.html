@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Make Your Own | Awesome Homebrew Games</title>
+  <meta name="description" content="Make your first homebrew game. Pick a platform, prepare the connection, inspect a ROM locally, transfer it safely and test it.">
+  <link rel="canonical" href="https://enzovezzaro.github.io/awesome-homebrew-games/make/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Make Your Own | Awesome Homebrew Games">
+  <meta property="og:description" content="From blank project to playing on your own hardware. A homebrew workshop with AI-ready instructions.">
+  <meta property="og:url" content="https://enzovezzaro.github.io/awesome-homebrew-games/make/">
+  <meta property="og:image" content="https://enzovezzaro.github.io/awesome-homebrew-games/og.png">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=Silkscreen:wght@400;700&display=swap">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="maker">
+  <a class="skip" href="#start">Skip to workshop</a>
+  <header class="hud maker-hud">
+    <a class="wordmark" href="../" aria-label="Awesome Homebrew Games, go to home">AWESOME<br>HOMEBREW GAMES</a>
+    <nav class="hud-nav" aria-label="Site navigation">
+      <a href="../">Discover</a>
+      <a href="#start" aria-current="page">Make Your Own</a>
+      <a href="#assistant">AI assistant</a>
+    </nav>
+    <div class="hud-tools"><a class="btn btn-quiet maker-back" href="../">← Back to shelf</a></div>
+  </header>
+
+  <main id="start">
+    <section class="maker-hero" aria-labelledby="maker-title">
+      <div class="kicker">New game / New life / Level 01</div>
+      <h1 id="maker-title">Don't just find games.<br><em>Make one.</em></h1>
+      <p>Take an original idea from a starter project to a playable homebrew game. Choose your machine, follow its real transfer path, and bring an AI assistant along for the technical parts.</p>
+      <div class="maker-hero-actions">
+        <a class="btn" href="#step-1">Start building</a>
+        <a class="btn btn-quiet" href="#step-3">Inspect a game file</a>
+      </div>
+      <p class="maker-note"><span aria-hidden="true">●</span> Local-first workshop. Files are checked in your browser, never uploaded. Hardware writes happen in the compatible external tool, not on this site.</p>
+    </section>
+
+    <nav class="maker-progress" aria-label="Workshop steps">
+      <a href="#step-1"><span>01</span> Choose</a>
+      <a href="#step-2"><span>02</span> Connect</a>
+      <a href="#step-3"><span>03</span> Inspect</a>
+      <a href="#step-4"><span>04</span> Install</a>
+      <a href="#step-5"><span>05</span> Play</a>
+    </nav>
+
+    <div class="maker-shell">
+      <div class="maker-main">
+        <section class="maker-step" id="step-1" aria-labelledby="choose-title">
+          <div class="maker-stephead"><span class="maker-number">01 / DESIGN</span><h2 id="choose-title">Find your starting point.</h2><p>Start with a visual game editor, an open source toolchain, or an example project you have permission to reuse.</p></div>
+          <div class="maker-fields">
+            <label class="field" for="platform"><span>Choose a platform</span><select id="platform" name="platform">
+              <option value="gb">Game Boy / Color</option>
+              <option value="nes">NES / Famicom</option>
+              <option value="pico">PICO-8</option>
+              <option value="tic">TIC-80</option>
+              <option value="arduboy">Arduboy</option>
+            </select></label>
+            <label class="field" for="device-model"><span>Your exact console / cartridge / board (optional)</span><input id="device-model" type="text" maxlength="180" autocomplete="off" placeholder="e.g. Game Boy Color + EverDrive-GB X7"></label>
+          </div>
+          <div class="maker-links" id="templates" aria-live="polite"></div>
+          <p class="maker-tip">Search for source code with a clear reuse license, or create a new game in the editor. A public download does not automatically grant permission to modify or resell it.</p>
+          <a class="maker-next" href="#step-2">Next: prepare your hardware <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="maker-step" id="step-2" aria-labelledby="connect-title">
+          <div class="maker-stephead"><span class="maker-number">02 / HARDWARE</span><h2 id="connect-title">Connect the right way.</h2><p>Old consoles usually do not expose their cartridges over USB. We match the method to the hardware you actually own.</p></div>
+          <label class="field" for="target"><span>Where will you run it?</span><select id="target"></select></label>
+          <div class="maker-instruction"><div class="maker-instruction-tag">Connection instructions</div><p id="connect-instructions"></p><a id="connect-docs" href="https://www.gbstudio.dev/" target="_blank" rel="noopener noreferrer">Read compatible hardware documentation ↗</a></div>
+          <label class="maker-check"><input type="checkbox" id="connected"><span>I have checked the exact hardware/model and prepared the connection (or selected a software-only runtime).</span></label>
+          <a class="maker-next" href="#step-3">Next: inspect your game <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="maker-step" id="step-3" aria-labelledby="inspect-title">
+          <div class="maker-stephead"><span class="maker-number">03 / INSPECTION</span><h2 id="inspect-title">Know what you're loading.</h2><p>Select your own compiled game file. The browser checks its extension and, where possible, a few header bytes. This is a local check, not a full validation or AI-powered hardware scan.</p></div>
+          <label class="maker-drop" for="game-file"><span class="maker-drop-icon" aria-hidden="true">⌑</span><strong>Choose a game build</strong><span id="file-help">Expected .gb or .gbc</span><input id="game-file" type="file" accept=".gb,.gbc,.nes,.p8,.png,.tic,.hex,.arduboy"></label>
+          <div class="maker-report" id="file-report" role="status" aria-live="polite"><strong>No game file inspected yet.</strong><p>Export an original game from your toolchain, then choose it here. Files stay in your browser.</p></div>
+          <p class="maker-tip">An AI assistant can reason about these results, but neither a header check nor AI can guarantee compatibility, safety or game quality.</p>
+          <a class="maker-next" href="#assistant">Next: ask AI to review <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="maker-assistant" id="assistant" aria-labelledby="assistant-title">
+          <div class="maker-stephead"><span class="maker-number">AI / COPILOT</span><h2 id="assistant-title">Bring your assistant.</h2><p>A device-aware prompt is generated from your choices and the local report. Copy it into your preferred AI tool. Nothing is sent automatically.</p></div>
+          <div class="maker-slip"><pre id="ai-prompt" tabindex="0" aria-label="Generated AI assistant instructions"></pre><div class="maker-slip-actions"><button class="btn" type="button" id="copy-prompt">Copy AI prompt</button><span id="copy-status" role="status" aria-live="polite"></span></div></div>
+          <a class="maker-next" href="#step-4">Next: install the game <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="maker-step" id="step-4" aria-labelledby="install-title">
+          <div class="maker-stephead"><span class="maker-number">04 / TRANSFER</span><h2 id="install-title">Get it onto the machine.</h2><p>Use a trusted toolchain and your exact flash cart, uploader, or emulator documentation. This site never erases or writes cartridges.</p></div>
+          <div class="maker-instruction"><div class="maker-instruction-tag">Your transfer plan</div><ol id="transfer-plan"></ol><p class="maker-caution" id="transfer-warning"></p></div>
+          <label class="maker-check"><input type="checkbox" id="rights-check"><span>I own or have permission to use this game and the target media.</span></label>
+          <label class="maker-check"><input type="checkbox" id="backup-check"><span>I have checked compatibility and backed up any saves, firmware or files that could be overwritten.</span></label>
+          <button class="btn" type="button" id="transfer-done" disabled>I've completed the transfer</button>
+          <p id="transfer-status" class="maker-status" role="status" aria-live="polite">Prepare the connection, inspect a matching file, and confirm both safeguards to enable this step.</p>
+          <a class="maker-next" href="#step-5">Next: test and play <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="maker-step" id="step-5" aria-labelledby="play-title">
+          <div class="maker-stephead"><span class="maker-number">05 / PLAYTEST</span><h2 id="play-title">Press start.</h2><p>Test in a compatible runtime first, then on physical hardware if applicable. Check gameplay, not just whether the title screen appears.</p></div>
+          <div class="maker-instruction"><div class="maker-instruction-tag">Playtest checklist</div>
+            <label class="maker-check"><input class="play-check" type="checkbox"><span>The build starts without crashing or freezing.</span></label>
+            <label class="maker-check"><input class="play-check" type="checkbox"><span>Controls, sound and basic gameplay behave correctly.</span></label>
+            <label class="maker-check"><input class="play-check" type="checkbox"><span>Save/load, restart and target compatibility are checked where applicable.</span></label>
+          </div>
+          <div class="maker-last">
+            <a id="test-link" class="btn btn-quiet" href="https://www.retroarch.com/" target="_blank" rel="noopener noreferrer">Open a testing tool ↗</a>
+            <span id="play-status" role="status" aria-live="polite">Your checklist is empty. Start in an emulator or platform runtime.</span>
+          </div>
+          <p class="maker-tip">Built something? Share your original release and source with the homebrew community. Don't distribute commercial ROMs or copyrighted assets without permission.</p>
+          <a class="maker-next" href="../#add">Pass it on: suggest a resource <span aria-hidden="true">→</span></a>
+        </section>
+      </div>
+      <aside class="maker-side" aria-label="Workshop safety and scope">
+        <div class="maker-panel"><span class="maker-panel-kicker">YOUR LOADOUT</span><strong id="side-platform">Game Boy / Color</strong><p id="side-target">SD flash cartridge</p><div id="side-file">Waiting for a game file</div></div>
+        <div class="maker-panel"><span class="maker-panel-kicker">IMPORTANT</span><p>AI can explain, debug and plan. This static website cannot identify an unconnected console, read a plugged-in cartridge or automatically flash it.</p><p>For hardware writes, use the manufacturer's supported software, verify the exact model and make backups first.</p></div>
+      </aside>
+    </div>
+  </main>
+  <footer class="foot"><p>Awesome Homebrew Games · Make Your Own. Original games, real hardware, no ROM piracy.</p><p class="foot-links"><a href="../">Discover</a><a href="https://github.com/EnzoVezzaro/awesome-homebrew-games" rel="noopener">GitHub</a></p></footer>
+  <script src="logic.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
