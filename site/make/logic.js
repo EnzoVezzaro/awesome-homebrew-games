@@ -100,7 +100,7 @@
     return { level: "warn", summary: "Format name matches, but this is not a complete validation.", details: details };
   }
 
-  function buildPrompt(platform, targetId, device, result) {
+  function buildPrompt(platform, targetId, device, result, notes) {
     const p = profile(platform), target = targetFor(platform, targetId);
     const analysis = result ? [result.summary].concat(result.details).join("\n") : "No game file inspected yet.";
     return [
@@ -108,6 +108,7 @@
       "Platform: " + p.name,
       "Target: " + target.name,
       "My exact device/cart/programmer details: " + (String(device || "").trim() || "(not provided; ask me before making hardware-specific claims)"),
+      "Read-only device inspection notes (unverified, supplied by user): " + (String(notes || "").trim() || "(none; explain safe read-only ways to identify the device model, port and firmware)"),
       "Local file inspection (header/extension only, not proof of safety):\n" + analysis,
       "Official starting documentation: " + target.docs,
       "Help me: (1) locate a legitimately reusable starter/template and confirm its license; (2) build my own original game; (3) verify file format, size, mapper/board and exact model compatibility; (4) back up saves and existing files; (5) give reversible, device-specific transfer steps; (6) test on an emulator then on hardware.",
