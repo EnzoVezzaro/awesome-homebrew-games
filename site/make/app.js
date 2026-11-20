@@ -91,7 +91,7 @@
     target.transfer.forEach(function (instruction) { list.appendChild(add("li", "", instruction)); });
     text("transfer-warning", target.caution);
     const prepared = $("connected").checked && $("backup-check").checked && $("rights-check").checked;
-    const validFile = state.result && state.result.level !== "error";
+    const validFile = state.result && (state.platform === "gb" || state.platform === "nes" ? state.result.level === "ok" : state.result.level !== "error");
     transferButton.disabled = !prepared || !validFile || state.transferred;
     if (state.transferred) {
       text("transfer-status", "Transfer marked complete by you. This page cannot verify a physical write. Continue with the playtest.");
@@ -100,7 +100,7 @@
       transferButton.textContent = "I've completed the transfer";
       text("transfer-status", validFile
         ? (prepared ? "Ready to confirm after you finish the steps in your external tool." : "Check the exact device, backups and rights before confirming a transfer.")
-        : "Inspect a matching non-empty game file to enable this step.");
+        : "Inspect a supported game build with a recognized GB/NES header (where applicable) to enable this step.");
     }
     renderPlay();
   }
@@ -136,13 +136,21 @@
     updateAll();
   });
   targetSelect.addEventListener("change", function () {
+    state.readToken++;
     state.target = targetSelect.value;
     resetTransfer();
     renderConnection();
     renderPrompt();
     renderTransfer();
   });
-  $("device-model").addEventListener("input", renderPrompt);
+  $("device-model").addEventListener("input", function () {
+    // A changed device model invalidates the old transfer confirmation.
+    $("connected").checked = false;
+    $("backup-check").checked = false;
+    state.transferred = false;
+    renderPrompt();
+    renderTransfer();
+  });
   $("device-notes").addEventListener("input", renderPrompt);
   $("template-search").addEventListener("submit", function () {
     const term = $("template-query").value.trim();
@@ -165,6 +173,8 @@
     state.result = null;
     state.fileName = "";
     state.transferred = false;
+    $("backup-check").checked = false;
+    $("rights-check").checked = false;
     playChecks.forEach(function (c) { c.checked = false; });
     if (!chosen) { renderReport(); renderPrompt(); renderTransfer(); return; }
     state.fileName = chosen.name;
