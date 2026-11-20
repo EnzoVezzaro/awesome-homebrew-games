@@ -81,7 +81,7 @@
     text("side-file", state.fileName + " · " + state.result.level.toUpperCase());
   }
   function renderPrompt() {
-    text("ai-prompt", model.buildPrompt(state.platform, state.target, $("device-model").value, state.result));
+    text("ai-prompt", model.buildPrompt(state.platform, state.target, $("device-model").value, state.result, $("device-notes").value));
     text("copy-status", "");
   }
   function renderTransfer() {
@@ -143,6 +143,11 @@
     renderTransfer();
   });
   $("device-model").addEventListener("input", renderPrompt);
+  $("device-notes").addEventListener("input", renderPrompt);
+  $("template-search").addEventListener("submit", function () {
+    const term = $("template-query").value.trim();
+    $("template-search-q").value = [model.profile(state.platform).name, "homebrew game starter", term].filter(Boolean).join(" ");
+  });
   ["connected", "rights-check", "backup-check"].forEach(function (id) {
     $(id).addEventListener("change", function () {
       if (state.transferred) {
