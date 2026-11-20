@@ -65,6 +65,15 @@
             </select></label>
             <label class="field" for="device-model"><span>Your exact console / cartridge / board (optional)</span><input id="device-model" type="text" maxlength="180" autocomplete="off" placeholder="e.g. Game Boy Color + EverDrive-GB X7"></label>
           </div>
+          <form class="maker-search" id="template-search" action="https://github.com/search" method="get" target="_blank">
+            <label for="template-query">Search GitHub for an open source starter project</label>
+            <div class="maker-search-row">
+              <input id="template-query" type="search" placeholder="e.g. platformer starter" maxlength="90" autocomplete="off">
+              <input id="template-search-q" type="hidden" name="q">
+              <input type="hidden" name="type" value="repositories">
+              <button class="btn btn-quiet" type="submit">Search templates ↗</button>
+            </div>
+          </form>
           <div class="maker-links" id="templates" aria-live="polite"></div>
           <p class="maker-tip">Search for source code with a clear reuse license, or create a new game in the editor. A public download does not automatically grant permission to modify or resell it.</p>
           <a class="maker-next" href="#step-2">Next: prepare your hardware <span aria-hidden="true">→</span></a>
@@ -74,6 +83,9 @@
           <div class="maker-stephead"><span class="maker-number">02 / HARDWARE</span><h2 id="connect-title">Connect the right way.</h2><p>Old consoles usually do not expose their cartridges over USB. We match the method to the hardware you actually own.</p></div>
           <label class="field" for="target"><span>Where will you run it?</span><select id="target"></select></label>
           <div class="maker-instruction"><div class="maker-instruction-tag">Connection instructions</div><p id="connect-instructions"></p><a id="connect-docs" href="https://www.gbstudio.dev/" target="_blank" rel="noopener noreferrer">Read compatible hardware documentation ↗</a></div>
+          <label class="maker-notes" for="device-notes">Device inspection notes for your AI assistant (optional)
+            <textarea id="device-notes" rows="3" maxlength="2000" placeholder="e.g. USB board name/port, cartridge label, exact flashcart revision, error codes; no serial numbers or personal data"></textarea>
+          </label>
           <label class="maker-check"><input type="checkbox" id="connected"><span>I have checked the exact hardware/model and prepared the connection (or selected a software-only runtime).</span></label>
           <a class="maker-next" href="#step-3">Next: inspect your game <span aria-hidden="true">→</span></a>
         </section>
