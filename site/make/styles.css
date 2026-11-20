@@ -130,3 +130,17 @@
 @media (prefers-reduced-motion: reduce) {
   .maker-template:hover { transform: none; }
 }
+
+.maker-search { margin-top: 28px; padding: 24px; border: 1px solid var(--line); border-radius: 6px; }
+.maker-search label, .maker-notes { display: block; font: 400 12px/1.6 var(--pixel); color: var(--dim); }
+.maker-search-row { display: grid; gap: 12px; margin-top: 14px; }
+.maker-search input[type="search"], .maker-notes textarea {
+  width: 100%; background: var(--void); border: 1px solid var(--line-strong);
+  border-radius: 4px; padding: 12px 14px; color: var(--paper);
+  font: 400 1rem/1.5 var(--sans);
+}
+.maker-search input[type="search"] { min-height: 48px; }
+.maker-notes { margin-top: 28px; }
+.maker-notes textarea { display: block; margin-top: 10px; resize: vertical; min-height: 100px; }
+.maker-search input:hover, .maker-notes textarea:hover { border-color: var(--lime); }
+@media (min-width: 650px) { .maker-search-row { grid-template-columns: minmax(0, 1fr) auto; } }
