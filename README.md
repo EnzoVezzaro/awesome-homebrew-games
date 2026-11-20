@@ -224,6 +224,20 @@ order and say what each one is for.
 
 The landing page also has a Prompt Pad that builds this kind of prompt from your platform and goal, ready to paste.
 
+### Make Your Own workshop
+
+[**Make Your Own**](https://enzovezzaro.github.io/awesome-homebrew-games/make/) is the companion single-page workshop linked from the landing page. It stays inside this repository and keeps the same console-inspired visual system.
+
+1. **Find** an open source starter or use a visual platform. Search GitHub starter repositories or choose GB Studio, GBDK-2020, cc65, PICO-8, TIC-80, or Arduboy tools.
+2. **Connect** through a documented path for the exact device: SD flash cartridge, dedicated cartridge programmer, a supported USB uploader, or emulator/runtime.
+3. **Inspect** an exported game file locally. The browser checks Game Boy and NES header signatures and performs lightweight extension checks for other platforms. Add your hardware/USB notes and copy a tailored AI inspection prompt.
+4. **Transfer** manually using the compatible external tool and a checklist for permissions, backups, format and device compatibility. The page **never writes to a console or cartridge**.
+5. **Test** using an emulator or runtime, then on hardware when applicable. Mark playtest checks and share an original release.
+
+No file bytes, device details, or prompts are uploaded by this page; prompts are copied only when the visitor requests it. The local header inspection is deliberately limited: it does not establish that a ROM is safe, complete, authorized, or compatible. There is no embedded LLM, automatic USB probe, emulator or cartridge writer. Those integrations would require a supported tool bridge and user authorization.
+
+The static workshop lives in `site/make/` and uses plain CSS and classic JavaScript. Its core platform rules and file inspector are covered in `tests/make.test.mjs`.
+
 ### Run the landing page locally
 
 ```bash
