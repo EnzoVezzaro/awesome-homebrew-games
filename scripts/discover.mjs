@@ -14,6 +14,8 @@ const COLLECTION = join(ROOT, "data/collection.json");
 const DISCOVERY = join(ROOT, "discovery");
 const STATE_FILE = join(DISCOVERY, "state.json");
 const REPORT_FILE = join(DISCOVERY, "latest.md");
+const GITHUB_PROJECTS_FILE = join(DISCOVERY, "github-projects.json");
+const GITHUB_MORE_URL = "https://github.com/search?q=homebrew+games";
 
 const TIMEOUT_MS = 12_000;
 const USER_AGENT =
@@ -41,9 +43,16 @@ const GITHUB_TOPIC_QUERIES = [
   "topic:devkitpro",
 ];
 const GITHUB_KEYWORD_QUERIES = ["homebrew game in:name,description", "retro game in:name,description"];
-const GITHUB_QUERIES = [...GITHUB_TOPIC_QUERIES, ...GITHUB_KEYWORD_QUERIES];
+const GITHUB_BASE_QUERIES = [...GITHUB_TOPIC_QUERIES, ...GITHUB_KEYWORD_QUERIES];
+// GitHub caps a search at 1000 results. Star slices keep each query under that cap
+// so the union of all slices covers far more than a single search can return.
+const GITHUB_STAR_SLICES = ["stars:0..9", "stars:10..49", "stars:50..199", "stars:200..999", "stars:>=1000"];
+export const GITHUB_QUERIES = GITHUB_BASE_QUERIES.flatMap((query) =>
+  GITHUB_STAR_SLICES.map((slice) => `${query} ${slice}`),
+);
 const GITHUB_PER_PAGE = 100;
 const GITHUB_MAX_PAGES = 10;
+const GITHUB_TOP_LIMIT = 50;
 // 2.2s between requests keeps an authenticated search under 30 req/min; a 403 or
 // 429 ends that query's pagination and is reported instead of failing the run.
 const GITHUB_PACE_MS = 2_200;
@@ -99,7 +108,7 @@ const SEEDS = [
   },
   {
     name: "GitHub repositories",
-    url: "https://api.github.com/search/repositories?q=homebrew+game+in:name,description+stars:>50&sort=updated&per_page=20",
+    url: "https://github.com/search?q=homebrew+games&type=repositories",
     adapter: "github",
   },
 ];
@@ -177,7 +186,13 @@ export function githubSearchUrls(queries, { perPage = GITHUB_PER_PAGE, maxPages 
     const q = String(query).trim();
     if (!q) continue;
     for (let page = 1; page <= maxPages; page += 1) {
-      const params = new URLSearchParams({ q, per_page: String(perPage), page: String(page), sort: "updated" });
+      const params = new URLSearchParams({
+        q,
+        per_page: String(perPage),
+        page: String(page),
+        sort: "stars",
+        order: "desc",
+      });
       urls.push(`https://api.github.com/search/repositories?${params}`);
     }
   }
@@ -323,12 +338,46 @@ export function filterCandidates(candidates, { known, seen, seedHosts } = {}) {
   return fresh.slice(0, MAX_CANDIDATES);
 }
 
+// The `homebrew` topic is dominated by the macOS package manager and its tools.
+// Keep only repos whose name or description reads as a game, a game tool or a scene.
+const PACKAGE_MANAGER_PATTERN = /\b(package manager|homebrew[- ]?(core|cask)|homebrew for mac|brew install|linuxbrew|formulas?|casks?)\b/i;
+const GAME_SIGNAL_PATTERN = /\b(homebrew\s+(game|games|rom|roms|port|ports|title|titles)|retro\s+(game|games|gaming)|game\s*jam|fan\s*game|fangame|rom\s*hack|romhack|fantasy\s+console|cartridge|game\s*boy|gameboy|\bnes\b|\bsnes\b|n64|nintendo\s+64|dreamcast|genesis|mega\s+drive|atari|pico-?8|tic-80|emulat(e|or|ion)|homebrew\s+for|flash\s+cart)\b/i;
+
+/** Drop repos that are not about games, so the top list is not package manager tools. */
+export function filterGameRepos(repos) {
+  return (repos ?? []).filter((repo) => {
+    const text = `${repo?.name ?? ""} ${repo?.description ?? ""}`;
+    if (PACKAGE_MANAGER_PATTERN.test(text)) return false;
+    return GAME_SIGNAL_PATTERN.test(text);
+  });
+}
+
+/** Dedupe repos by normalized URL, keeping the highest star count, then sort by stars. */
+export function rankGithubProjects(repos, limit = Infinity) {
+  const byUrl = new Map();
+  for (const repo of repos ?? []) {
+    const key = normalizeUrl(repo?.url);
+    if (!key) continue;
+    const candidate = {
+      name: String(repo.name ?? key.split("/").pop() ?? key),
+      url: String(repo.url),
+      stars: Number(repo.stars) || 0,
+      description: String(repo.description ?? ""),
+    };
+    const current = byUrl.get(key);
+    if (!current || candidate.stars > current.stars) byUrl.set(key, candidate);
+  }
+  return [...byUrl.values()]
+    .sort((a, b) => b.stars - a.stars || a.url.localeCompare(b.url))
+    .slice(0, limit);
+}
+
 function cell(value) {
   return String(value ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ").trim();
 }
 
 /** Markdown report for human review, including the manual-check list. */
-export function buildReport({ date, fresh = [], blocked = [], stats = {} } = {}) {
+export function buildReport({ date, fresh = [], blocked = [], stats = {}, githubTop = [], githubTotal = 0 } = {}) {
   const lines = ["# Homebrew discovery report", "", `Last checked: ${date}`, "", "## New candidates", ""];
   if (fresh.length === 0) {
     lines.push("No new candidates today.", "");
@@ -342,12 +391,29 @@ export function buildReport({ date, fresh = [], blocked = [], stats = {} } = {})
       "",
     );
   }
+  lines.push("## Most starred GitHub projects", "");
+  if (githubTop.length === 0) {
+    lines.push("No GitHub projects collected yet.", "");
+  } else {
+    lines.push(
+      `Top ${githubTop.length} of ${githubTotal || githubTop.length} repositories found across all GitHub queries.`,
+      "",
+      "| Project | Stars | URL |",
+      "| --- | --- | --- |",
+      ...githubTop.map((p) => `| ${cell(p.name)} | ${cell(p.stars)} | ${cell(p.url)} |`),
+      "",
+      `[Show more](${GITHUB_MORE_URL})`,
+      "",
+    );
+  }
+
   const statLabels = {
     fresh: "NEW",
     blocked: "BLOCKED",
     sources: "SOURCES",
     githubQueries: "GH_QUERIES",
     githubRequests: "GH_REQUESTS",
+    githubRepos: "GH_REPOS",
   };
   const statLine = Object.entries(stats)
     .map(([key, value]) => `${statLabels[key] ?? key.toUpperCase()}=${value}`)
@@ -410,6 +476,7 @@ async function fetchGithub(seed) {
   const token = process.env.GITHUB_TOKEN;
   const headers = token ? { authorization: `Bearer ${token}`, accept: "application/vnd.github+json" } : {};
   const links = [];
+  const repos = [];
   const failures = [];
   let requests = 0;
 
@@ -422,7 +489,14 @@ async function fetchGithub(seed) {
         const payload = JSON.parse(await fetchText(url, { json: true, headers }));
         const items = payload?.items ?? [];
         for (const repo of items) {
+          if (!repo?.html_url) continue;
           links.push({ url: repo.html_url, title: repo.description ?? repo.name });
+          repos.push({
+            name: repo.name ?? repo.full_name ?? repo.html_url,
+            url: repo.html_url,
+            stars: Number(repo.stargazers_count) || 0,
+            description: repo.description ?? "",
+          });
         }
         if (items.length < GITHUB_PER_PAGE) break;
       } catch (error) {
@@ -436,7 +510,7 @@ async function fetchGithub(seed) {
       }
     }
   }
-  return { links, blocked: failures, requests, seedName: seed.name };
+  return { links, repos, blocked: failures, requests, seedName: seed.name };
 }
 
 async function fetchSource(seed) {
@@ -495,6 +569,7 @@ async function main() {
   const seen = loadState();
 
   const raw = [];
+  const allRepos = [];
   const blocked = [];
   let githubRequests = 0;
   for (const seed of SEEDS) {
@@ -506,6 +581,7 @@ async function main() {
       if (seed.adapter === "github") {
         const result = await fetchGithub(seed);
         for (const link of result.links) raw.push({ ...link, source: result.seedName });
+        allRepos.push(...result.repos);
         blocked.push(...result.blocked);
         githubRequests += result.requests;
       } else {
@@ -519,6 +595,9 @@ async function main() {
 
   const seedHosts = new Set(SEEDS.map((seed) => hostOf(seed.fetchUrl ?? seed.url)));
   const fresh = filterCandidates(raw, { known, seen, seedHosts });
+  const allGithubProjects = rankGithubProjects(filterGameRepos(allRepos));
+  const githubTop = allGithubProjects.slice(0, GITHUB_TOP_LIMIT);
+  const githubData = { updated: date, total: allGithubProjects.length, projects: allGithubProjects };
   const stats = {
     fresh: fresh.length,
     blocked: blocked.length,
@@ -528,6 +607,7 @@ async function main() {
     seen: Object.keys(seen).length,
     githubQueries: GITHUB_QUERIES.length,
     githubRequests,
+    githubRepos: allGithubProjects.length,
   };
 
   const nextSeen = { ...seen };
@@ -538,13 +618,16 @@ async function main() {
   }
   const ordered = Object.fromEntries(Object.keys(nextSeen).sort().map((key) => [key, nextSeen[key]]));
   const state = { updated: date, seen: ordered };
-  const report = buildReport({ date, fresh, blocked, stats });
+  const report = buildReport({ date, fresh, blocked, stats, githubTop, githubTotal: allGithubProjects.length });
 
   mkdirSync(DISCOVERY, { recursive: true });
   writeFileSync(STATE_FILE, `${JSON.stringify(state, null, 2)}\n`);
   writeFileSync(REPORT_FILE, report);
+  writeFileSync(GITHUB_PROJECTS_FILE, `${JSON.stringify(githubData, null, 2)}\n`);
 
-  console.log(`NEW=${fresh.length} BLOCKED=${blocked.length} SOURCES=${SEEDS.length}`);
+  console.log(
+    `NEW=${fresh.length} BLOCKED=${blocked.length} SOURCES=${SEEDS.length} GH_REPOS=${allGithubProjects.length}`,
+  );
 }
 
 function isMain() {

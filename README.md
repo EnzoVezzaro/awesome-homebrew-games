@@ -224,6 +224,16 @@ order and say what each one is for.
 
 The landing page also has a Prompt Pad that builds this kind of prompt from your platform and goal, ready to paste.
 
+### Make It Real
+
+[**Make It Real**](https://enzovezzaro.github.io/awesome-homebrew-games/make/) is a page with one portable skill for your assistant. The skill is the product: `site/make/skill/SKILL.md`. The **Copy instructions** button copies the whole file. Downloads work too.
+
+The skill asks for the console model, the cart and writer, the ROM path and source, and the computer and tools. It reads the cart manual, backs up what a write could overwrite and writes the steps in the order the tool needs them.
+
+The person confirms each format, erase and write. The skill refuses commercial ROMs and DRM bypasses. It calls the job done only after verification and a playtest.
+
+The page lives in `site/make/` and has no game editor, creation wizard, file inspection or embedded chat. `tests/make.test.mjs` checks the page, the copy button and the skill file.
+
 ### Run the landing page locally
 
 ```bash

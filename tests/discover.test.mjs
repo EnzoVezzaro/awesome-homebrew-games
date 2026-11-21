@@ -7,6 +7,9 @@ import {
   filterCandidates,
   buildReport,
   githubSearchUrls,
+  rankGithubProjects,
+  filterGameRepos,
+  GITHUB_QUERIES,
 } from "../scripts/discover.mjs";
 
 test("githubSearchUrls paginates each query in order and stays on the API", () => {
@@ -44,6 +47,36 @@ test("githubSearchUrls defaults to ten pages and skips empty queries", () => {
   assert.equal(new URL(urls[0]).searchParams.get("q"), "topic:pico-8");
   assert.equal(new URL(urls[9]).searchParams.get("page"), "10");
   assert.deepEqual(githubSearchUrls([]), []);
+});
+
+test("GitHub queries are partitioned by star range to pass the 1000-result cap", () => {
+  assert.equal(GITHUB_QUERIES.length, 90);
+  assert.ok(GITHUB_QUERIES.every((q) => /stars:/.test(q)));
+  assert.ok(GITHUB_QUERIES.includes("topic:3ds-homebrew stars:0..9"));
+  assert.ok(GITHUB_QUERIES.includes("homebrew game in:name,description stars:>=1000"));
+});
+
+test("rankGithubProjects dedupes by URL, keeps the highest stars and sorts descending", () => {
+  const repos = [
+    { name: "low", url: "https://github.com/a/one", stars: 5, description: "first" },
+    { name: "high", url: "https://github.com/a/one", stars: 900, description: "dupe with more stars" },
+    { name: "mid", url: "https://www.github.com/b/two/", stars: 40, description: "second" },
+    { name: "zero", url: "not a url", stars: 999, description: "ignored" },
+  ];
+  const ranked = rankGithubProjects(repos, 2);
+  assert.deepEqual(ranked.map((p) => p.name), ["high", "mid"]);
+  assert.equal(ranked[0].stars, 900);
+});
+
+test("filterGameRepos keeps game projects and drops package manager tools", () => {
+  const repos = [
+    { name: "brew", description: "The missing package manager for macOS", stars: 50000 },
+    { name: "hub", description: "hub helps you win at git", stars: 20000 },
+    { name: "pyxel", description: "Retro game engine for Python", stars: 18000 },
+    { name: "some-homebrew", description: "Homebrew games for the Game Boy", stars: 10 },
+  ];
+  const kept = filterGameRepos(repos);
+  assert.deepEqual(kept.map((r) => r.name), ["pyxel", "some-homebrew"]);
 });
 
 test("normalizeUrl strips www, tracking params, fragment and trailing slash", () => {
@@ -128,9 +161,26 @@ test("buildReport lists new candidates, stats and blocked sources", () => {
   assert.ok(report.includes("https://www.psx-place.com/resources/categories/homebrew-games.22/"));
 });
 
+test("buildReport lists the most starred GitHub projects with a Show more link", () => {
+  const report = buildReport({
+    date: "2026-11-19",
+    fresh: [],
+    blocked: [],
+    stats: { githubRepos: 1200 },
+    githubTotal: 1200,
+    githubTop: [{ name: "Top repo", url: "https://github.com/a/top", stars: 500, description: "desc" }],
+  });
+  assert.ok(report.includes("## Most starred GitHub projects"));
+  assert.ok(report.includes("Top 1 of 1200"));
+  assert.ok(report.includes("| Top repo | 500 | https://github.com/a/top |"));
+  assert.ok(report.includes("[Show more](https://github.com/search?q=homebrew+games)"));
+  assert.ok(report.includes("GH_REPOS=1200"));
+});
+
 test("buildReport handles an empty candidate list", () => {
   const report = buildReport({ date: "2026-11-17", fresh: [], blocked: [], stats: {} });
   assert.ok(report.includes("No new candidates today."));
   assert.ok(report.includes("Last checked: 2026-11-17"));
   assert.ok(report.includes("None."));
+  assert.ok(report.includes("No GitHub projects collected yet."));
 });

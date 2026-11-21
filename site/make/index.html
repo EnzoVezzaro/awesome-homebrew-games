@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Make It Real | Awesome Homebrew Games</title>
+  <meta name="description" content="A portable skill that asks about your console, flash cart, ROM file and computer, then writes the steps to load your homebrew game onto the cart.">
+  <link rel="canonical" href="https://enzovezzaro.github.io/awesome-homebrew-games/make/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Make It Real | Awesome Homebrew Games">
+  <meta property="og:description" content="Copy or download a skill that writes transfer steps for your console and flash cart.">
+  <meta property="og:url" content="https://enzovezzaro.github.io/awesome-homebrew-games/make/">
+  <meta property="og:image" content="https://enzovezzaro.github.io/awesome-homebrew-games/og.png">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=Silkscreen:wght@400;700&display=swap">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="make-real">
+  <a class="skip" href="#start">Skip to the skill</a>
+  <header class="hud mr-hud">
+    <a class="wordmark" href="../" aria-label="Awesome Homebrew Games, go to home">AWESOME<br>HOMEBREW GAMES</a>
+    <nav class="hud-nav" aria-label="Site navigation">
+      <a href="../">Discover</a>
+      <a href="#start" aria-current="page">Make It Real</a>
+      <a href="#get-skill">The skill</a>
+    </nav>
+    <div class="hud-tools"><a class="btn btn-quiet mr-back" href="../">← Back to shelf</a></div>
+  </header>
+
+  <main id="start" tabindex="-1">
+    <section class="mr-hero" aria-labelledby="mr-title">
+      <div class="mr-hero-copy">
+        <div class="kicker">A skill for your assistant</div>
+        <h1 id="mr-title">Make It <em>Real.</em></h1>
+        <p>Paste this skill into your assistant. It asks for your console, cart and computer, then writes the steps to load a homebrew ROM onto your cart.</p>
+        <div class="mr-actions">
+          <a class="btn" href="#get-skill">Get the skill</a>
+          <a class="btn btn-quiet" href="skill/README.md">Read the guide ↗</a>
+        </div>
+        <p class="mr-note"><span aria-hidden="true">●</span> Your flash cart software does the write. The skill tells you which file, which target and when to stop.</p>
+      </div>
+      <aside class="mr-visual" aria-hidden="true">
+        <div class="mr-card">
+          <span class="mr-card-label">SKILL / MAKE-IT-REAL</span>
+          <pre>1. Ask about hardware
+2. Check the manual
+3. Write the steps
+4. Confirm the write</pre>
+          <span class="mr-card-foot">PORTABLE MARKDOWN FILE</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="mr-section" id="get-skill" aria-labelledby="get-skill-title">
+      <div class="kicker">One file</div>
+      <h2 id="get-skill-title">Get the skill</h2>
+      <p><code>SKILL.md</code> is a Markdown file with frontmatter. Copy its full text into your assistant, or save it in your assistant's skills folder.</p>
+      <div class="mr-actions">
+        <button class="btn" type="button" id="copy-skill">Copy instructions</button>
+        <a class="btn btn-quiet" href="skill/SKILL.md" download>Download SKILL.md</a>
+      </div>
+      <p class="mr-status" id="copy-status" role="status" aria-live="polite"></p>
+      <div class="mr-actions">
+        <a class="mr-link" href="skill/README.md">Installation guide ↗</a>
+      </div>
+      <p class="mr-note">Download SKILL.md and save it as <code>.agents/skills/make-it-real/SKILL.md</code>. Assistants that accept files can use the download directly.</p>
+    </section>
+
+    <section class="mr-section" id="interview" aria-labelledby="interview-title">
+      <div class="kicker">How it works</div>
+      <h2 id="interview-title">Four questions first</h2>
+      <p>The skill asks before it writes a guide. Unknown details stay open.</p>
+      <ol class="mr-list">
+        <li><strong>Console.</strong> Model, revision and region.</li>
+        <li><strong>Cart and writer.</strong> Brand, model, revision, programmer or uploader, cable and SD reader.</li>
+        <li><strong>ROM file.</strong> Path, format, size, where you got it and why you can use it.</li>
+        <li><strong>Computer.</strong> Operating system, version and the tools installed.</li>
+      </ol>
+      <p>With those answers, the assistant reads the manual for your cart and writes the steps. If it cannot read the manual, it asks for the link.</p>
+    </section>
+
+    <section class="mr-section" id="guide" aria-labelledby="guide-title">
+      <div class="kicker">The guide</div>
+      <h2 id="guide-title">The steps you follow</h2>
+      <p>The guide names the exact file, the target cart and the order of steps. You do the write in your flash cart software.</p>
+      <div class="mr-grid">
+        <div class="mr-panel">
+          <span class="mr-panel-label">IN THE GUIDE</span>
+          <p>The cart and ROM details to check, the files to back up, the steps in your software and the result to look for.</p>
+        </div>
+        <div class="mr-panel">
+          <span class="mr-panel-label">IN YOUR SOFTWARE</span>
+          <p>Plug in the cart, pick the ROM and target, write it and check the result. Your assistant asks you to confirm before anything is erased.</p>
+        </div>
+      </div>
+      <p>Test in a compatible runtime first when one exists. Then try the console.</p>
+    </section>
+
+    <section class="mr-section" id="safety" aria-labelledby="safety-title">
+      <div class="kicker">Safety</div>
+      <h2 id="safety-title">The safety rules</h2>
+      <ul class="mr-list">
+        <li>Backups and verification come before any write.</li>
+        <li>The assistant asks you to confirm the cart, port and file before a format or erase.</li>
+        <li>Commercial ROMs and DRM bypasses are refused.</li>
+        <li>A write counts as done after verification and a playtest you confirm.</li>
+      </ul>
+      <p>This page cannot see your hardware. It never says a cart was written.</p>
+    </section>
+  </main>
+
+  <footer class="foot"><p>Awesome Homebrew Games · Make It Real. A portable skill for your assistant. No ROMs hosted.</p><p class="foot-links"><a href="../">Discover</a><a href="https://github.com/EnzoVezzaro/awesome-homebrew-games" rel="noopener">GitHub</a></p></footer>
+  <script src="copy-skill.js" defer></script>
+</body>
+</html>

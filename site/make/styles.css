@@ -1,0 +1,58 @@
+/* Make It Real. One quiet page for one portable skill file. */
+.make-real { --hud-h: 112px; }
+.make-real main { padding-top: var(--hud-h); }
+.make-real .hud-nav a[aria-current="page"] { color: var(--lime); }
+.make-real .mr-back { min-height: 40px; padding: 8px 12px; font-size: 10px; }
+
+.mr-hero {
+  display: grid; gap: clamp(32px, 5vw, 72px); align-items: center;
+  padding: clamp(72px, 10vw, 142px) var(--gutter) clamp(64px, 9vw, 116px);
+  border-bottom: 1px solid var(--line);
+}
+.mr-hero-copy { min-width: 0; }
+.mr-hero h1 {
+  font-family: var(--serif); font-weight: 400; font-size: clamp(3.5rem, 10vw, 6rem);
+  line-height: .96; letter-spacing: -.02em; margin: 20px 0 0;
+}
+.mr-hero h1 em { color: var(--lime); font-weight: 400; }
+.mr-hero-copy > p:not(.mr-note) { max-width: 58ch; color: var(--dim); font-size: clamp(1.1rem, 1.8vw, 1.3rem); line-height: 1.55; margin: 28px 0 0; }
+.mr-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.mr-note { max-width: 70ch; font-size: .9rem; color: var(--dim); margin: 32px 0 0; }
+.mr-note span { color: var(--lime); margin-right: 8px; }
+.mr-link { color: var(--lime); display: inline-flex; align-items: center; min-height: 48px; font: 400 12px/1.4 var(--pixel); text-decoration: none; }
+.mr-status { min-height: 1.5em; margin: 14px 0 0; color: var(--dim); font-size: .9rem; }
+.mr-link:hover { color: var(--paper); }
+code { font: 400 .9em ui-monospace, "SF Mono", Menlo, monospace; background: var(--raise); padding: 2px 6px; border-radius: 3px; color: var(--paper); }
+
+.mr-visual { display: none; width: 100%; max-width: 380px; justify-self: end; pointer-events: none; }
+.mr-card {
+  background: var(--raise); border: 1px solid var(--line-strong); border-radius: 6px; padding: 24px;
+  box-shadow: inset 0 0 0 1px var(--line), 0 24px 60px rgba(0, 0, 0, .5);
+}
+.mr-card-label, .mr-card-foot { font: 400 9px/1.4 var(--pixel); letter-spacing: .06em; color: var(--dim); }
+.mr-card pre { margin: 18px 0; color: var(--lime); font: 400 12px/1.9 var(--pixel); white-space: pre-wrap; }
+.mr-card-foot { display: block; color: var(--lime); }
+@media (min-width: 860px) {
+  .mr-hero { grid-template-columns: minmax(0, 1fr) minmax(220px, 380px); }
+  .mr-visual { display: block; }
+}
+
+.mr-section { max-width: 1180px; margin: 0 auto; padding: clamp(68px, 9vw, 120px) var(--gutter); border-bottom: 1px solid var(--line); }
+.mr-section .kicker, .mr-panel-label { font: 400 11px/1.5 var(--pixel); letter-spacing: .045em; color: var(--lime); }
+.mr-section h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(2.6rem, 5.5vw, 5.6rem); line-height: .98; letter-spacing: -.016em; margin: 14px 0 0; }
+.mr-section > p { color: var(--dim); font-size: 1.075rem; max-width: 62ch; margin: 24px 0 0; }
+.mr-list { max-width: 70ch; margin: 28px 0 0; padding-left: 1.4rem; }
+.mr-list li { margin-bottom: 14px; color: var(--dim); }
+.mr-list li::marker { color: var(--lime); font-family: var(--pixel); }
+.mr-list strong { color: var(--paper); font-weight: 500; }
+.mr-grid { display: grid; gap: 16px; margin-top: 32px; }
+.mr-panel { padding: clamp(20px, 3vw, 28px); background: var(--raise); border: 1px solid var(--line-strong); border-radius: 6px; }
+.mr-panel p { color: var(--dim); font-size: .96rem; margin: 14px 0 0; max-width: 52ch; }
+@media (min-width: 760px) { .mr-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+@media (max-width: 720px) {
+  .make-real .mr-back { display: none; }
+  .mr-hero h1 { font-size: clamp(3rem, 12vw, 4.4rem); }
+  .mr-section h2 { font-size: clamp(2.4rem, 10vw, 4rem); }
+  .mr-actions .btn { flex: 1 1 auto; justify-content: center; }
+}

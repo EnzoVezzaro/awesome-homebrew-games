@@ -19,7 +19,7 @@
       if (el) el.hidden = true;
     });
     document.querySelector(".shelf-layout").hidden = true;
-    Array.prototype.forEach.call(document.querySelectorAll(".hud-nav, .hud-skip, .skip"), function (el) { el.hidden = true; });
+    Array.prototype.forEach.call(document.querySelectorAll(".hud-nav, .hud-ph, .skip"), function (el) { el.hidden = true; });
     var cart = document.getElementById("cart");
     cart.addEventListener("click", function () {
       document.getElementById("boot-status").textContent = "The collection is missing, so the console has nothing to boot.";

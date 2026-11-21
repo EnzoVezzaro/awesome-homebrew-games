@@ -16,7 +16,7 @@ People who like games made outside the commercial pipeline and do not know where
 
 ## Product Purpose
 
-A curated directory of homebrew games and the places to find them: marketplaces, community databases, cartridge makers, jams, toolchains and ways to run games. Modeled on the structure and simplicity of voltagent/awesome-design-md: one README is the product, the landing page is a friendlier front door to the same data. Success is a visitor opening a real link for their platform within a minute, and an AI agent answering platform questions correctly from `llms.txt`.
+A curated directory of homebrew games and the places to find them: marketplaces, community databases, cartridge makers, jams, toolchains and ways to run games. Modeled on the structure and simplicity of voltagent/awesome-design-md: one README is the product, the landing page is a friendlier front door to the same data. Success is a visitor opening a real link for their platform within a minute, and an AI agent answering platform questions correctly from `llms.txt`. A second path, Make It Real, ships a portable skill that turns a visitor's exact hardware into a transfer guide written by their own assistant.
 
 ## Positioning
 
@@ -32,6 +32,8 @@ Maintained as an open source awesome list. Contributions are one object in `data
 - Counts shown anywhere on the landing come from that file. No invented numbers, testimonials or user counts.
 - No backend, no accounts, no analytics. XP on the landing is cosmetic and lives in the visitor's localStorage.
 - "AI oriented" means agent-ready data plus a Prompt Pad that writes a prompt the visitor pastes into their own assistant. No embedded chatbot. (Confirmed by the user.)
+- `make/` is Make It Real, a page with one portable skill for the visitor's assistant. The skill asks for the exact console, cart and writer, ROM file and operating system, then writes a transfer guide. The visitor confirms every format, erase and write. The assistant cannot request USB access or write a cartridge on its own.
+- The skill product is `site/make/skill/SKILL.md`, with `README.md` beside it for install and usage. The "Copy instructions" button copies that exact file. Download remains available. The site ships both as plain Markdown. There is no game editor, creation wizard, embedded chatbot or file inspection in `make/`.
 - Copy follows blader/humanizer: no em or en dashes, no "not X but Y", no forced triads, no sales language, sentence case headings. (Confirmed by the user, replacing antislop.)
 
 ## Brand Commitments

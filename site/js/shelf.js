@@ -196,7 +196,7 @@
     inScene.forEach(function (e) { e.platforms.forEach(function (p) { tally[p] = (tally[p] || 0) + 1; }); });
     var top = Object.keys(tally).sort(function (a, b) { return tally[b] - tally[a] || a.localeCompare(b); }).slice(0, 3);
     screen.appendChild(h("p", { class: "screen-sub", text: "FOR " + top.map(function (p) { return platformLabel(p).toUpperCase(); }).join(" / ") }));
-    if (inScene[0]) screen.appendChild(h("p", { class: "screen-sub go", text: "START " + host(inScene[0].url).toUpperCase() }));
+    if (inScene[0]) screen.appendChild(h("p", { class: "screen-line go", text: "START " + host(inScene[0].url).toUpperCase() }));
   }
 
   function observeScenes() {

@@ -55,11 +55,12 @@
     <a class="wordmark" href="#boot" aria-label="Awesome Homebrew Games, back to the top">AWESOME<br>HOMEBREW GAMES</a>
     <nav class="hud-nav" aria-label="Sections">
       <a href="#shelf">Shelf</a>
+      <a href="#make">Make It Real</a>
       <a href="#prompt">Prompt Pad</a>
       <a href="#add">Add a place</a>
     </nav>
     <div class="hud-tools">
-      <a class="hud-skip" href="#pick">Skip</a>
+      <a class="hud-ph" href="https://www.producthunt.com/posts/awesome-homebrew-games" target="_blank" rel="noopener noreferrer" title="Your community can help your launch succeed" aria-label="Support Awesome Homebrew Games on Product Hunt, opens in a new tab"><span class="hud-ph-short">PH</span><span class="hud-ph-long">Support on Product Hunt</span></a>
       <div class="xp" role="group" aria-label="Experience points">
         <span class="xp-text">XP <b id="hud-xp">0</b> LV <b id="hud-level">1</b></span>
         <span class="xp-bar" id="hud-bar" aria-hidden="true"></span>
@@ -72,6 +73,7 @@
 
   <main>
     <section class="boot" id="boot" aria-labelledby="welcome">
+      <img class="boot-banner" src="banner.svg" width="1200" height="500" alt="Awesome Homebrew Games">
       <h1 id="welcome">Welcome<span class="dot">.</span></h1>
       <p class="boot-lede" id="boot-lede">A directory of homebrew games and the places to find them.</p>
 
@@ -124,6 +126,31 @@
         <div class="scenes" id="scenes"></div>
       </div>
       <div class="state" id="shelf-state" hidden></div>
+    </section>
+
+    <section class="gh-top" id="gh-top" aria-labelledby="gh-top-title">
+      <div class="kicker">From GitHub</div>
+      <h2 class="gh-top-title" id="gh-top-title">Most starred projects.</h2>
+      <p class="gh-top-intro">The 50 most starred repositories found across every GitHub query. The full set is in the data file.</p>
+      <ol class="gh-list" id="gh-list"></ol>
+      <div class="gh-actions">
+        <a class="btn btn-quiet" href="https://github.com/search?q=homebrew+games" rel="noopener" aria-label="Show more homebrew game repositories on GitHub">Show more</a>
+        <span class="gh-status" id="gh-status" role="status" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section class="make-cta" id="make" aria-labelledby="make-cta-title">
+      <div class="make-cta-copy">
+        <div class="kicker">Bonus track: make it real</div>
+        <h2 id="make-cta-title">Got a ROM and a console?<br><em>Make it real.</em></h2>
+        <p>Paste a skill into your assistant. It asks for your console and cart, then writes the steps to load your homebrew game.</p>
+        <a class="btn" href="make/">Make It Real <span aria-hidden="true">↗</span></a>
+        <p class="make-cta-detail">The skill is a Markdown file. Your files stay on your machine.</p>
+      </div>
+      <div class="make-cta-detail-block">
+        <span class="kicker">How it goes</span>
+        <p>Your assistant asks for the console, cart, ROM and computer. It reads the cart manual and writes the steps. You confirm each write in your software.</p>
+      </div>
     </section>
 
     <section class="prompt" id="prompt" aria-labelledby="prompt-title">
@@ -188,6 +215,7 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+  <script src="github-top.js" defer></script>
   <script src="collection.js" defer></script>
   <script src="js/dom.js" defer></script>
   <script src="js/sprite.js" defer></script>
@@ -196,6 +224,7 @@
   <script src="js/boot.js" defer></script>
   <script src="js/palette.js" defer></script>
   <script src="js/prompt.js" defer></script>
+  <script src="js/github.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>

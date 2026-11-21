@@ -41,12 +41,22 @@ as blocked and the rest of the queries continue. Repos appear as candidates only
 hundreds of them are tools, engines or forks, so they need human triage before any of
 them reach the list.
 
+GitHub caps a single search at 1000 results, so each query is split into five star
+ranges (`0..9`, `10..49`, `50..199`, `200..999`, `>=1000`) and each slice is paginated
+separately. The union of the slices covers far more than one search can return. Every
+repo is kept with its star count in `discovery/github-projects.json` after deduplication
+by normalized URL. The 50 most starred are listed in the report and rendered on the
+landing page, with a Show more link to the GitHub search for the rest.
+
 ## Output
 
 - `discovery/state.json` maps each normalized URL we have ever seen to its title,
   source and first seen date. This prevents the same candidate appearing twice.
 - `discovery/latest.md` is the human-readable report: new candidates with the
-  keywords that matched, run statistics, and the manual-check list.
+  keywords that matched, the 50 most starred GitHub projects with a Show more link,
+  run statistics, and the manual-check list.
+- `discovery/github-projects.json` holds every GitHub repo found in the run, deduplicated
+  by URL and sorted by stars. `scripts/build.mjs` turns the top 50 into `site/github-top.js`.
 
 `README.md` links to the latest report so it is easy to find.
 
