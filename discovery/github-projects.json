@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-21",
-  "total": 2140,
+  "updated": "2026-11-22",
+  "total": 2148,
   "projects": [
     {
       "name": "pyxel",
       "url": "https://github.com/kitao/pyxel",
-      "stars": 18659,
+      "stars": 18663,
       "description": "A retro game engine for Python"
     },
     {
@@ -17,13 +17,13 @@
     {
       "name": "gb-studio",
       "url": "https://github.com/chrismaltby/gb-studio",
-      "stars": 9465,
+      "stars": 9466,
       "description": "A quick and easy to use drag and drop retro game creator for your favourite handheld video game system"
     },
     {
       "name": "TIC-80",
       "url": "https://github.com/nesbox/TIC-80",
-      "stars": 6195,
+      "stars": 6197,
       "description": "TIC-80 is a fantasy computer for making, playing and sharing tiny games."
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "cloud-game",
       "url": "https://github.com/giongto35/cloud-game",
-      "stars": 2484,
+      "stars": 2485,
       "description": "Web-based Cloud Gaming service for Retro Game"
     },
     {
       "name": "retrom",
       "url": "https://github.com/JMBeresford/retrom",
-      "stars": 2109,
+      "stars": 2110,
       "description": "A centralized game library/collection management service with a focus on emulation"
     },
     {
@@ -71,7 +71,7 @@
     {
       "name": "iss_pc",
       "url": "https://github.com/HayatoG/iss_pc",
-      "stars": 1220,
+      "stars": 1226,
       "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump."
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "ManicEMU",
       "url": "https://github.com/Manic-EMU/ManicEMU",
-      "stars": 666,
+      "stars": 670,
       "description": "Manic EMU is an all-in-one retro game emulator for iOS. It packs powerful features while keeping a clean, sleek UI and delivering buttery-smooth gameplay."
     },
     {
@@ -179,7 +179,7 @@
     {
       "name": "romarr",
       "url": "https://github.com/BlizzHacker/romarr",
-      "stars": 410,
+      "stars": 411,
       "description": "Find, verify and organize your game library. Native Windows and Docker, DAT checks, ROM Hub plugins, and optional RomM/Cartridge integration."
     },
     {
@@ -203,13 +203,13 @@
     {
       "name": "hUGETracker",
       "url": "https://github.com/SuperDisk/hUGETracker",
-      "stars": 378,
+      "stars": 379,
       "description": "The music composition suite for the Nintendo Game Boy"
     },
     {
       "name": "240pTestSuite",
       "url": "https://github.com/ArtemioUrbina/240pTestSuite",
-      "stars": 373,
+      "stars": 374,
       "description": "A homebrew software suite for video game consoles developed to help in the evaluation of upscalers, upscan converters, line doublers and of course TV processing of 240p video. The Wii and Dreamcast versions have modes for 480i and 480p evaluation as well."
     },
     {
@@ -219,21 +219,21 @@
       "description": "A PICO-8 demake of the SCUMM engine that powered most of the classic LucasArts adventure games, such as Monkey Island and Maniac Mansion."
     },
     {
+      "name": "EmuFive",
+      "url": "https://github.com/blue0x1/EmuFive",
+      "stars": 359,
+      "description": "A PS5 emulator for the PS4. Runs on a jailbroken PS4 with Linux, installed through PS4 Multiboot."
+    },
+    {
       "name": "exodium",
       "url": "https://github.com/tvollstaedt/exodium",
       "stars": 359,
       "description": "Cross-platform retro game launcher based on eXoDOS"
     },
     {
-      "name": "EmuFive",
-      "url": "https://github.com/blue0x1/EmuFive",
-      "stars": 351,
-      "description": "A PS5 emulator for the PS4. Runs on a jailbroken PS4 with Linux, installed through PS4 Multiboot."
-    },
-    {
       "name": "goldeneye-pc-port",
       "url": "https://github.com/jkdansereau/goldeneye-pc-port",
-      "stars": 340,
+      "stars": 342,
       "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator."
     },
     {
@@ -245,7 +245,7 @@
     {
       "name": "tobutobugirl",
       "url": "https://github.com/SimonLarsen/tobutobugirl",
-      "stars": 306,
+      "stars": 307,
       "description": "An arcade platformer homebrew game for the Game Boy"
     },
     {
@@ -263,7 +263,7 @@
     {
       "name": "NFSU2Recomp",
       "url": "https://github.com/TalhaMudo/NFSU2Recomp",
-      "stars": 291,
+      "stars": 295,
       "description": "Play Need for Speed: Underground 2 natively on Apple Silicon Macs (M1+). Static recompilation of the PC game (x86, Direct3D 9) to ARM64 + Metal: no Wine, CrossOver or emulator; 119 fps vs 10-15 fps under Wine. Bring your own copy; no game code or assets included."
     },
     {
@@ -299,13 +299,13 @@
     {
       "name": "try-harder",
       "url": "https://github.com/milosilo/try-harder",
-      "stars": 251,
+      "stars": 252,
       "description": "\"Try Harder\" is a cybersecurity retro game designed to simulate 100 real-world scenarios that will help you prepare for the Offensive Security Certified Professional (OSCP) exam, all while offering an immersive experience and retro aesthetic. Enter Real commands correctly, move to the next host, and get a point. Can you get 100?"
     },
     {
       "name": "Porpoise-Dolphin-Emulator-for-PS5",
       "url": "https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5",
-      "stars": 250,
+      "stars": 249,
       "description": "A native GameCube and Wii emulator for jailbroken PS5, powered by Dolphin. Cover-flow library, box art, memory cards, original music."
     },
     {
@@ -399,16 +399,16 @@
       "description": "Shrink (minify) Pico-8 (& Picotron) carts, as well as other tools (e.g. linting, format conversion, exports)"
     },
     {
+      "name": "SSPI",
+      "url": "https://github.com/Xyhlo/SSPI",
+      "stars": 174,
+      "description": "Super Simple Package Installer: PS4 homebrew for package search, resumable downloads, archive extraction and installation, with Real-Debrid and TorBox support. Beta source release."
+    },
+    {
       "name": "AmiiSwap",
       "url": "https://github.com/FuryBaguette/AmiiSwap",
       "stars": 173,
       "description": "Nintendo Switch GUI Amiibo Manager homebrew for emulation with Emuiibo (nfp mitm)"
-    },
-    {
-      "name": "SSPI",
-      "url": "https://github.com/Xyhlo/SSPI",
-      "stars": 170,
-      "description": "Super Simple Package Installer: PS4 homebrew for package search, resumable downloads, archive extraction and installation, with Real-Debrid and TorBox support. Beta source release."
     },
     {
       "name": "Riko4",
@@ -425,7 +425,7 @@
     {
       "name": "berrry-wine",
       "url": "https://github.com/vgrichina/berrry-wine",
-      "stars": 159,
+      "stars": 160,
       "description": "Run real Windows 98 apps and games in your browser. An x86 emulator and Win32 layer written directly in WebAssembly Text, no OS image, no source ports."
     },
     {
@@ -461,7 +461,7 @@
     {
       "name": "esp-box-emu",
       "url": "https://github.com/esp-cpp/esp-box-emu",
-      "stars": 150,
+      "stars": 151,
       "description": "Star Wars: Dark Forces, Doom, NES, Gameboy/Color, Sega Master System / GameGear, Sega Genesis / MegaDrive, and MSX I/II Emulators running on ESP BOX and ESP BOX-3 with a custom gamepad"
     },
     {
@@ -483,12 +483,6 @@
       "description": "GB303 wavetable-based TB-303 style synthesizer for the Nintendo Gameboy."
     },
     {
-      "name": "legend-of-elya-n64",
-      "url": "https://github.com/Scottcjn/legend-of-elya-n64",
-      "stars": 140,
-      "description": "Legend of Elya — N64 game with a real 6.36M-parameter ternary transformer on the VR4300 MIPS III CPU. Zelda-style dungeon, AI NPCs, byte-level inference at 1.23 tok/s scalar / 2.19 tok/s on the RSP overlay (measured under ares, never on silicon). Built with libdragon."
-    },
-    {
       "name": "Homebrew-Gameboy-Cartridge",
       "url": "https://github.com/dwaq/Homebrew-Gameboy-Cartridge",
       "stars": 139,
@@ -501,9 +495,15 @@
       "description": "A dual-screen companion app for ES-DE that displays dynamic game artwork and provides an integrated Android app launcher. Transform your secondary display into an immersive retro gaming interface."
     },
     {
+      "name": "legend-of-elya-n64",
+      "url": "https://github.com/Scottcjn/legend-of-elya-n64",
+      "stars": 139,
+      "description": "Legend of Elya — N64 game with a real 6.36M-parameter ternary transformer on the VR4300 MIPS III CPU. Zelda-style dungeon, AI NPCs, byte-level inference at 1.23 tok/s scalar / 2.19 tok/s on the RSP overlay (measured under ares, never on silicon). Built with libdragon."
+    },
+    {
       "name": "UltraEd",
       "url": "https://github.com/deadcast2/UltraEd",
-      "stars": 137,
+      "stars": 136,
       "description": "A WIP level editor/game engine for the Nintendo 64."
     },
     {
@@ -511,6 +511,12 @@
       "url": "https://github.com/TheMrIron2/DeSmuME-PSP",
       "stars": 136,
       "description": "A Nintendo DS emulator for PlayStation Portable."
+    },
+    {
+      "name": "ProsperoEden-Encore",
+      "url": "https://github.com/niakw/ProsperoEden-Encore",
+      "stars": 129,
+      "description": "ProsperoEden Encore — experimental Nintendo Switch 1 + 2 (NS1/NS2) emulator PS5 FW 13.60. Audited Eden Vulkan/OpenGL, per-core JIT, FSR, DualSense TV-first UI, 31 languages, multiplayer lobby, per-game profiles, hardened releases. NSP/XCI/NSZ/XCZ/ExeFS/NRO/NSO/NCA/NAX/KIP; LZ4/ZBIC/zstd; NUP. https://github.com/niakw/ProsperoEden-Encore#encore"
     },
     {
       "name": "p8-programming-fonts",
@@ -531,22 +537,16 @@
       "description": "Lightweight PS1 emulator in C# for retro gaming."
     },
     {
-      "name": "ProsperoEden-Encore",
-      "url": "https://github.com/niakw/ProsperoEden-Encore",
-      "stars": 126,
-      "description": "ProsperoEden Encore — experimental Nintendo Switch 1 + 2 (NS1/NS2) emulator PS5 FW 13.60. Audited Eden Vulkan/OpenGL, per-core JIT, FSR, DualSense TV-first UI, 31 languages, multiplayer lobby, per-game profiles, hardened releases. NSP/XCI/NSZ/XCZ/ExeFS/NRO/NSO/NCA/NAX/KIP; LZ4/ZBIC/zstd; NUP. https://github.com/niakw/ProsperoEden-Encore#encore"
+      "name": "Omnidroid",
+      "url": "https://github.com/Ahmed-Abousaif/Omnidroid",
+      "stars": 122,
+      "description": "All in one emulator on Android!"
     },
     {
       "name": "gbshader",
       "url": "https://github.com/nukep/gbshader",
       "stars": 121,
       "description": "A real-time shader demo for the Game Boy Color!"
-    },
-    {
-      "name": "Omnidroid",
-      "url": "https://github.com/Ahmed-Abousaif/Omnidroid",
-      "stars": 119,
-      "description": "All in one emulator on Android!"
     },
     {
       "name": "vcs-game-maker",
@@ -569,7 +569,7 @@
     {
       "name": "KB-RPCS3",
       "url": "https://github.com/kamb205/KB-RPCS3",
-      "stars": 115,
+      "stars": 116,
       "description": "Unofficial RPCS3 port for PlayStation 5 — run PS3 games as a native PS5 homebrew title. Alpha 0.1.0 source release."
     },
     {
@@ -603,16 +603,16 @@
       "description": "An arcade platformer homebrew game for the Game Boy, Game Boy Color and Super Game Boy"
     },
     {
+      "name": "sh23ds",
+      "url": "https://github.com/ankushKun/sh23ds",
+      "stars": 103,
+      "description": "Silent Hill 2 for Nintendo 3DS: a native homebrew port of the PC Director's Cut for the New 3DS and original 3DS, with the Enhanced Edition's fixes. Runs on your own copy of the game."
+    },
+    {
       "name": "create-retro-game-kr-patch",
       "url": "https://github.com/mcpads/create-retro-game-kr-patch",
       "stars": 103,
       "description": "레트로 게임 한글 패치 제작 전 파이프라인 에이전트 스킬 · Agent skill for end-to-end Korean (Hangul) fan-translation patches for retro games"
-    },
-    {
-      "name": "sh23ds",
-      "url": "https://github.com/ankushKun/sh23ds",
-      "stars": 102,
-      "description": "Silent Hill 2 for Nintendo 3DS: a native homebrew port of the PC Director's Cut for the New 3DS and original 3DS, with the Enhanced Edition's fixes. Runs on your own copy of the game."
     },
     {
       "name": "gba_explorer",
@@ -665,14 +665,8 @@
     {
       "name": "atari-dev-studio",
       "url": "https://github.com/chunkypixel/atari-dev-studio",
-      "stars": 94,
+      "stars": 95,
       "description": "Homebrew game creation for the Atari 8-bit consoles (VS Code Extension)"
-    },
-    {
-      "name": "audio8bit",
-      "url": "https://github.com/yumiaura/audio8bit",
-      "stars": 94,
-      "description": "CLI to convert any audio file into 8-bit / retro game style sound"
     },
     {
       "name": "pico8",
@@ -691,6 +685,12 @@
       "url": "https://github.com/RetroScaler/GBSC",
       "stars": 93,
       "description": " all-in-one integrated design，A Tvia Trueview5725 based upscaler/video converter board for retro gaming hardware，"
+    },
+    {
+      "name": "audio8bit",
+      "url": "https://github.com/yumiaura/audio8bit",
+      "stars": 93,
+      "description": "CLI to convert any audio file into 8-bit / retro game style sound"
     },
     {
       "name": "retro-game-console-icons",
@@ -885,6 +885,12 @@
       "description": "Google Dino for the Gameboy Advance."
     },
     {
+      "name": "null-store-ps4",
+      "url": "https://github.com/lastrowcritic/null-store-ps4",
+      "stars": 68,
+      "description": "PS4 homebrew game catalogue and BitTorrent download manager for HEN-enabled consoles, with optional background downloads and in-app PKG installation."
+    },
+    {
       "name": "pico8demakes",
       "url": "https://github.com/pixelbath/pico8demakes",
       "stars": 68,
@@ -909,6 +915,12 @@
       "description": "Game Boy Advance homebrew games collected as a community maintained JSON database"
     },
     {
+      "name": "Retro-Zero",
+      "url": "https://github.com/geo-tp/Retro-Zero",
+      "stars": 67,
+      "description": "Libretro-based emulator frontend running NES, SNES, GB, GBC, GBA, N64, Mega Drive, Master System, Game Gear, Dreamcast, PSP, PS1, Neo Geo, Neo Geo Pocket, FBNeo, MAME, PC Engine, MSX, Atari 2600, Atari 7800, Atari Lynx and WonderSwan on the Cardputer Zero"
+    },
+    {
       "name": "falling-nes",
       "url": "https://github.com/xram64/falling-nes",
       "stars": 67,
@@ -919,18 +931,6 @@
       "url": "https://github.com/extremscorner/gba-as-controller",
       "stars": 66,
       "description": "The GBA-as-N64/GC controller from Game Boy Interface."
-    },
-    {
-      "name": "Retro-Zero",
-      "url": "https://github.com/geo-tp/Retro-Zero",
-      "stars": 65,
-      "description": "Libretro-based emulator frontend running NES, SNES, GB, GBC, GBA, N64, Mega Drive, Master System, Game Gear, Dreamcast, PSP, PS1, Neo Geo, Neo Geo Pocket, FBNeo, MAME, PC Engine, MSX, Atari 2600, Atari 7800, Atari Lynx and WonderSwan on the Cardputer Zero"
-    },
-    {
-      "name": "null-store-ps4",
-      "url": "https://github.com/lastrowcritic/null-store-ps4",
-      "stars": 65,
-      "description": "PS4 homebrew game catalogue and BitTorrent download manager for HEN-enabled consoles, with optional background downloads and in-app PKG installation."
     },
     {
       "name": "Retro-Gaming-Guide",
@@ -1041,6 +1041,12 @@
       "description": "An EDSL implemented in Haskell for programming the Nintendo Game Boy."
     },
     {
+      "name": "bayo3-recomp",
+      "url": "https://github.com/aoxzh/bayo3-recomp",
+      "stars": 50,
+      "description": "Bayonetta 3 PC, Steam Deck and Android native port: static ARM-to-C++ recompiler, Horizon/NVN runtime and Vulkan backend. No emulator; bring your own 1.2.0 game files."
+    },
+    {
       "name": "PlatinumSrc",
       "url": "https://github.com/PlatinumSrc/PlatinumSrc",
       "stars": 50,
@@ -1075,12 +1081,6 @@
       "url": "https://github.com/NangiDev/pico-8-projects",
       "stars": 49,
       "description": "Just my repository for mocking and writing down basic implementations I have been thinking about."
-    },
-    {
-      "name": "bayo3-recomp",
-      "url": "https://github.com/aoxzh/bayo3-recomp",
-      "stars": 48,
-      "description": "Bayonetta 3 PC, Steam Deck and Android native port: static ARM-to-C++ recompiler, Horizon/NVN runtime and Vulkan backend. No emulator; bring your own 1.2.0 game files."
     },
     {
       "name": "pyxel-snippets",
@@ -1275,6 +1275,12 @@
       "description": "Proyecto indie retro game: para SEGA Mega Drive/Genesis, creado con SGDK"
     },
     {
+      "name": "Petris",
+      "url": "https://github.com/bbbbbr/Petris",
+      "stars": 36,
+      "description": "A puzzle game for the Game Boy Color (CGB), Analogue Pocket (AP) and Game Gear(GG). Build pets in all shapes and sizes, keep the board clear."
+    },
+    {
       "name": "Depicofier",
       "url": "https://github.com/Enichan/Depicofier",
       "stars": 36,
@@ -1311,12 +1317,6 @@
       "description": "Mine RTC while playing retro games on Raspberry Pi. RetroAchievements integration, Proof of Play, Cartridge Relics, Saturday Morning Quests. Small RTC, huge bragging rights."
     },
     {
-      "name": "Petris",
-      "url": "https://github.com/bbbbbr/Petris",
-      "stars": 35,
-      "description": "A puzzle game for the Game Boy Color (CGB), Analogue Pocket (AP) and Game Gear(GG). Build pets in all shapes and sizes, keep the board clear."
-    },
-    {
       "name": "PIC-CNT64",
       "url": "https://github.com/bigbass1997/PIC-CNT64",
       "stars": 34,
@@ -1333,6 +1333,12 @@
       "url": "https://github.com/josegonzalez/minui-pico-8-pak",
       "stars": 34,
       "description": "A pak wrapping PICO-8, a fantasy video game console"
+    },
+    {
+      "name": "Pocket2Droid",
+      "url": "https://github.com/samsixx6/Pocket2Droid",
+      "stars": 34,
+      "description": "Windows Mobile 6 emulator for Android, running the complete OS."
     },
     {
       "name": "indigo",
@@ -1377,12 +1383,6 @@
       "description": "Native PSP engine for The Simpsons: Hit & Run (PS2), written in C with PSPSDK. Not an emulator: data is converted from your own disc, runs on a PSP-2000 with custom firmware. No game files included."
     },
     {
-      "name": "Pocket2Droid",
-      "url": "https://github.com/samsixx6/Pocket2Droid",
-      "stars": 33,
-      "description": "Windows Mobile 6 emulator for Android, running the complete OS."
-    },
-    {
       "name": "nsdlib",
       "url": "https://github.com/Shaw02/nsdlib",
       "stars": 33,
@@ -1419,6 +1419,12 @@
       "description": "A Framework Laptop powered retro Game Console!"
     },
     {
+      "name": "amiga-game-kit",
+      "url": "https://github.com/codebase/amiga-game-kit",
+      "stars": 31,
+      "description": "Build real Commodore Amiga games with AI agents: C toolchain, headless emulator tests, and art, sound and video pipelines."
+    },
+    {
       "name": "pkHouse",
       "url": "https://github.com/Insektaure/pkHouse",
       "stars": 31,
@@ -1447,12 +1453,6 @@
       "url": "https://github.com/alloncm/MagenBoot",
       "stars": 30,
       "description": "A custom copyright free Gameboy (DMG) bootrom"
-    },
-    {
-      "name": "amiga-game-kit",
-      "url": "https://github.com/codebase/amiga-game-kit",
-      "stars": 30,
-      "description": "Build real Commodore Amiga games with AI agents: C toolchain, headless emulator tests, and art, sound and video pipelines."
     },
     {
       "name": "lexaloffle",
@@ -1581,6 +1581,12 @@
       "description": "Tool to create and manage assets for a NES game."
     },
     {
+      "name": "starwing-3ds",
+      "url": "https://github.com/EstebanPdN/starwing-3ds",
+      "stars": 27,
+      "description": "Nintendo 3DS dual-screen port of Star Fox / Starwing (SNES), based on Starfox Enhanced."
+    },
+    {
       "name": "pyxel-lander",
       "url": "https://github.com/humrochagf/pyxel-lander",
       "stars": 27,
@@ -1591,6 +1597,12 @@
       "url": "https://github.com/mhughson/mbh-firstnes",
       "stars": 27,
       "description": "From Below. A homebrew game for the NES released in 2020."
+    },
+    {
+      "name": "SalsaDS",
+      "url": "https://github.com/ricowp81/SalsaDS",
+      "stars": 27,
+      "description": "Nintendo DS emulator for PlayStation 3 (homebrew), built around the Cell: ARM9 recompiler on the PPE, 2D, 3D, geometry and sound on SPEs. Experimental preview."
     },
     {
       "name": "RommDeck",
@@ -1641,12 +1653,6 @@
       "description": "A collection of small games for the Fantasy Console WASM-4"
     },
     {
-      "name": "starwing-3ds",
-      "url": "https://github.com/EstebanPdN/starwing-3ds",
-      "stars": 26,
-      "description": "Nintendo 3DS dual-screen port of Star Fox / Starwing (SNES), based on Starfox Enhanced."
-    },
-    {
       "name": "Anteform",
       "url": "https://github.com/Feneric/Anteform",
       "stars": 26,
@@ -1657,12 +1663,6 @@
       "url": "https://github.com/polius/RetroX",
       "stars": 26,
       "description": "Self-hosted retro gaming, right in your browser."
-    },
-    {
-      "name": "SalsaDS",
-      "url": "https://github.com/ricowp81/SalsaDS",
-      "stars": 26,
-      "description": "Nintendo DS emulator for PlayStation 3 (homebrew), built around the Cell: ARM9 recompiler on the PPE, 2D, 3D, geometry and sound on SPEs. Experimental preview."
     },
     {
       "name": "openNES-Snake",
@@ -1783,6 +1783,12 @@
       "url": "https://github.com/jspicl/jspicl-mario-sample",
       "stars": 23,
       "description": "A simple Mario game showcasing how to create PICO-8 games in JavaScript."
+    },
+    {
+      "name": "ps4-switch-emu",
+      "url": "https://github.com/ps4-switch-emu/ps4-switch-emu",
+      "stars": 23,
+      "description": "Nintendo Switch emulator for jailbroken PS4 consoles, based on Eden. Experimental."
     },
     {
       "name": "dreamhal",
@@ -1953,6 +1959,12 @@
       "description": "WePlayDOS brings classic DOS games to modern browsers using cutting-edge technology. Experience your favorite retro games with ease - no downloads or complex setups required."
     },
     {
+      "name": "SpiderMan2-2004-NX",
+      "url": "https://github.com/SantiBros/SpiderMan2-2004-NX",
+      "stars": 20,
+      "description": "Unofficial Nintendo Switch homebrew port of Spider-Man 2 for the original Xbox (2004), statically recompiled. Build it from your own copy of the game."
+    },
+    {
       "name": "nsmbw-switch",
       "url": "https://github.com/schuler-ph/nsmbw-switch",
       "stars": 20,
@@ -2091,12 +2103,6 @@
       "description": "Coco Battle Royale II ココバトル (kokobatoru) 2 is a homebrew game for nintendo years 80 console, distributed as free software."
     },
     {
-      "name": "SpiderMan2-2004-NX",
-      "url": "https://github.com/SantiBros/SpiderMan2-2004-NX",
-      "stars": 18,
-      "description": "Unofficial Nintendo Switch homebrew port of Spider-Man 2 for the original Xbox (2004), statically recompiled. Build it from your own copy of the game."
-    },
-    {
       "name": "RetroGamingWorkshop",
       "url": "https://github.com/seattlecoderdojo/RetroGamingWorkshop",
       "stars": 18,
@@ -2133,10 +2139,22 @@
       "description": "A replacement Gameboy DMG headphone jack PCB utilizing all newly manufactured parts -- yes, even the jack."
     },
     {
+      "name": "PS5_DevLoop",
+      "url": "https://github.com/griches/PS5_DevLoop",
+      "stars": 17,
+      "description": "Let an AI agent drive a jailbroken PS5 by itself: a virtual DualSense and fast screen capture that close the loop for unattended homebrew port development."
+    },
+    {
       "name": "MinimaLauncher",
       "url": "https://github.com/iGlitch/MinimaLauncher",
       "stars": 17,
       "description": "A region free, UI-less, disc booter homebrew for Wii/vWii with cheat code support!"
+    },
+    {
+      "name": "serpent",
+      "url": "https://github.com/jahan-addison/serpent",
+      "stars": 17,
+      "description": "Snake 🐍 on the Dreamcast Memory Card (VMS) peripheral device"
     },
     {
       "name": "pico8-google-analytics",
@@ -2149,12 +2167,6 @@
       "url": "https://github.com/nxrix/pixel-8",
       "stars": 17,
       "description": "Web based fantasy console and JavaScript library"
-    },
-    {
-      "name": "ps4-switch-emu",
-      "url": "https://github.com/ps4-switch-emu/ps4-switch-emu",
-      "stars": 17,
-      "description": "Nintendo Switch emulator for jailbroken PS4 consoles, based on Eden. Experimental."
     },
     {
       "name": "RetroQUEST",
@@ -2241,12 +2253,6 @@
       "description": "PICO8 Extractor is a user-friendly tool designed to convert PICO-8 JavaScript cart exports into binary .p8.rom files that can be directly loaded in the PICO-8 fantasy console."
     },
     {
-      "name": "serpent",
-      "url": "https://github.com/jahan-addison/serpent",
-      "stars": 16,
-      "description": "Snake 🐍 on the Dreamcast Memory Card (VMS) peripheral device"
-    },
-    {
       "name": "Rusterix",
       "url": "https://github.com/markusmoenig/Rusterix",
       "stars": 16,
@@ -2325,10 +2331,10 @@
       "description": "collection of old school demoscene effects implemented for a fantasy console in python"
     },
     {
-      "name": "PS5_DevLoop",
-      "url": "https://github.com/griches/PS5_DevLoop",
+      "name": "PS5_Sunshine",
+      "url": "https://github.com/griches/PS5_Sunshine",
       "stars": 15,
-      "description": "Let an AI agent drive a jailbroken PS5 by itself: a virtual DualSense and fast screen capture that close the loop for unattended homebrew port development."
+      "description": "Super Mario Sunshine on the PS5: a homebrew port of chasem-dev's sms-pc-port, as a builder kit (4K, 60 fps, your own disc image)"
     },
     {
       "name": "AdamIsMe",
@@ -2445,12 +2451,6 @@
       "description": "create your own game-engine with just lua for game boy advance"
     },
     {
-      "name": "PS5_Sunshine",
-      "url": "https://github.com/griches/PS5_Sunshine",
-      "stars": 14,
-      "description": "Super Mario Sunshine on the PS5: a homebrew port of chasem-dev's sms-pc-port, as a builder kit (4K, 60 fps, your own disc image)"
-    },
-    {
       "name": "lazerpong",
       "url": "https://github.com/huderlem/lazerpong",
       "stars": 14,
@@ -2493,6 +2493,12 @@
       "description": "Feature-rich editor for the GameBoy game Metroid II: Return of Samus"
     },
     {
+      "name": "Muffin-EMU",
+      "url": "https://github.com/MuffinEMU/Muffin-EMU",
+      "stars": 14,
+      "description": "MuffinEMU: Wii U emulator for iPhone and iPad, based on Cemu. Free and open source, with a Metal renderer and JIT support. "
+    },
+    {
       "name": "pico-tools",
       "url": "https://github.com/nicholaswagner/pico-tools",
       "stars": 14,
@@ -2509,6 +2515,12 @@
       "url": "https://github.com/nucleartide/pico-snippets",
       "stars": 14,
       "description": "Drop-in snippets for your PICO-8 game."
+    },
+    {
+      "name": "UltraGB-Overlay",
+      "url": "https://github.com/ppkantorski/UltraGB-Overlay",
+      "stars": 14,
+      "description": "An embedded Game Boy Overlay for the Nintendo Switch made utilizing the libultrahand framework."
     },
     {
       "name": "Devils-Box",
@@ -2583,6 +2595,12 @@
       "description": "Co-Op Retro Games for 2 players. Full copability with retroachivment and nostalgie"
     },
     {
+      "name": "J2MEX",
+      "url": "https://github.com/huongdino443/J2MEX",
+      "stars": 13,
+      "description": "Android Java ME emulator that runs MIDlet JARs directly on an Android-optimized FreeJ2ME engine—no JAR-to-DEX conversion required."
+    },
+    {
       "name": "Rp5-retro-overlays",
       "url": "https://github.com/L3x19H/Rp5-retro-overlays",
       "stars": 13,
@@ -2599,12 +2617,6 @@
       "url": "https://github.com/paixonite/loverboy",
       "stars": 13,
       "description": "Handheld console for retro gaming powered by an ESP32-S3 and the Arduino framework."
-    },
-    {
-      "name": "UltraGB-Overlay",
-      "url": "https://github.com/ppkantorski/UltraGB-Overlay",
-      "stars": 13,
-      "description": "An embedded Game Boy Overlay for the Nintendo Switch made utilizing the libultrahand framework."
     },
     {
       "name": "love-super-mario-bros",
@@ -2661,16 +2673,16 @@
       "description": "Micro Fantasy Console (for the modern browser)"
     },
     {
-      "name": "J2MEX",
-      "url": "https://github.com/huongdino443/J2MEX",
-      "stars": 12,
-      "description": "Android Java ME emulator that runs MIDlet JARs directly on an Android-optimized FreeJ2ME engine—no JAR-to-DEX conversion required."
-    },
-    {
       "name": "flappy-bird-gameboy",
       "url": "https://github.com/LaroldsJubilantJunkyard/flappy-bird-gameboy",
       "stars": 12,
       "description": "Flappy Bird Gameboy Homebrew. Now you can play the popular hyper casual game on your  nintendo gameboy."
+    },
+    {
+      "name": "translate-retro-game",
+      "url": "https://github.com/minhnhattonthat/translate-retro-game",
+      "stars": 12,
+      "description": "Agent skill + tested tools for fan-translating Japanese retro games (SNES, GBA, NDS, PS1, PSP) into English: recon, text extract/insert, VWF, graphics text, parallel translator agents, headless emulator QA, BPS/xdelta releases."
     },
     {
       "name": "genemedic",
@@ -2679,16 +2691,16 @@
       "description": "A retro edutainment game of genome medicine for the Atari 2600"
     },
     {
-      "name": "Muffin-EMU",
-      "url": "https://github.com/MuffinEMU/Muffin-EMU",
-      "stars": 12,
-      "description": "MuffinEMU: Wii U emulator for iPhone and iPad, based on Cemu. Free and open source, with a Metal renderer and JIT support. "
-    },
-    {
       "name": "hidizs-ap30-game-emu",
       "url": "https://github.com/nkahoang/hidizs-ap30-game-emu",
       "stars": 12,
       "description": "A project to reverse engineer and embed retro game emulator to the Hidizs AP30 Music Boy"
+    },
+    {
+      "name": "DABG",
+      "url": "https://github.com/NovaSquirrel/DABG",
+      "stars": 12,
+      "description": "an arcade-style platformer for the NES that plays similarly to Bubble Bobble"
     },
     {
       "name": "fix-pico8-ios-sound",
@@ -2799,6 +2811,12 @@
       "description": "Duck Hunt - a retro game in html5 canvas"
     },
     {
+      "name": "magic-trick",
+      "url": "https://github.com/agentichunter-blip/magic-trick",
+      "stars": 11,
+      "description": "Magic Trick: a free, open-source game library mod for the ModRetro Chromatic, built on CursedToast's ChroMagic. Game Boy, Game Boy Color and Game Gear, cover art, previews, Game Genie, save states."
+    },
+    {
       "name": "bigburger",
       "url": "https://github.com/allie/bigburger",
       "stars": 11,
@@ -2865,22 +2883,10 @@
       "description": "Doom2D port for Game Boy Advance"
     },
     {
-      "name": "DABG",
-      "url": "https://github.com/NovaSquirrel/DABG",
-      "stars": 11,
-      "description": "an arcade-style platformer for the NES that plays similarly to Bubble Bobble"
-    },
-    {
       "name": "Pico3D",
       "url": "https://github.com/qualiaa/Pico3D",
       "stars": 11,
       "description": "A fully 3D renderer for PICO-8"
-    },
-    {
-      "name": "TouchePX5",
-      "url": "https://github.com/Techx3/TouchePX5",
-      "stars": 11,
-      "description": "Touché PX5 is an independent experimental PS5 emulator for PC, aiming to run legally obtained commercial games and homebrew. Users must provide their own lawful game dumps. Not affiliated with Sony."
     },
     {
       "name": "zealc-rust",
@@ -2911,6 +2917,12 @@
       "url": "https://github.com/Bowler-Bear/retro-crypto",
       "stars": 10,
       "description": "Crypto seed and address software that can be used on retro game systems"
+    },
+    {
+      "name": "WiiUStation",
+      "url": "https://github.com/cassiojsl/WiiUStation",
+      "stars": 10,
+      "description": "PlayStation (PS1) emulator for the Wii U, based on PCSX-ReARMed."
     },
     {
       "name": "pico-8",
@@ -2967,12 +2979,6 @@
       "description": "Classic Tetris based on Tetris DX on Gameboy-Color, Compatible with python3.10. Thanks for https://github.com/kitao/pyxel Retro game Engine"
     },
     {
-      "name": "translate-retro-game",
-      "url": "https://github.com/minhnhattonthat/translate-retro-game",
-      "stars": 10,
-      "description": "Agent skill + tested tools for fan-translating Japanese retro games (SNES, GBA, NDS, PS1, PSP) into English: recon, text extract/insert, VWF, graphics text, parallel translator agents, headless emulator QA, BPS/xdelta releases."
-    },
-    {
       "name": "owls16",
       "url": "https://github.com/morph-games/owls16",
       "stars": 10,
@@ -3003,6 +3009,12 @@
       "description": "Retro gaming console in a French Minitel case , based on Raspberry + RetroPi."
     },
     {
+      "name": "rommate",
+      "url": "https://github.com/rchaicowski/rommate",
+      "stars": 10,
+      "description": "RomMate - Your ROM companion for converting, compressing, and organizing disc images. Supports CHD conversion and M3U playlist creation for PS1, PS2, Dreamcast, Saturn, and more."
+    },
+    {
       "name": "Astro",
       "url": "https://github.com/rmeuth01/Astro",
       "stars": 10,
@@ -3025,6 +3037,12 @@
       "url": "https://github.com/stoyanov-kaloyan/goths-n-vamps",
       "stars": 10,
       "description": "A homebrew game for the Sony PSP written in Rust."
+    },
+    {
+      "name": "TouchePX5",
+      "url": "https://github.com/Techx3/TouchePX5",
+      "stars": 10,
+      "description": "Touché PX5 is an independent experimental PS5 emulator for PC, aiming to run legally obtained commercial games and homebrew. Users must provide their own lawful game dumps. Not affiliated with Sony."
     },
     {
       "name": "Gaming-Zone",
@@ -3231,12 +3249,6 @@
       "description": "🎮 Emulador multisistema para PS4 | N64 · GB · GBC · GBA · NES · SNES | 🛠️ C++17 + SDL2 | 🚧 En desarrollo"
     },
     {
-      "name": "rommate",
-      "url": "https://github.com/rchaicowski/rommate",
-      "stars": 9,
-      "description": "RomMate - Your ROM companion for converting, compressing, and organizing disc images. Supports CHD conversion and M3U playlist creation for PS1, PS2, Dreamcast, Saturn, and more."
-    },
-    {
       "name": "pico-8-autoinstall",
       "url": "https://github.com/robert5800/pico-8-autoinstall",
       "stars": 9,
@@ -3289,12 +3301,6 @@
       "url": "https://github.com/Zer0M4n/GB-EMU",
       "stars": 9,
       "description": "GB-EMU is an open-source Game Boy emulator developed for educational purposes. It is written in modern C++17 and compiled with Emscripten to run retro games directly in your browser without plugins."
-    },
-    {
-      "name": "magic-trick",
-      "url": "https://github.com/agentichunter-blip/magic-trick",
-      "stars": 8,
-      "description": "Magic Trick: a free, open-source game library mod for the ModRetro Chromatic, built on CursedToast's ChroMagic. Game Boy, Game Boy Color and Game Gear, cover art, previews, Game Genie, save states."
     },
     {
       "name": "The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition",
@@ -3429,6 +3435,12 @@
       "description": "Retro game for the ZX Spectrum."
     },
     {
+      "name": "Bakugan-Battle-Brawlers-PS3-recomp",
+      "url": "https://github.com/Mauryln/Bakugan-Battle-Brawlers-PS3-recomp",
+      "stars": 8,
+      "description": "Native Windows x64 port of Bakugan: Battle Brawlers (PS3, BLES00758) built by static PPU+SPU recompilation - no emulator. Menus, FMVs and the narrative intro work; 3D models, gameplay and SFX are next."
+    },
+    {
       "name": "GameBoyShenanigans",
       "url": "https://github.com/MechaDragonX/GameBoyShenanigans",
       "stars": 8,
@@ -3505,6 +3517,12 @@
       "url": "https://github.com/tobiasvl/picolarium",
       "stars": 8,
       "description": ":video_game::white_large_square::black_large_square: Picolarium, a puzzle game for PICO-8"
+    },
+    {
+      "name": "DK64Recomp-NX",
+      "url": "https://github.com/Trinalord777/DK64Recomp-NX",
+      "stars": 8,
+      "description": "Donkey Kong 64 (N64) static recompilation for Nintendo Switch, GLideN64 renderer. Requires your own ROM."
     },
     {
       "name": "game-cover-downloader-skill",
@@ -3645,6 +3663,12 @@
       "description": "ShrimplePlay is a free to use, open-source, gaming site with a large collection of html5, flash, mobile, and retro games to play out of the box in your browser!"
     },
     {
+      "name": "skate3-nx2",
+      "url": "https://github.com/irolup/skate3-nx2",
+      "stars": 7,
+      "description": "Unofficial Nintendo Switch 2 homebrew port of the Skate 3 static recompilation (skate3recomp). No game files included."
+    },
+    {
       "name": "retro-gaming",
       "url": "https://github.com/israelperez/retro-gaming",
       "stars": 7,
@@ -3717,12 +3741,6 @@
       "description": "CLI tool that allows you to write GameBoy games in TypeScript !"
     },
     {
-      "name": "Bakugan-Battle-Brawlers-PS3-recomp",
-      "url": "https://github.com/Mauryln/Bakugan-Battle-Brawlers-PS3-recomp",
-      "stars": 7,
-      "description": "Native Windows x64 port of Bakugan: Battle Brawlers (PS3, BLES00758) built by static PPU+SPU recompilation - no emulator. Menus, FMVs and the narrative intro work; 3D models, gameplay and SFX are next."
-    },
-    {
       "name": "8bit-table-tennis",
       "url": "https://github.com/mike42/8bit-table-tennis",
       "stars": 7,
@@ -3733,6 +3751,12 @@
       "url": "https://github.com/moon-watcher/Scorpion-Illuminati-Core",
       "stars": 7,
       "description": "Scorpion Illuminati is an open source homebrew rhythm game for the video game console known in the us as the Sega Genesis or the Mega Drive in Japan/Europe. written in Motorola 68000 Assembly language. Scorpion Illuminati is licensed open source under the Artistic license."
+    },
+    {
+      "name": "tmnt-recomp",
+      "url": "https://github.com/naparuba-retro/tmnt-recomp",
+      "stars": 7,
+      "description": "Recompilation of the TMNT nes game into C"
     },
     {
       "name": "Bootyful-Demake",
@@ -3867,12 +3891,6 @@
       "description": "PICO-8 UI theme for Atom"
     },
     {
-      "name": "DK64Recomp-NX",
-      "url": "https://github.com/Trinalord777/DK64Recomp-NX",
-      "stars": 7,
-      "description": "Donkey Kong 64 (N64) static recompilation for Nintendo Switch, GLideN64 renderer. Requires your own ROM."
-    },
-    {
       "name": "milky-way",
       "url": "https://github.com/utilForever/milky-way",
       "stars": 7,
@@ -3889,6 +3907,12 @@
       "url": "https://github.com/xenophile127/GameBoyColorPicker",
       "stars": 7,
       "description": "A color picker that runs on Game Boy Color, Game Boy Advance, and Super Game Boy."
+    },
+    {
+      "name": "Mini-Gameboy",
+      "url": "https://github.com/Yukiene404/Mini-Gameboy",
+      "stars": 7,
+      "description": "MINI GAMEBOY BOY is a DIY ESP32 retro game console for a 2.4-inch ILI9341 TFT. It includes five arcade-inspired games—Alien Attack, T-Rex Dash, Flap Jump, Snake, and Brick Buster—with three-button controls, configurable display settings, and saved high scores."
     },
     {
       "name": "Kettermean",
@@ -4341,12 +4365,6 @@
       "description": "Pico 8 Sokoban Game Framework"
     },
     {
-      "name": "Mini-Gameboy",
-      "url": "https://github.com/Yukiene404/Mini-Gameboy",
-      "stars": 6,
-      "description": "MINI GAMEBOY BOY is a DIY ESP32 retro game console for a 2.4-inch ILI9341 TFT. It includes five arcade-inspired games—Alien Attack, T-Rex Dash, Flap Jump, Snake, and Brick Buster—with three-button controls, configurable display settings, and saved high scores."
-    },
-    {
       "name": "Arcade",
       "url": "https://github.com/Yutsuna/Arcade",
       "stars": 6,
@@ -4587,12 +4605,6 @@
       "description": "Obtainium import pack for native Android ports, decompilations and recompilations of classic games (N64, GameCube, Wii, Xbox). One import, automatic updates."
     },
     {
-      "name": "skate3-nx2",
-      "url": "https://github.com/irolup/skate3-nx2",
-      "stars": 5,
-      "description": "Unofficial Nintendo Switch 2 homebrew port of the Skate 3 static recompilation (skate3recomp). No game files included."
-    },
-    {
       "name": "Pong-Remake",
       "url": "https://github.com/IronSentinel1/Pong-Remake",
       "stars": 5,
@@ -4695,6 +4707,12 @@
       "description": "Learn how to handle collision against a basic tilemap for your GBDK-2020 homebrew games. "
     },
     {
+      "name": "Retra",
+      "url": "https://github.com/Layfate/Retra",
+      "stars": 5,
+      "description": "Open-source Android emulator for Game Boy, Game Boy Color, and Game Boy Advance, powered by mGBA."
+    },
+    {
       "name": "Yahtzee3DS",
       "url": "https://github.com/LiquidFenrir/Yahtzee3DS",
       "stars": 5,
@@ -4771,12 +4789,6 @@
       "url": "https://github.com/naclsn/pico8code",
       "stars": 5,
       "description": "An attempt at language support for PICO-8's Lua"
-    },
-    {
-      "name": "tmnt-recomp",
-      "url": "https://github.com/naparuba-retro/tmnt-recomp",
-      "stars": 5,
-      "description": "Recompilation of the TMNT nes game into C"
     },
     {
       "name": "GameBoyFHBG",
@@ -4899,6 +4911,12 @@
       "description": "An 8-bit platformer made with Pico-8 and gantt charts"
     },
     {
+      "name": "AgrabahPort",
+      "url": "https://github.com/testsenvergonha-sys/AgrabahPort",
+      "stars": 5,
+      "description": "Unofficial native PC port of Disney's Aladdin (SNES, 1993) built with SNESRecomp — No ROM or copyrighted assets included."
+    },
+    {
       "name": "pico-8",
       "url": "https://github.com/THE-ORONCO/pico-8",
       "stars": 5,
@@ -4917,10 +4935,22 @@
       "description": "Let LLM agents play retro games"
     },
     {
+      "name": "gc3ds",
+      "url": "https://github.com/Tkibbs14/gc3ds",
+      "stars": 5,
+      "description": "GameCube emulator for homebrewed New 3DS / New 2DS XL: Gekko-to-ARM11 JIT, PICA200 backend, and everything measured about the hardware. Research stage: Twilight Princess plays (Ordon gameplay ~31% speed). Bring your own games."
+    },
+    {
       "name": "Builderland-2-Origins",
       "url": "https://github.com/torresflo/Builderland-2-Origins",
       "stars": 5,
       "description": "Builderland 2: Origins is the winner game of the Retro Game Jam 2015. Done by Alexandre Lecomte, Pierre Planeau and Florian Torres."
+    },
+    {
+      "name": "arcade-cabinet",
+      "url": "https://github.com/txuswashere/arcade-cabinet",
+      "stars": 5,
+      "description": "Proyecto RECREATIVA: Arcade Retro Gaming Cabinet."
     },
     {
       "name": "ngpc-super-puzzle-fighter-turbo-II-snk-vs-capcom",
@@ -5295,12 +5325,6 @@
       "description": "The starter repository for my space invaders tutorial. All source code files created. All assets included. Tutorial can be found here: https://laroldsjubilantjunkyard.com/tutorials/recreating-gameboy-games/space-invaders/"
     },
     {
-      "name": "Retra",
-      "url": "https://github.com/Layfate/Retra",
-      "stars": 4,
-      "description": "Open-source Android emulator for Game Boy, Game Boy Color, and Game Boy Advance, powered by mGBA."
-    },
-    {
       "name": "android-space-invaders",
       "url": "https://github.com/marcosy/android-space-invaders",
       "stars": 4,
@@ -5323,6 +5347,12 @@
       "url": "https://github.com/mfelisberto90/hybridbox",
       "stars": 4,
       "description": "Turn any broken-screen Android phone (tested on Xiaomi Redmi Note 8 Pro, works on Samsung, Redmi, readMi, Xiaomi & any Android gadget) into a 3-in-1 Smart TV/Projector Box, Linux XFCE4 Desktop (with sudo) & Retro Game Console"
+    },
+    {
+      "name": "hacker_warz",
+      "url": "https://github.com/milosilo/hacker_warz",
+      "stars": 4,
+      "description": "Hacker Warz is a text-based hacking simulation game inspired by the retro game \"Drug Wars\" that was played on graphing calculators back in the day."
     },
     {
       "name": "md_lua_sdk",
@@ -5505,12 +5535,6 @@
       "description": "A modern, cross-platform retro gaming hub to play, organize, and sync your favorite classic games offline and online with friends."
     },
     {
-      "name": "awesome-nesdev",
-      "url": "https://github.com/Scottcjn/awesome-nesdev",
-      "stars": 4,
-      "description": "A curated list of tools, libraries, docs, and projects for NES / Famicom homebrew development."
-    },
-    {
       "name": "fillp-tool",
       "url": "https://github.com/seleb/fillp-tool",
       "stars": 4,
@@ -5595,22 +5619,10 @@
       "description": "General Super Mario Bros 1 NES Editor"
     },
     {
-      "name": "AgrabahPort",
-      "url": "https://github.com/testsenvergonha-sys/AgrabahPort",
-      "stars": 4,
-      "description": "Unofficial native PC port of Disney's Aladdin (SNES, 1993) built with SNESRecomp — No ROM or copyrighted assets included."
-    },
-    {
       "name": "260-tbhs-Multi-system-Retro-Controller",
       "url": "https://github.com/thebenheckshow/260-tbhs-Multi-system-Retro-Controller",
       "stars": 4,
       "description": "The team builds the ultimate retro gaming controller using an ESP8266 WiFi Module, a transmitter controller, and a receiver on the game console. Universal support includes Nintendo, Super Nintendo, Sega, and Atari."
-    },
-    {
-      "name": "gc3ds",
-      "url": "https://github.com/Tkibbs14/gc3ds",
-      "stars": 4,
-      "description": "GameCube emulator for homebrewed New 3DS / New 2DS XL: Gekko-to-ARM11 JIT, PICA200 backend, and everything measured about the hardware. Research stage: Twilight Princess plays (Ordon gameplay ~31% speed). Bring your own games."
     },
     {
       "name": "Frogger_G52SWM",
@@ -5619,10 +5631,10 @@
       "description": "This project is about maintaining and extending a re-implementation of a classic retro game Frogger. "
     },
     {
-      "name": "arcade-cabinet",
-      "url": "https://github.com/txuswashere/arcade-cabinet",
+      "name": "PSIV",
+      "url": "https://github.com/TusanHomichi/PSIV",
       "stars": 4,
-      "description": "Proyecto RECREATIVA: Arcade Retro Gaming Cabinet."
+      "description": "Phantasy Star IV (Sega Genesis, US) rebuilt natively in Rust + Godot, verified against the original cartridge. Playable start-to-finish on Linux, Steam Deck, Windows, and macOS. Bring your own US ROM."
     },
     {
       "name": "Homebrew",
@@ -5695,6 +5707,12 @@
       "url": "https://github.com/adumah/MegaMan64Recomp-NX",
       "stars": 3,
       "description": "Nintendo Switch homebrew port of Mega Man 64: Recompiled (N64 static recompilation). No game files included."
+    },
+    {
+      "name": "SheepDogWolf-NX",
+      "url": "https://github.com/adumah/SheepDogWolf-NX",
+      "stars": 3,
+      "description": "Nintendo Switch homebrew port of Sheep, Dog 'n' Wolf: Rewooled (bring your own copy of the PC game)"
     },
     {
       "name": "snek",
@@ -5929,6 +5947,12 @@
       "url": "https://github.com/Erikas-Ramanauskas/Frogs-of-Fury",
       "stars": 3,
       "description": "Retro game"
+    },
+    {
+      "name": "tab5-emu",
+      "url": "https://github.com/esp-cpp/tab5-emu",
+      "stars": 3,
+      "description": "Emulation and games on the M5Stack Tab5 / ESP32-P4, built with ESPP. Supports: Metal Gear Solid, Jedi Knight via OpenJKDF2, Star Wars Episode I: The Phantom Menace (PSX recompiled), SNES, GBA, Genesis, with more coming!"
     },
     {
       "name": "TerminalTanks-DS",
@@ -6195,12 +6219,6 @@
       "description": "Vortex Tracker to PICO-8 music converter"
     },
     {
-      "name": "hacker_warz",
-      "url": "https://github.com/milosilo/hacker_warz",
-      "stars": 3,
-      "description": "Hacker Warz is a text-based hacking simulation game inspired by the retro game \"Drug Wars\" that was played on graphing calculators back in the day."
-    },
-    {
       "name": "mirmire",
       "url": "https://github.com/Mirmire-Launcher/mirmire",
       "stars": 3,
@@ -6295,6 +6313,12 @@
       "url": "https://github.com/Rafaelmdcarneiro/zeal-rust",
       "stars": 3,
       "description": "Retro game system compiler/assembler implemented in Rust. (SNES for now) "
+    },
+    {
+      "name": "wup-boy",
+      "url": "https://github.com/ravensclawx/wup-boy",
+      "stars": 3,
+      "description": "Game Boy and Game Boy Color games on the Wii U GamePad, for the Homebrew Menu"
     },
     {
       "name": "emberclutch",
@@ -6615,12 +6639,6 @@
       "description": "SDL simple retro game"
     },
     {
-      "name": "SheepDogWolf-NX",
-      "url": "https://github.com/adumah/SheepDogWolf-NX",
-      "stars": 2,
-      "description": "Nintendo Switch homebrew port of Sheep, Dog 'n' Wolf: Rewooled (bring your own copy of the PC game)"
-    },
-    {
       "name": "tetris-react",
       "url": "https://github.com/afonsada/tetris-react",
       "stars": 2,
@@ -6745,12 +6763,6 @@
       "url": "https://github.com/berkott/TheGamePalace",
       "stars": 2,
       "description": "A Simple Retro Gaming Website"
-    },
-    {
-      "name": "TGR-PRTO-JS",
-      "url": "https://github.com/BILLPC2684/TGR-PRTO-JS",
-      "stars": 2,
-      "description": "TheGameRazer is a modern, retro 16-bit emulator(Fantasy Console) made in JavaScript, this is still in prototype stages..."
     },
     {
       "name": "Homebrew-Gameboy-Demo",
@@ -6991,12 +7003,6 @@
       "url": "https://github.com/eric-delguerra/RetroEngine",
       "stars": 2,
       "description": "A lib to start retro game in LÖVE2D"
-    },
-    {
-      "name": "tab5-emu",
-      "url": "https://github.com/esp-cpp/tab5-emu",
-      "stars": 2,
-      "description": "Emulation and games on the M5Stack Tab5 / ESP32-P4, built with ESPP. Supports: Metal Gear Solid, Jedi Knight via OpenJKDF2, Star Wars Episode I: The Phantom Menace (PSX recompiled), SNES, GBA, Genesis, with more coming!"
     },
     {
       "name": "CARROTLAND",
@@ -7701,12 +7707,6 @@
       "description": "Free, open-source tools for the NES Classic and SNES Classic. Classic Cart Studio organizes and plays your own game collections on a PC, in a browser, or on the console. CCS Console Workbench backs up, restores and repairs the console."
     },
     {
-      "name": "wup-boy",
-      "url": "https://github.com/ravensclawx/wup-boy",
-      "stars": 2,
-      "description": "Game Boy and Game Boy Color games on the Wii U GamePad, for the Homebrew Menu"
-    },
-    {
       "name": "retropy-docs",
       "url": "https://github.com/respawnin/retropy-docs",
       "stars": 2,
@@ -7783,12 +7783,6 @@
       "url": "https://github.com/ROHANSHAJ/DIY-RetroPie-Handheld-Console-with-Custom-Bluetooth-Gamepad",
       "stars": 2,
       "description": "A modular, portable RetroPie-powered console with a custom-built Bluetooth gamepad using ESP32 and Arduino joystick shields. Built from scratch using commonly available components for a nostalgic and fun retro gaming experience."
-    },
-    {
-      "name": "retro-game-mods",
-      "url": "https://github.com/Roy-Meijer/retro-game-mods",
-      "stars": 2,
-      "description": "mods of retro game consoles"
     },
     {
       "name": "off-orbit-gb",
@@ -7891,6 +7885,12 @@
       "url": "https://github.com/siapran/baloonbomber",
       "stars": 2,
       "description": "A small pico8 game."
+    },
+    {
+      "name": "TGR-PRTO-JS",
+      "url": "https://github.com/SilvurThorn/TGR-PRTO-JS",
+      "stars": 2,
+      "description": "TheGameRazer is a modern, retro 16-bit emulator(Fantasy Console) made in JavaScript, this is still in prototype stages..."
     },
     {
       "name": "game-explorer",
@@ -8011,12 +8011,6 @@
       "url": "https://github.com/truizsanchez/pyxeltron",
       "stars": 2,
       "description": "Multidirectional shooter using pyxel retro game engine"
-    },
-    {
-      "name": "PSIV",
-      "url": "https://github.com/TusanHomichi/PSIV",
-      "stars": 2,
-      "description": "Phantasy Star IV (Sega Genesis, US) rebuilt as a native Rust + Godot game, checked against the original cartridge. Linux and Steam Deck today; Windows and macOS for 1.0. Bring your own ROM."
     },
     {
       "name": "pico-8",
@@ -8149,6 +8143,12 @@
       "url": "https://github.com/xanstomper/nemu",
       "stars": 2,
       "description": "🎮 Nemulator — Nintendo Switch emulator for Xbox Series S/X Developer Mode. Commercial NCA/NSO boot, 162 Maxwell SASS shaders, Multi-Render-Target, full Horizon HLE (49 SVCs / 54 services), 5GiB budget-tuned. D3D12 · C++20 "
+    },
+    {
+      "name": "MiniRetro",
+      "url": "https://github.com/xvzxv/MiniRetro",
+      "stars": 2,
+      "description": "iOS 复古模拟器（SwiftUI + Metal + libretro）：FC/NES、GB/GBC、GBA 与街机 CPS/Neo Geo/PGM，支持自定义虚拟按键、连发、快进、即时存档、金手指社区检索。An iOS retro emulator built on libretro cores."
     },
     {
       "name": "mario-kart",
@@ -8355,6 +8355,12 @@
       "description": "Free, open-source retro game player for Windows, Linux and Android TV: pixel-art TV interface, libretro cores, free homebrew store. / Ücretsiz, açık kaynak retro oyun oynatıcı."
     },
     {
+      "name": "need-for-speed-underground-browser",
+      "url": "https://github.com/Caliko06/need-for-speed-underground-browser",
+      "stars": 1,
+      "description": "Play Need for Speed Underground (2003) online in your browser at nfsu.cc: free, no download, no emulator. The PC game recompiled from x86 to WebAssembly."
+    },
+    {
       "name": "pico8-discord",
       "url": "https://github.com/Camden-png/pico8-discord",
       "stars": 1,
@@ -8457,16 +8463,16 @@
       "description": "Extreme-optimized PlayStation 1 (PSX) emulator for Nintendo 3DS — ARM11v6K Dynarec JIT, 100% Inline GTE, Batched PICA200 Hardware GPU, CHD v5 & Multi-Core SPU/CD-ROM"
     },
     {
-      "name": "myrientor",
-      "url": "https://github.com/coltwillcox/myrientor",
-      "stars": 1,
-      "description": "Sync your retro gaming collection from Myrient. Fast, smart, parallel."
-    },
-    {
       "name": "coops_emulator_backbone",
       "url": "https://github.com/coooooooooooops/coops_emulator_backbone",
       "stars": 1,
       "description": "A clean, promise-based JavaScript wrapper around EmulatorJS for building multi-console web browser emulator apps. Features per-system rewind profiles, state saving (IndexedDB/cloud ready), TypeScript types, and COOP/COEP header configs for PSP."
+    },
+    {
+      "name": "rom_player_by_coops",
+      "url": "https://github.com/coooooooooooops/rom_player_by_coops",
+      "stars": 1,
+      "description": "ROM Player by Coops — play retro games in your browser. NES, SNES, GBA, N64, PS1, PSP, NDS, Genesis, Game Boy & more. PWA with save states, rewind, cloud saves, cover art, and Linkup Room. Free + Premium ($3 AUD/month)."
     },
     {
       "name": "gb-homebrew-tools",
@@ -8581,6 +8587,12 @@
       "url": "https://github.com/djdron/river_raid_zx",
       "stars": 1,
       "description": "River Raid Atari 800 port to modern ZX Spectrums"
+    },
+    {
+      "name": "CGB-Bit",
+      "url": "https://github.com/dkorunic/CGB-Bit",
+      "stars": 1,
+      "description": "Game Boy and Game Boy Color emulator firmware for the CircuitMess Bit (ESP32-S3), built on Walnut-CGB: color games, buzzer sound, flash-backed saves, browser installer that flashes your own .gb/.gbc"
     },
     {
       "name": "dizzy-kwik-snax-redux",
@@ -8727,6 +8739,12 @@
       "description": "A lightweight, C-based CHIP-8 emulator designed for educational purposes."
     },
     {
+      "name": "frame-gride-online",
+      "url": "https://github.com/frame-gride/frame-gride-online",
+      "stars": 1,
+      "description": "Unofficial notes, tools and a stand-alone server for FRAME GRIDE (Dreamcast) netplay. Now on Flycast DCNet."
+    },
+    {
       "name": "snes-mods",
       "url": "https://github.com/frederico-kluser/snes-mods",
       "stars": 1,
@@ -8839,6 +8857,12 @@
       "url": "https://github.com/hazy2go/gameboy-lab",
       "stars": 1,
       "description": "Homebrew for the original Game Boy: chat with Claude (ClaudeBoy), print pictures on the Game Boy Printer, and follow the hardware builds."
+    },
+    {
+      "name": "Orbitra",
+      "url": "https://github.com/hehuang139/Orbitra",
+      "stars": 1,
+      "description": "Orbitra is a local-first browser emulator for GBA, Game Boy, NES, SNES, and experimental GameCube, powered by WebAssembly cores."
     },
     {
       "name": "GGJ2018-Transmission",
@@ -8961,12 +8985,6 @@
       "description": "A repository to storage the source code of the homebrew game \"GBA-BreakOut\" programmed for the Game Boy Advance. The BreakOut Game Engine has been developed in C programming language and DEVKITADV develpment kit."
     },
     {
-      "name": "RetroGameBrowser",
-      "url": "https://github.com/jeffreyhockema/RetroGameBrowser",
-      "stars": 1,
-      "description": "Your LaunchBox library in any web browser: play retro games right in the browser, from anywhere, with friends."
-    },
-    {
       "name": "pico-8-confetti",
       "url": "https://github.com/jesstelford/pico-8-confetti",
       "stars": 1,
@@ -9031,6 +9049,12 @@
       "url": "https://github.com/joyeusenoelle/pico8",
       "stars": 1,
       "description": "PICO-8 games and curiosities"
+    },
+    {
+      "name": "JPEmu-Renamer",
+      "url": "https://github.com/jpemu-project/JPEmu-Renamer",
+      "stars": 1,
+      "description": "Free portable emulator launcher for Windows: rename ROMs with No-Intro/OfflineList DATs (CRC32), play with built-in libretro cores. 105 systems incl. PS2, GameCube, Wii, MSX, PC-98, X68000, 16 languages."
     },
     {
       "name": "Double-Dragon-III-NES-Static-Recomp",
@@ -9117,10 +9141,10 @@
       "description": "A pico-8 game that has the user, as a snail, deliver mail."
     },
     {
-      "name": "retro-arcade-vault",
-      "url": "https://github.com/LIN4CRE/retro-arcade-vault",
+      "name": "PokemonStadium2-3DS",
+      "url": "https://github.com/leonzordhue/PokemonStadium2-3DS",
       "stars": 1,
-      "description": "🕹️ Sleek retro gaming vault & web player preloaded with 63+ classic PS1, GBA, NDS, SNES, and Sega Genesis titles, box artwork, and CRT shaders."
+      "description": "Pokémon Stadium 2 (N64) rodando nativo no New Nintendo 3DS — recompilação estática. ROM não incluída."
     },
     {
       "name": "nosebleed",
@@ -9163,12 +9187,6 @@
       "url": "https://github.com/MarcoTTC/MegaDriveSuperTools",
       "stars": 1,
       "description": "A multiple tools suite project for homebrew game modifications for Sega Mega Drive (Sega Genesis)"
-    },
-    {
-      "name": "verdant-100",
-      "url": "https://github.com/MarkHaker/verdant-100",
-      "stars": 1,
-      "description": "VERDANT-100 — Authentic handheld retro gaming console simulator with 100 unique built-in cartridges in pure modular HTML5 / Canvas2D / Web Audio."
     },
     {
       "name": "lunara-engine",
@@ -9289,6 +9307,12 @@
       "url": "https://github.com/native-gb/native-gb-web",
       "stars": 1,
       "description": "Serverless browser launcher for cartridge-powered Native GB ports"
+    },
+    {
+      "name": "Catrap---game-boy-decompilation",
+      "url": "https://github.com/nefelibatacfg/Catrap---game-boy-decompilation",
+      "stars": 1,
+      "description": "AI assisted decomp of the game boy  game : \"Catrap \""
     },
     {
       "name": "Atox",
@@ -9699,10 +9723,22 @@
       "description": "Personal backup repo of TIC-80 folder."
     },
     {
+      "name": "snes-tools",
+      "url": "https://github.com/soshimozi/snes-tools",
+      "stars": 1,
+      "description": "A modern NES sprite and CHR editor built with TypeScript + React + TailwindCSS. Features include multiple tile sheets, meta sprite editing, palette management, drag-and-drop CHR file support, and JSON/PNG export. Inspired by nesdoug’s SPEZ."
+    },
+    {
       "name": "pico8",
       "url": "https://github.com/soulchild/pico8",
       "stars": 1,
       "description": "Tiny first gamedev steps with PICO-8"
+    },
+    {
+      "name": "corridor7",
+      "url": "https://github.com/sp00nznet/corridor7",
+      "stars": 1,
+      "description": "Static recompilation of Corridor 7: Alien Invasion (DOS CD, 1994) to native C for Windows: no DOSBox, no emulator. Built on pcrecomp."
     },
     {
       "name": "esp32-retro-gaming-console-kicad-schematic",
@@ -10011,6 +10047,12 @@
       "description": ""
     },
     {
+      "name": "NEStalgia",
+      "url": "https://github.com/Xalechim/NEStalgia",
+      "stars": 1,
+      "description": "NEStalgia podcast: a chronological exploration of every NES game. Show notes, transcripts, research and cover art."
+    },
+    {
       "name": "3dsrps",
       "url": "https://github.com/xendke/3dsrps",
       "stars": 1,
@@ -10111,6 +10153,12 @@
       "url": "https://github.com/Aftersol/n64_qoi_enc",
       "stars": 0,
       "description": " QOI Encoder that runs on N64"
+    },
+    {
+      "name": "games",
+      "url": "https://github.com/Ai-rom-experimentations/games",
+      "stars": 0,
+      "description": "non-ported, ai assisted homebrew titles for the sg-1000 and other consoles!"
     },
     {
       "name": "homebrew-games-camlboy",
@@ -10705,6 +10753,12 @@
       "url": "https://github.com/fylzzz/wiiEngine",
       "stars": 0,
       "description": "A custom ECS-based game engine for developing Wii homebrew games, built on the raylib4gamecube and devkitPPC libraries"
+    },
+    {
+      "name": "recomp-playbook",
+      "url": "https://github.com/g-brrzzn/recomp-playbook",
+      "stars": 0,
+      "description": "Techniques, tools and optimizations from my Nintendo Switch static-recompilation ports: debugging, PGO, generated-code changes, emulator and console testing."
     },
     {
       "name": "the-white-lily",
@@ -11727,12 +11781,6 @@
       "description": "Nintendo GameCube homebrew, Swiss loader, PicoBoot, FlippyDrive, Game Boy Interface, memory card tools, and console utilities."
     },
     {
-      "name": ".github",
-      "url": "https://github.com/Nintendo-Wii-USB-Loader-GX/.github",
-      "stars": 0,
-      "description": "USB Loader GX is a homebrew game loader for Nintendo Wii, providing a graphical interface to launch Wii and GameCube games from USB storage or SD cards, manage game libraries, download cover art, and configure per-game options."
-    },
-    {
       "name": "pico-8-projects",
       "url": "https://github.com/nkiv/pico-8-projects",
       "stars": 0,
@@ -11761,12 +11809,6 @@
       "url": "https://github.com/Notters/beat-the-goalie",
       "stars": 0,
       "description": "Beat-the-Goalie game created in Pico-8. You are the striker in a penalty shootout and the computer is the goalkeeper. The goalkeeper will predict which way your going to go on each penalty. Can you beat it?"
-    },
-    {
-      "name": "Undermate-switch-port",
-      "url": "https://github.com/Noxetchuk/Undermate-switch-port",
-      "stars": 0,
-      "description": "Homebrew game port for Nintendo Switch"
     },
     {
       "name": "3ds_show_touch_position",
@@ -12327,6 +12369,12 @@
       "description": "A roguelike pit-crawler homebrew game for the New Nintendo 3DS."
     },
     {
+      "name": "awesome-3ds",
+      "url": "https://github.com/serabi/awesome-3ds",
+      "stars": 0,
+      "description": "Homebrew games, apps and tools for Nintendo 3DS consoles running custom firmware."
+    },
+    {
       "name": "avgame",
       "url": "https://github.com/sessokosga/avgame",
       "stars": 0,
@@ -12525,6 +12573,12 @@
       "description": "A \"fantasy console\" that I'm working on. You know, another one. A different one. A different, different one."
     },
     {
+      "name": "dreamcast-homebrew",
+      "url": "https://github.com/Teloru/dreamcast-homebrew",
+      "stars": 0,
+      "description": "A homebrew 3D game for the Sega Dreamcast, built with Simulant and KallistiOS"
+    },
+    {
       "name": "n64-game-01",
       "url": "https://github.com/TeneoPython01/n64-game-01",
       "stars": 0,
@@ -12685,12 +12739,6 @@
       "url": "https://github.com/undisbeliever/2026-game-jam",
       "stars": 0,
       "description": "A prototype homebrew SNES game written in C for the 2026 SNESDEV game jam"
-    },
-    {
-      "name": ".github",
-      "url": "https://github.com/USB-Loader-Nintendo-Wii/.github",
-      "stars": 0,
-      "description": "USB Loader GX is a homebrew game loader for Nintendo Wii, providing a graphical interface to launch Wii and GameCube games from USB storage or SD cards, manage game libraries, download cover art, and configure per-game options."
     },
     {
       "name": "Brewery",
