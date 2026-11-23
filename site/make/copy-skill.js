@@ -42,6 +42,7 @@
       })
       .then(function () {
         say("Skill copied. Paste it into your assistant.");
+        if (window.AHG && window.AHG.track) window.AHG.track("skill_copied");
       })
       .catch(function () {
         say("Copy failed. Download SKILL.md and paste the file.");

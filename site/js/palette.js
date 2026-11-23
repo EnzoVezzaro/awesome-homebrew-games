@@ -74,7 +74,10 @@
               href: entry.url,
               target: "_blank",
               rel: "noopener noreferrer",
-              onclick: function () { window.AHG.xp.award("open:" + entry.id, 5, "for opening " + entry.name); },
+              onclick: function () {
+                window.AHG.xp.award("open:" + entry.id, 5, "for opening " + entry.name);
+                if (window.AHG.track) window.AHG.track("entry_opened", { entry_id: entry.id, source: "palette" });
+              },
             }, [
               mark,
               h("span", { class: "pal-main" }, [
@@ -96,6 +99,7 @@
       dialog.showModal();
       input.focus();
       window.AHG.xp.award("palette", 5, "for searching");
+      if (window.AHG.track) window.AHG.track("palette_opened");
     }
 
     function close() {

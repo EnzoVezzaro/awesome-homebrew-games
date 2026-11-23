@@ -62,6 +62,7 @@
       var done = function (ok) {
         status.textContent = ok ? "Copied. Paste it into your assistant." : "Copy was blocked. Select the text and copy it by hand.";
         if (ok) window.AHG.xp.award("copy", 20, "for copying a prompt");
+        if (ok && window.AHG.track) window.AHG.track("prompt_copied", { platform: select.value || null });
       };
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(fallbackCopy()); });
