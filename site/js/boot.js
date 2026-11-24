@@ -61,6 +61,7 @@
       cart.tabIndex = -1;
       status.textContent = "Booting.";
       window.AHG.xp.award("insert", 30, "for inserting the cartridge");
+      if (window.AHG.track) window.AHG.track("cartridge_inserted");
 
       screen.textContent = "";
       var lines = bootLines(data);

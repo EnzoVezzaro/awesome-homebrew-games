@@ -41,6 +41,7 @@
 
   function onOpen(entry) {
     window.AHG.xp.award("open:" + entry.id, 5, "for opening " + entry.name);
+    if (window.AHG.track) window.AHG.track("entry_opened", { entry_id: entry.id, source: "shelf", platform: platform });
   }
 
   function renderChips() {
@@ -242,6 +243,7 @@
       setPlatform(next);
       if (next !== null) {
         window.AHG.xp.award("filter", 10, "for picking a machine");
+        if (window.AHG.track) window.AHG.track("platform_selected", { platform: next });
         var shelf = document.getElementById("shelf");
         if (shelf.getBoundingClientRect().top > window.innerHeight * 0.6) {
           window.setTimeout(function () {
