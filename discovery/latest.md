@@ -1,6 +1,6 @@
 # Homebrew discovery report
 
-Last checked: 2026-11-23
+Last checked: 2026-11-24
 
 ## New candidates
 
@@ -8,23 +8,23 @@ No new candidates today.
 
 ## Most starred GitHub projects
 
-Top 50 of 2110 repositories found across all GitHub queries.
+Top 50 of 2112 repositories found across all GitHub queries.
 
 | Project | Stars | URL |
 | --- | --- | --- |
-| pyxel | 18667 | https://github.com/kitao/pyxel |
+| pyxel | 18672 | https://github.com/kitao/pyxel |
 | OpenEmu | 17881 | https://github.com/OpenEmu/OpenEmu |
-| gb-studio | 9471 | https://github.com/chrismaltby/gb-studio |
-| TIC-80 | 6198 | https://github.com/nesbox/TIC-80 |
-| awesome-PICO-8 | 3094 | https://github.com/pico-8/awesome-PICO-8 |
-| cloud-game | 2485 | https://github.com/giongto35/cloud-game |
-| retrom | 2110 | https://github.com/JMBeresford/retrom |
+| gb-studio | 9472 | https://github.com/chrismaltby/gb-studio |
+| TIC-80 | 6199 | https://github.com/nesbox/TIC-80 |
+| awesome-PICO-8 | 3095 | https://github.com/pico-8/awesome-PICO-8 |
+| cloud-game | 2486 | https://github.com/giongto35/cloud-game |
+| retrom | 2109 | https://github.com/JMBeresford/retrom |
 | PixelVision8 | 1780 | https://github.com/PixelVision8/PixelVision8 |
 | wasm4 | 1548 | https://github.com/aduros/wasm4 |
 | RetroDECK | 1320 | https://github.com/RetroDECK/RetroDECK |
-| pound | 1243 | https://github.com/pound-emu/pound |
-| iss_pc | 1235 | https://github.com/HayatoG/iss_pc |
-| retroassembly | 1167 | https://github.com/arianrhodsandlot/retroassembly |
+| iss_pc | 1242 | https://github.com/HayatoG/iss_pc |
+| pound | 1241 | https://github.com/pound-emu/pound |
+| retroassembly | 1168 | https://github.com/arianrhodsandlot/retroassembly |
 | pvsneslib | 1137 | https://github.com/alekmaul/pvsneslib |
 | retroboy | 1035 | https://github.com/smparsons/retroboy |
 | gamebub | 1009 | https://github.com/elipsitz/gamebub |
@@ -40,25 +40,25 @@ Top 50 of 2110 repositories found across all GitHub queries.
 | spaceShooter | 525 | https://github.com/tasdikrahman/spaceShooter |
 | game-and-watch-retro-go | 494 | https://github.com/kbeckmann/game-and-watch-retro-go |
 | opensurge | 489 | https://github.com/alemart/opensurge |
+| romarr | 431 | https://github.com/BlizzHacker/romarr |
 | PS5X360 | 418 | https://github.com/BrinooTk/PS5X360 |
-| romarr | 416 | https://github.com/BlizzHacker/romarr |
 | picotool | 408 | https://github.com/dansanderson/picotool |
 | Celeste-Classic-GBA | 405 | https://github.com/JeffRuLz/Celeste-Classic-GBA |
-| RetroPlug | 398 | https://github.com/tommitytom/RetroPlug |
+| RetroPlug | 399 | https://github.com/tommitytom/RetroPlug |
 | hUGETracker | 379 | https://github.com/SuperDisk/hUGETracker |
 | 240pTestSuite | 374 | https://github.com/ArtemioUrbina/240pTestSuite |
-| EmuFive | 365 | https://github.com/blue0x1/EmuFive |
+| EmuFive | 371 | https://github.com/blue0x1/EmuFive |
 | scumm-8 | 362 | https://github.com/Liquidream/scumm-8 |
-| exodium | 359 | https://github.com/tvollstaedt/exodium |
+| exodium | 360 | https://github.com/tvollstaedt/exodium |
 | goldeneye-pc-port | 344 | https://github.com/jkdansereau/goldeneye-pc-port |
-| OpenROM | 322 | https://github.com/M5Devs/OpenROM |
-| tobutobugirl | 307 | https://github.com/SimonLarsen/tobutobugirl |
+| OpenROM | 324 | https://github.com/M5Devs/OpenROM |
+| tobutobugirl | 308 | https://github.com/SimonLarsen/tobutobugirl |
 | gba-link-connection | 302 | https://github.com/afska/gba-link-connection |
 | retro8 | 300 | https://github.com/Jakz/retro8 |
 | NFSU2Recomp | 299 | https://github.com/TalhaMudo/NFSU2Recomp |
 | nes-py | 288 | https://github.com/Kautenja/nes-py |
 | r-cade | 286 | https://github.com/massung/r-cade |
-| SimpleLauncher | 277 | https://github.com/purelogiccode/SimpleLauncher |
+| SimpleLauncher | 276 | https://github.com/purelogiccode/SimpleLauncher |
 | RetroMultiTools | 270 | https://github.com/SvenGDK/RetroMultiTools |
 | runty8 | 269 | https://github.com/jjant/runty8 |
 | try-harder | 252 | https://github.com/milosilo/try-harder |
@@ -67,7 +67,7 @@ Top 50 of 2110 repositories found across all GitHub queries.
 
 ## Stats
 
-NEW=0  BLOCKED=5  SOURCES=12  RAW=9013  KNOWN=71  SEEN=168  GH_QUERIES=90  GH_REQUESTS=150  GH_REPOS=2110
+NEW=0  BLOCKED=5  SOURCES=12  RAW=9032  KNOWN=71  SEEN=168  GH_QUERIES=90  GH_REQUESTS=149  GH_REPOS=2112
 
 ## Blocked / manual check
 
